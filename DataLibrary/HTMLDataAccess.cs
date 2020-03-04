@@ -37,7 +37,11 @@ namespace DataLibrary
 
         public MatchCollection GetMatchCollection(string html)
         {
-            throw new NotImplementedException();
+            MatchCollection mcol = Regex.Matches(html, @"https://media2.pl/rss/tag/\b\S+?\bxml");
+            if (mcol.Count == 0)
+                throw new ArgumentException("There is no phrase in the text", "html");
+
+            return mcol;
         }
     }
 }
