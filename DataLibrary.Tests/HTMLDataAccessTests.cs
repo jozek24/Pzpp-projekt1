@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DataLibrary.Tests
 {
-    public class HTMLDataAccessTests : IHTMLDataAccessTests
+    public class HTMLDataAccessTests
     {
         public string GetHTML_ValidURL(string url)
         {
