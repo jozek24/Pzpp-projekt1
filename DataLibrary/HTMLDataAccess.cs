@@ -32,7 +32,9 @@ namespace DataLibrary
 
         public List<string> GetListOfXMLURL(string html)
         {
-            throw new NotImplementedException();
+            MatchCollection mcol = GetMatchCollection(html);
+            List<string> output = AddNewURLForXML(mcol);
+            return output;
         }
 
         public MatchCollection GetMatchCollection(string html)
