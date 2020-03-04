@@ -62,7 +62,8 @@ namespace DataLibrary.Tests
         [Fact]
         public void AddNewURLForXML_ShoutWork()
         {
-            MatchCollection actual = _HTMLDataAccess.GetMatchCollection(_html);
+            MatchCollection match = _HTMLDataAccess.GetMatchCollection(_html);
+            List<string> actual = _HTMLDataAccess.AddNewURLForXML(match);
             Assert.True(actual.Count > 0);
         }
     }
