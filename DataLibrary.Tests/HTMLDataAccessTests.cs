@@ -13,13 +13,14 @@ namespace DataLibrary.Tests
         private HTMLDataAccess _HTMLDataAccess = new HTMLDataAccess();
         private string _URL = "https://media2.pl/rss";
 
-        public void GetHTML_ValidURL(string url)
+        [Fact]
+        public void GetHTML_ValidURL()
         {
             try
             {
                 using (var client = new WebClient())
-                using (client.OpenRead(url)) ;
-                string actual = _HTMLDataAccess.GetHTML(url);
+                using (client.OpenRead(_URL)) ;
+                string actual = _HTMLDataAccess.GetHTML(_URL);
                 Assert.True(!String.IsNullOrEmpty(actual));
             }
             catch (Exception)
