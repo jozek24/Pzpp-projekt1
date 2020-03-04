@@ -44,7 +44,7 @@ namespace DataLibrary
             return mcol;
         }
 
-        public static List<string> AddNewURLForXML(MatchCollection match)
+        public List<string> AddNewURLForXML(MatchCollection match)
         {
             List<string> output = new List<string>();
             if (match.Count == 0)
