@@ -8,5 +8,6 @@ namespace DataLibrary
 {
     class HTMLDataAccess
     {
+
     }
 }
