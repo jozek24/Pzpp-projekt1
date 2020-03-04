@@ -28,5 +28,12 @@ namespace DataLibrary.Tests
                 Assert.Throws<ArgumentException>("Url, connection", () => _HTMLDataAccess.GetHTML(""));
             }
         }
+
+        [Theory]
+        [InlineData("", "Url, connection")]
+        public void GetHTML_InvalidURL(string url, string param)
+        {
+            Assert.Throws<ArgumentException>(param, () => _HTMLDataAccess.GetHTML(url));
+        }
     }
 }
