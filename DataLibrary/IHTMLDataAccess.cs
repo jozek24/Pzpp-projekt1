@@ -12,5 +12,6 @@ namespace DataLibrary
         string GetHTML(string url);
         List<string> GetListOfXMLURL(string html);
         MatchCollection GetMatchCollection(string html);
+        List<string> AddNewURLForXML(MatchCollection match);
     }
 }
