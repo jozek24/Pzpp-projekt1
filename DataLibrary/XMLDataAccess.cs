@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DataLibrary
 {
-    public class XMLDataAccess : IXMLDataAccess
+    public class XMLDataAccess
     {
     }
 }
