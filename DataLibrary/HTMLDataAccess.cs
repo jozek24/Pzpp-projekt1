@@ -6,8 +6,11 @@ using System.Threading.Tasks;
 
 namespace DataLibrary
 {
-    public class HTMLDataAccess
+    public class HTMLDataAccess : IHTMLDataAccess
     {
-
+        public string GetHTML(string url)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
