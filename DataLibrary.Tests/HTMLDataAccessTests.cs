@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace DataLibrary.Tests
 {
-    public class HTMLDataAccessTests
+    public class HTMLDataAccessTests : IHTMLDataAccessTests
     {
+        public string GetHTML_ValidURL(string url)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
