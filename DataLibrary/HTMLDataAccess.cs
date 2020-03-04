@@ -20,7 +20,7 @@ namespace DataLibrary
                 }
                 catch (WebException)
                 {
-                    throw new ArgumentException("You passted invalid parameter", "Url");
+                    throw new ArgumentException("You pasted invalid parameter", "Url");
                 }
                 catch (ArgumentException)
                 {
