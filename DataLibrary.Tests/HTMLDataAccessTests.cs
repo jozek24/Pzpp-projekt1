@@ -35,5 +35,12 @@ namespace DataLibrary.Tests
         {
             Assert.Throws<ArgumentException>(param, () => _HTMLDataAccess.GetHTML(url));
         }
+
+        [Theory]
+        [InlineData("", "Url, connection")]
+        public void GetHTML_WithoutURLOrConnectionLost(string url, string param)
+        {
+            Assert.Throws<ArgumentException>(param, () => _HTMLDataAccess.GetHTML(url));
+        }
     }
 }
