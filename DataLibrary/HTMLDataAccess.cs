@@ -43,5 +43,15 @@ namespace DataLibrary
 
             return mcol;
         }
+
+        public static List<string> AddNewURLForXML(MatchCollection match)
+        {
+            List<string> output = new List<string>();
+            if (match.Count == 0)
+                throw new ArgumentException("There is no match", "match");
+
+            match.Cast<Match>().ToList().ForEach(x => output.Add(x.Value));
+            return output;
+        }
     }
 }
