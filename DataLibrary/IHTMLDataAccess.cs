@@ -8,5 +8,6 @@ namespace DataLibrary
 {
     interface IHTMLDataAccess
     {
+        string GetHTML(string url);
     }
 }
