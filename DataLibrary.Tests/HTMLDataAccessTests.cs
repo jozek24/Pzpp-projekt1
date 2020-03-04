@@ -52,6 +52,13 @@ namespace DataLibrary.Tests
             Assert.True(actual.Count > 0);
         }
 
+        [Theory]
+        [InlineData("aaaa", "html")]
+        public void GetMatchCollection_ShoutFail(string html, string param)
+        {
+            Assert.Throws<ArgumentException>(param, () => _HTMLDataAccess.GetMatchCollection(html));
+        }
+
         [Fact]
         public void AddNewURLForXML_ShoutWork()
         {
