@@ -28,5 +28,10 @@ namespace DataLibrary
                 }
             }
         }
+
+        public List<string> GetListOfXMLURL(string html)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

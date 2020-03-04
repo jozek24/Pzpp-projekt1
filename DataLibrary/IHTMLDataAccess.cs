@@ -9,5 +9,6 @@ namespace DataLibrary
     interface IHTMLDataAccess
     {
         string GetHTML(string url);
+        List<string> GetListOfXMLURL(string html)
     }
 }
