@@ -12,6 +12,7 @@ namespace DataLibrary.Tests
     {
         private HTMLDataAccess _HTMLDataAccess = new HTMLDataAccess();
         private string _URL = "https://media2.pl/rss";
+        private string _html = "https://media2.pl/rss/tag/jesien-2016.xml";
 
         [Fact]
         public void GetHTML_ValidURL()
