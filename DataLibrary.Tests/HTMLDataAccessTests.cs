@@ -66,5 +66,13 @@ namespace DataLibrary.Tests
             List<string> actual = _HTMLDataAccess.AddNewURLForXML(match);
             Assert.True(actual.Count > 0);
         }
+
+        [Theory]
+        [InlineData("aaa", "match")]
+        public void AddNewURLForXML_ShoutFail(string html, string param)
+        {
+            MatchCollection match = Regex.Matches(html, @"https://media2.pl/rss/tag/\b\S+?\bxml");
+            Assert.Throws<ArgumentException>(param, () => _HTMLDataAccess.AddNewURLForXML(match));
+        }
     }
 }
