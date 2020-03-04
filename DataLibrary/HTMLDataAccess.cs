@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DataLibrary
 {
-    class HTMLDataAccess
+    public class HTMLDataAccess
     {
 
     }
