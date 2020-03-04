@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using Xunit;
 
@@ -42,6 +43,13 @@ namespace DataLibrary.Tests
         public void GetHTML_WithoutURLOrConnectionLost(string url, string param)
         {
             Assert.Throws<ArgumentException>(param, () => _HTMLDataAccess.GetHTML(url));
+        }
+
+        [Fact]
+        public void AddNewURLForXML_ShoutWork()
+        {
+            MatchCollection actual = _HTMLDataAccess.GetMatchCollection(_html);
+            Assert.True(actual.Count > 0);
         }
     }
 }
