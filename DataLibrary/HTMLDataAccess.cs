@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace DataLibrary
@@ -30,6 +31,11 @@ namespace DataLibrary
         }
 
         public List<string> GetListOfXMLURL(string html)
+        {
+            throw new NotImplementedException();
+        }
+
+        public MatchCollection GetMatchCollection(string html)
         {
             throw new NotImplementedException();
         }
