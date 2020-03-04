@@ -9,6 +9,7 @@ namespace DataLibrary.Tests
     public class HTMLDataAccessTests
     {
         private HTMLDataAccess _HTMLDataAccess = new HTMLDataAccess();
+        private string _URL = "https://media2.pl/rss";
 
         public string GetHTML_ValidURL(string url)
         {
