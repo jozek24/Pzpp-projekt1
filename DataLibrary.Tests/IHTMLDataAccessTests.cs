@@ -8,5 +8,6 @@ namespace DataLibrary.Tests
 {
     interface IHTMLDataAccessTests
     {
+        string GetHTML_ValidURL(string url);
     }
 }
