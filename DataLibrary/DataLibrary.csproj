@@ -45,6 +45,7 @@
     <Compile Include="IHTMLDataAccess.cs" />
     <Compile Include="IXMLDataAccess.cs" />
     <Compile Include="Model\Channel.cs" />
+    <Compile Include="Model\Guid.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="XMLDataAccess.cs" />
   </ItemGroup>
