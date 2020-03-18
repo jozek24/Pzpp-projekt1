@@ -1,13 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 using MongoDB.Bson.Serialization.Attributes;
 
 namespace MediaReviewer.Model
 {
-    class Item
+    public class Item
     {
         [BsonElement("title")]
         public string Title { get; set; }
