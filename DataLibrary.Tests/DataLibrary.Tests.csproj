@@ -75,6 +75,7 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <Content Include="TestObjects\HTMLPage.html" />
     <Content Include="TestObjects\XMLDocument.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
