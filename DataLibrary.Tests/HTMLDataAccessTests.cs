@@ -9,9 +9,9 @@ using Xunit;
 
 namespace DataLibrary.Tests
 {
-    public class HTMLDataAccessTests
+    public class HTMLDataAccessTests 
     {
-        private HTMLDataAccess _HTMLDataAccess = new HTMLDataAccess();
+        private IHTMLDataAccess _HTMLDataAccess = new HTMLDataAccess();
         private string _URL = "https://media2.pl/rss";
         private string _html = "https://media2.pl/rss/tag/jesien-2016.xml";
 

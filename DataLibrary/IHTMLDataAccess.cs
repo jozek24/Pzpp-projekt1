@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DataLibrary
 {
-    interface IHTMLDataAccess
+    public interface IHTMLDataAccess
     {
         string GetHTML(string url);
         List<string> GetListOfXMLURL(string html);
