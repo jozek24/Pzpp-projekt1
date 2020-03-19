@@ -52,6 +52,7 @@
     <Compile Include="Model\Guid.cs" />
     <Compile Include="Model\Image.cs" />
     <Compile Include="Model\Item.cs" />
+    <Compile Include="Model\RootObject.cs" />
     <Compile Include="Model\Rss.cs" />
     <Compile Include="Model\Xml.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
