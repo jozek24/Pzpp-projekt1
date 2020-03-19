@@ -12,6 +12,7 @@ namespace DataLibrary.Model
 		public string Title { get; set; }
 		public string Link { get; set; }
 		public string Comments { get; set; }
+		public HTML HTML { get; set; }
 		public Guid Guid { get; set; }
 		public List<string> Category { get; set; }
 		public Description Description { get; set; }
