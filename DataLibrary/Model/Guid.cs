@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -7,12 +8,11 @@ using System.Xml.Serialization;
 
 namespace DataLibrary.Model
 {
-	[XmlRoot(ElementName = "guid")]
 	public class Guid
 	{
-		[XmlAttribute(AttributeName = "isPermaLink")]
-		public string IsPermaLink { get; set; }
-		[XmlText]
-		public string Text { get; set; }
+		[JsonProperty("__invalid_name__@isPermaLink")]
+		public string __invalid_name__isPermaLink { get; set; }
+		[JsonProperty("__invalid_name__#text")]
+		public string __invalid_name__text { get; set; }
 	}
 }
