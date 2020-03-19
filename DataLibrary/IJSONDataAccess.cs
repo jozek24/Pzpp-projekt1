@@ -8,5 +8,7 @@ namespace DataLibrary
 {
     public interface IJSONDataAccess
     {
+        string SerializeXmlToJSON(string xml);
+        string DeserializeJSON(string json);
     }
 }
