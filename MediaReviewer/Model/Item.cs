@@ -5,19 +5,21 @@ namespace MediaReviewer.Model
 {
     public class Item
     {
-        [BsonElement("title")]
+        //[BsonElement("title")]
         public string Title { get; set; }
-        [BsonElement("link")]
+        //[BsonElement("link")]
         public string Link { get; set; }
-        [BsonElement("comments")]
+        //[BsonElement("comments")]
         public string Comments { get; set; }
-        [BsonElement("guid")]
+
+        public HTML HTML { get; set; }
+        //[BsonElement("guid")]
         public Guid Guid { get; set; }
-        [BsonElement("category")]
+        //[BsonElement("category")]
         public List<string> Category { get; set; }
-        [BsonElement("description")]
+        //[BsonElement("description")]
         public string Description { get; set; }
-        [BsonElement("pubDate")]
+        //[BsonElement("pubDate")]
         public string PubDate { get; set; }
     }
 }
