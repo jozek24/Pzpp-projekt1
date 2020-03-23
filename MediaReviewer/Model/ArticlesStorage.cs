@@ -12,6 +12,13 @@ namespace MediaReviewer.Model
             var client = new MongoClient();
             db = client.GetDatabase(databaseName);
         }
+
+        /// <summary>
+        /// This method give you a List of passed objects from database.
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="table"></param>
+        /// <returns></returns>
         public List<T> LoadRecords<T>(string table)
         {
             var collection = db.GetCollection<T>(table);
