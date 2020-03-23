@@ -1,15 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using MongoDB.Driver;
+﻿using System.Collections.Generic;
 
 namespace MediaReviewer.Model
 {
     public class ArticlesHelper
     {
-        private IArticlesStorage _articlesStorage;
+        private readonly IArticlesStorage _articlesStorage;
         public ArticlesHelper(string databaseName, IArticlesStorage articlesStorage = null)
         {
             _articlesStorage = articlesStorage ?? new ArticlesStorage(databaseName);
@@ -17,7 +12,7 @@ namespace MediaReviewer.Model
 
         public List<RootObject> GetArticles()
         {
-            var rootObject =  _articlesStorage.LoadRecords<RootObject>("RootObject");
+            var rootObject = _articlesStorage.LoadRecords<RootObject>("RootObject");
 
             return rootObject;
         }
