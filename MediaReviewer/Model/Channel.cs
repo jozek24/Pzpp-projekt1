@@ -5,25 +5,25 @@ namespace MediaReviewer.Model
 {
     public class Channel
     {
-        [BsonElement("title")]
+        //[BsonElement("title")]
         public string Title { get; set; }
-        [BsonElement("link")]
+        //[BsonElement("link")]
         public string Link { get; set; }
-        [BsonElement("description")]
+        //[BsonElement("description")]
         public string Description { get; set; }
-        [BsonElement("language")]
+        //[BsonElement("language")]
         public string Language { get; set; }
-        [BsonElement("pubDate")]
+        //[BsonElement("pubDate")]
         public string PubDate { get; set; }
-        [BsonElement("webMaster")]
+        //[BsonElement("webMaster")]
         public string WebMaster { get; set; }
-        [BsonElement("docs")]
+        //[BsonElement("docs")]
         public string Docs { get; set; }
-        [BsonElement("ttl")]
+        //[BsonElement("ttl")]
         public string Ttl { get; set; }
-        [BsonElement("image")]
+        //[BsonElement("image")]
         public Image Image { get; set; }
-        [BsonElement("item")]
+        //[BsonElement("item")]
         public List<Item> Item { get; set; }
 
     }

@@ -4,9 +4,9 @@ namespace MediaReviewer.Model
 {
     public class Rss
     {
-        [BsonElement("channel")]
+        //[BsonElement("channel")]
         public Channel Channel { get; set; }
-        [BsonElement("version")]
+        //[BsonElement("version")]
         public string Version { get; set; }
 
     }

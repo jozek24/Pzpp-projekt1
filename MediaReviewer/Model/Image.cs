@@ -4,15 +4,15 @@ namespace MediaReviewer.Model
 {
     public class Image
     {
-        [BsonElement("title")]
+        //[BsonElement("title")]
         public string Title { get; set; }
-        [BsonElement("url")]
+        //[BsonElement("url")]
         public string Url { get; set; }
-        [BsonElement("link")]
+        //[BsonElement("link")]
         public string Link { get; set; }
-        [BsonElement("width")]
+        //[BsonElement("width")]
         public string Width { get; set; }
-        [BsonElement("height")]
+        //[BsonElement("height")]
         public string Height { get; set; }
 
     }

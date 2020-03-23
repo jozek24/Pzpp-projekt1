@@ -4,9 +4,9 @@ namespace MediaReviewer.Model
 {
     public class Guid
     {
-        [BsonElement("isPermaLink")]
+        //[BsonElement("isPermaLink")]
         public string IsPermaLink { get; set; }
-        [BsonElement("text")]   //[XmlText]
+        //[BsonElement("text")]   //[XmlText]
         public string Text { get; set; }
 
     }
