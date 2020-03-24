@@ -103,17 +103,11 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Model\Article.cs" />
     <Compile Include="Model\ArticlesHelper.cs" />
     <Compile Include="Model\ArticlesStorage.cs" />
-    <Compile Include="Model\Channel.cs" />
-    <Compile Include="Model\Guid.cs" />
-    <Compile Include="Model\HTML.cs" />
     <Compile Include="Model\IArticlesStorage.cs" />
-    <Compile Include="Model\Image.cs" />
-    <Compile Include="Model\Item.cs" />
-    <Compile Include="Model\RootObject.cs" />
-    <Compile Include="Model\Rss.cs" />
-    <Compile Include="Model\Xml.cs" />
+    <Compile Include="Model\RssChannel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
