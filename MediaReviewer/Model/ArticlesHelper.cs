@@ -14,11 +14,11 @@ namespace MediaReviewer.Model
         /// Returns List of objects from dataBase
         /// </summary>
         /// <returns></returns>
-        public List<Article> GetArticles()
+        public List<RssChannel> GetChannels()
         {
-            var article = _articlesStorage.LoadRecords<Article>("Article");
+            var rssChannel = _articlesStorage.LoadRecords<RssChannel>("RssChannel");
 
-            return article;
+            return rssChannel;
         }
     }
 }
