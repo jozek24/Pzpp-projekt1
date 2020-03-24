@@ -10,11 +10,15 @@ namespace MediaReviewer.Model
             _articlesStorage = articlesStorage ?? new ArticlesStorage(databaseName);
         }
 
-        public List<RootObject> GetArticles()
+        /// <summary>
+        /// Returns List of objects from dataBase
+        /// </summary>
+        /// <returns></returns>
+        public List<Article> GetArticles()
         {
-            var rootObject = _articlesStorage.LoadRecords<RootObject>("RootObject");
+            var article = _articlesStorage.LoadRecords<Article>("Article");
 
-            return rootObject;
+            return article;
         }
     }
 }
