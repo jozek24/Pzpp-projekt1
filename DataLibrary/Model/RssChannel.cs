@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DataLibrary.Model
 {
-    class RssChannel
+    public class RssChannel
     {
         public string Title { get; set; }
         public string Link { get; set; }
