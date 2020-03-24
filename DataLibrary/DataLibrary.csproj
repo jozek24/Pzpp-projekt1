@@ -45,9 +45,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="HTMLDataAccess.cs" />
-    <Compile Include="IHTMLDataAccess.cs" />
-    <Compile Include="IJSONDataAccess.cs" />
-    <Compile Include="IXMLDataAccess.cs" />
+    <Compile Include="Interfaces\IHTMLDataAccess.cs" />
+    <Compile Include="Interfaces\IJSONDataAccess.cs" />
+    <Compile Include="Interfaces\IXMLDataAccess.cs" />
     <Compile Include="JSONDataAccess.cs" />
     <Compile Include="Model\Article.cs" />
     <Compile Include="Model\Channel.cs" />
