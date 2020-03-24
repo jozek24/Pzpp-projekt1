@@ -10,6 +10,6 @@ namespace DataLibrary.Model
     {
         public string Title { get; set; }
         public string Link { get; set; }
-        public List<Article> Article { get; set; }
+        public List<Article> Articles { get; set; }
     }
 }
