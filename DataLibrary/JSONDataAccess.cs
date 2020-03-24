@@ -1,9 +1,11 @@
 ﻿using DataLibrary.Model;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml;
 
 namespace DataLibrary
 {
@@ -11,12 +13,12 @@ namespace DataLibrary
     {
         public List<RootObject> DeserializeJSONToList(List<string> json)
         {
-            throw new NotImplementedException();
+            return json.Select(x => JsonConvert.DeserializeObject<RootObject>(x)).ToList();
         }
 
-        public List<string> SerializeXMLToJSONlist(List<string> xml)
+        public List<string> SerializeXMLToJSONlist(List<XmlDocument> xml)
         {
-            throw new NotImplementedException();
+            return xml.Select(x => $"{JsonConvert.SerializeXmlNode(x)}").ToList();
         }
     }
 }
