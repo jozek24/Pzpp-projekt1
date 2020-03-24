@@ -52,7 +52,6 @@
     <Compile Include="Model\Channel.cs" />
     <Compile Include="Model\Description.cs" />
     <Compile Include="Model\Guid.cs" />
-    <Compile Include="Model\HTML.cs" />
     <Compile Include="Model\Image.cs" />
     <Compile Include="Model\Item.cs" />
     <Compile Include="Model\RootObject.cs" />
