@@ -49,6 +49,7 @@
     <Compile Include="IJSONDataAccess.cs" />
     <Compile Include="IXMLDataAccess.cs" />
     <Compile Include="JSONDataAccess.cs" />
+    <Compile Include="Model\Article.cs" />
     <Compile Include="Model\Channel.cs" />
     <Compile Include="Model\Description.cs" />
     <Compile Include="Model\Guid.cs" />
