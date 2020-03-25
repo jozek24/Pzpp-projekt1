@@ -59,7 +59,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="HTMLDataAccessTests.cs" />
+    <Compile Include="JSONDataAccessTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="XMLDataAccessTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DataLibrary\DataLibrary.csproj">
