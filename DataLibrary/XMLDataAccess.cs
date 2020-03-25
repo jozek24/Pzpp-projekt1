@@ -11,7 +11,7 @@ namespace DataLibrary
     {
         private List<XmlDocument> xmlDocuments = new List<XmlDocument>();
 
-        HTMLDataAccess _HTMLDataAccess = new HTMLDataAccess();
+        IHTMLDataAccess _HTMLDataAccess = new HTMLDataAccess();
 
         public List<XmlDocument> XmlDocuments { get; set; }
 

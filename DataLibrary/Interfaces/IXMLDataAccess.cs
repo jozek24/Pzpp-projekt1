@@ -9,6 +9,7 @@ namespace DataLibrary
 {
     public interface IXMLDataAccess
     {
+        List<XmlDocument> XmlDocuments { get; set; }
         List<XmlDocument> GetListOfXmlDocument(List<string> urls);
     }
 }

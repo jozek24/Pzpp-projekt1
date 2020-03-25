@@ -11,7 +11,7 @@ namespace DataLibrary
 {
     public class JSONDataAccess : IJSONDataAccess
     {
-        private XMLDataAccess _XMLDataAccess = new XMLDataAccess();
+        private IXMLDataAccess _XMLDataAccess = new XMLDataAccess();
 
         public List<RootObject> RootObjects { get; set; }
 

@@ -10,6 +10,7 @@ namespace DataLibrary
 {
     public interface IJSONDataAccess
     {
+        List<RootObject> RootObjects { get; set; }
         List<string> SerializeXMLToJSONlist(List<XmlDocument> xml);
         List<RootObject> DeserializeJSONToList(List<string> json);
     }

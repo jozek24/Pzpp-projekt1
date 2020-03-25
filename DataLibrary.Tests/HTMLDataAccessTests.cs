@@ -12,7 +12,7 @@ namespace DataLibrary.Tests
     public class HTMLDataAccessTests 
     {
         private IHTMLDataAccess _HTMLDataAccess = new HTMLDataAccess();
-        private string _URL = "https://media2.pl/rss";
+        private string _URL = @"C:\Users\Tomek\Documents\Pzpp-projekt1\DataLibrary.Tests\TestObjects\MainPage.html";
         private string _html = "https://media2.pl/rss/tag/jesien-2016.xml";
 
         [Fact]
