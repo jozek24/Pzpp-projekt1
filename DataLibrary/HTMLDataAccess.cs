@@ -63,7 +63,14 @@ namespace DataLibrary
             if (match.Count == 0)
                 throw new ArgumentException("There is no match", "match");
 
-            match.Cast<Match>().ToList().ForEach(x => output.Add(x.Value));
+            match.Cast<Match>().ToList().ForEach(x =>
+                {
+                    if (!output.Contains(x.Value))
+                    {
+                        output.Add(x.Value);
+                    }
+                }
+            );
             return output;
         }
     }

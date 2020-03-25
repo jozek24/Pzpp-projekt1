@@ -1,372 +1,483 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0">
   <channel>
-    <title>Media2.pl - personel</title>
-    <link>https://media2.pl/tag/personel</link>
-    <description>WiadomoĹci w tagu personel</description>
+    <title>Media2.pl - boks</title>
+    <link>https://media2.pl/tag/boks</link>
+    <description>WiadomoĹci w tagu boks</description>
     <language>pl</language>
-    <pubDate>Wed, 18 Mar 2020 10:09:14 +0100</pubDate>
+    <pubDate>Wed, 25 Mar 2020 15:35:44 +0100</pubDate>
     <webMaster>b.kucharczyk@kreativ.pl (BartĹomiej Kucharczyk)</webMaster>
     <docs>http://feedvalidator.org/docs/rss2.html</docs>
     <ttl>15</ttl>
     <image>
-      <title>Media2.pl - personel</title>
+      <title>Media2.pl - boks</title>
       <url>https://media2.pl/res/logo/rss.png</url>
-      <link>https://media2.pl/tag/personel</link>
+      <link>https://media2.pl/tag/boks</link>
       <width>154</width>
       <height>40</height>
     </image>
     <item>
-      <title>Olaf Rurak dyrektorem marketingu w EFL</title>
-      <link>https://media2.pl/reklama-pr/73972-Olaf-Rurak-dyrektorem-marketingu-w-EFL.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</link>
-      <comments>https://media2.pl/reklama-pr/73972-Olaf-Rurak-dyrektorem-marketingu-w-EFL.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</comments>
-      <guid isPermaLink="true">https://media2.pl/l/n/73972</guid>
-      <category>Reklama/PR</category>
-      <category>personel</category>
-      <description>
-        <![CDATA[Olaf Rurak zostaĹ nominowany na stanowisko Dyrektora Departamentu Marketingu Europejskiego Funduszu Leasingowego. Nowe stanowisko objÄ
-Ĺ z dniem 1 stycznia 2011 roku.]]>
-      </description>
-      <pubDate>Mon, 24 Jan 2011 10:30:00 +0100</pubDate>
-    </item>
-    <item>
-      <title>Nowi pracownicy w Effective Public Relations</title>
-      <link>https://media2.pl/reklama-pr/57144-Nowi-pracownicy-w-Effective-Public-Relations.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</link>
-      <comments>https://media2.pl/reklama-pr/57144-Nowi-pracownicy-w-Effective-Public-Relations.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</comments>
-      <guid isPermaLink="true">https://media2.pl/l/n/57144</guid>
-      <category>Reklama/PR</category>
-      <category>personel</category>
-      <category>Effective PR</category>
-      <description>
-        <![CDATA[<a href="https://media2.pl/reklama-pr/57144-Nowi-pracownicy-w-Effective-Public-Relations.html#utm_source=rss&utm_campaign=rss&utm_medium=link"><img src="https://media2.pl/g/rss/5503.jpg" alt="" title="" style="float:right;margin-left:10px;border:1px dotted #CCC;padding:3px" /></a>Agencja Effective Public Relations powiÄkszyĹa swĂłj zespĂłĹ o dwie osoby. Nowi konsultanci bÄdÄ
- obsĹugiwaÄ klientĂłw z branĹźy FMCG.]]>
-      </description>
-      <pubDate>Wed, 07 Oct 2009 15:14:22 +0200</pubDate>
-    </item>
-    <item>
-      <title>Nowa kierownik marketingu Nikon Polska</title>
-      <link>https://media2.pl/reklama-pr/55492-Nowa-kierownik-marketingu-Nikon-Polska.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</link>
-      <comments>https://media2.pl/reklama-pr/55492-Nowa-kierownik-marketingu-Nikon-Polska.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</comments>
-      <guid isPermaLink="true">https://media2.pl/l/n/55492</guid>
-      <category>Reklama/PR</category>
-      <category>personel</category>
-      <category>Nikon</category>
-      <description>
-        <![CDATA[<a href="https://media2.pl/reklama-pr/55492-Nowa-kierownik-marketingu-Nikon-Polska.html#utm_source=rss&utm_campaign=rss&utm_medium=link"><img src="https://media2.pl/g/rss/17678.jpg" alt="" title="" style="float:right;margin-left:10px;border:1px dotted #CCC;padding:3px" /></a>Magdalena Michalska-Szmidt objÄĹa stanowisko kierownika marketingu w Nikon Polska. ZastÄ
-piĹa tym samym KatarzynÄ Romaniuk, ktĂłra bÄdzie wspĂłĹpracowaÄ z NIKON Polska, przejmujÄ
-c odpowiedzialnoĹÄ za realizacjÄ projektu edukacyjnego polskiego oddziaĹu Nikona â AkademiÄ Nikona oraz Szeroki Kadr.]]>
-      </description>
-      <pubDate>Mon, 31 Aug 2009 11:19:00 +0200</pubDate>
-    </item>
-    <item>
-      <title>Z funduszu venture capital do Gazety Prawnej</title>
-      <link>https://media2.pl/media/46046-Z-funduszu-venture-capital-do-Gazety-Prawnej.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</link>
-      <comments>https://media2.pl/media/46046-Z-funduszu-venture-capital-do-Gazety-Prawnej.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</comments>
-      <guid isPermaLink="true">https://media2.pl/l/n/46046</guid>
+      <title>Walki Kownackiego, JÄdrzejczyk i Brodnickiej - piÄĹciarski weekend w Polsacie Sport</title>
+      <link>https://media2.pl/media/160479-Walki-Kownackiego-Jedrzejczyk-i-Brodnickiej-piesciarski-weekend-w-Polsacie-Sport.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</link>
+      <comments>https://media2.pl/media/160479-Walki-Kownackiego-Jedrzejczyk-i-Brodnickiej-piesciarski-weekend-w-Polsacie-Sport.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</comments>
+      <guid isPermaLink="true">https://media2.pl/l/n/160479</guid>
       <category>Media</category>
-      <category>Infor</category>
-      <category>Gazeta Prawna</category>
-      <category>personel</category>
-      <category>Forsal.pl</category>
+      <category>koszykĂłwka</category>
+      <category>piĹka noĹźna</category>
+      <category>sport</category>
+      <category>Polsat Sport</category>
+      <category>boks</category>
+      <category>siatkĂłwka</category>
+      <category>MMA</category>
+      <category>1 Liga</category>
+      <category>UFC</category>
       <description>
-        <![CDATA[<a href="https://media2.pl/media/46046-Z-funduszu-venture-capital-do-Gazety-Prawnej.html#utm_source=rss&utm_campaign=rss&utm_medium=link"><img src="https://media2.pl/g/rss/6073.jpg" alt="" title="" style="float:right;margin-left:10px;border:1px dotted #CCC;padding:3px" /></a>RafaĹ Staszkiewicz od stycznia objÄ
-Ĺ stanowisko dyrektora ds. e-biznesu w spĂłĹce Infor Biznes, wydawcy Gazety Prawnej. Jest to nowe stanowisko w strukturze spĂłĹki.]]>
+        <![CDATA[<a href="https://media2.pl/media/160479-Walki-Kownackiego-Jedrzejczyk-i-Brodnickiej-piesciarski-weekend-w-Polsacie-Sport.html#utm_source=rss&utm_campaign=rss&utm_medium=link"><img src="https://media2.pl/g/rss/70415.jpg" alt="" title="" style="float:right;margin-left:10px;border:1px dotted #CCC;padding:3px" /></a>Weekend na sportowych antenach Polsatu zapowiada siÄ emocjonujÄ
+co miĹoĹnikĂłw sportĂłw walki.]]>
       </description>
-      <pubDate>Wed, 14 Jan 2009 17:34:57 +0100</pubDate>
+      <pubDate>Fri, 06 Mar 2020 11:09:11 +0100</pubDate>
     </item>
     <item>
-      <title>Nowa osoba w Wenecji PR</title>
-      <link>https://media2.pl/reklama-pr/45450-Nowa-osoba-w-Wenecji-PR.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</link>
-      <comments>https://media2.pl/reklama-pr/45450-Nowa-osoba-w-Wenecji-PR.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</comments>
-      <guid isPermaLink="true">https://media2.pl/l/n/45450</guid>
-      <category>Reklama/PR</category>
-      <category>personel</category>
-      <category>Wenecja PR</category>
+      <title>El Clasico, pojedynek lidera z wiceliderem w Ekstraklasie, boks - weekend Canal+ Sport</title>
+      <link>https://media2.pl/media/160327-El-Clasico-pojedynek-lidera-z-wiceliderem-w-Ekstraklasie-boks-weekend-Canalplus-Sport.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</link>
+      <comments>https://media2.pl/media/160327-El-Clasico-pojedynek-lidera-z-wiceliderem-w-Ekstraklasie-boks-weekend-Canalplus-Sport.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</comments>
+      <guid isPermaLink="true">https://media2.pl/l/n/160327</guid>
+      <category>Media</category>
+      <category>piĹka noĹźna</category>
+      <category>sport</category>
+      <category>NBA</category>
+      <category>boks</category>
+      <category>piĹka rÄczna</category>
+      <category>bundesliga</category>
+      <category>Ekstraklasa</category>
+      <category>premier League</category>
+      <category>Canal+ Sport</category>
+      <category>EHF Liga MistrzĂłw</category>
       <description>
-        <![CDATA[<a href="https://media2.pl/reklama-pr/45450-Nowa-osoba-w-Wenecji-PR.html#utm_source=rss&utm_campaign=rss&utm_medium=link"><img src="https://media2.pl/g/rss/5934.jpg" alt="" title="" style="float:right;margin-left:10px;border:1px dotted #CCC;padding:3px" /></a>Do agencji Wenecja PR doĹÄ
-czyĹa Alicja Buczkowska. Obejmie stanowisko Junior PR Managera.]]>
+        <![CDATA[<a href="https://media2.pl/media/160327-El-Clasico-pojedynek-lidera-z-wiceliderem-w-Ekstraklasie-boks-weekend-Canalplus-Sport.html#utm_source=rss&utm_campaign=rss&utm_medium=link"><img src="https://media2.pl/g/rss/73963.jpg" alt="" title="" style="float:right;margin-left:10px;border:1px dotted #CCC;padding:3px" /></a>Sportowym wydarzeniem weekendu na Platformie Canal+ bÄdzie pojedynek gigantĂłw. W najbliĹźszy weekend oczy caĹego Ĺwiata skierujÄ
+ siÄ ku Santiago Bernabeu, gdzie Real Madryt podejmie FC BarcelonÄ. To jednak nie wszystko.]]>
       </description>
-      <pubDate>Mon, 05 Jan 2009 11:17:19 +0100</pubDate>
+      <pubDate>Fri, 28 Feb 2020 19:28:46 +0100</pubDate>
     </item>
     <item>
-      <title>Nowy szef firmy Symantec</title>
-      <link>https://media2.pl/technologie/43532-Nowy-szef-firmy-Symantec.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</link>
-      <comments>https://media2.pl/technologie/43532-Nowy-szef-firmy-Symantec.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</comments>
-      <guid isPermaLink="true">https://media2.pl/l/n/43532</guid>
-      <category>Technologie</category>
-      <category>personel</category>
-      <category>Symantec</category>
+      <title>Wiosna w TVP Sport: Mecze reprezentacji Polski, Liga MistrzĂłw, Ekstraklasa, siatkĂłwka, boks</title>
+      <link>https://media2.pl/media/160295-Wiosna-w-TVP-Sport-Mecze-reprezentacji-Polski-Liga-Mistrzow-Ekstraklasa-siatkowka-boks.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</link>
+      <comments>https://media2.pl/media/160295-Wiosna-w-TVP-Sport-Mecze-reprezentacji-Polski-Liga-Mistrzow-Ekstraklasa-siatkowka-boks.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</comments>
+      <guid isPermaLink="true">https://media2.pl/l/n/160295</guid>
+      <category>Media</category>
+      <category>piĹka noĹźna</category>
+      <category>sport</category>
+      <category>Liga MistrzĂłw</category>
+      <category>TVP Sport</category>
+      <category>tenis</category>
+      <category>boks</category>
+      <category>siatkĂłwka</category>
+      <category>Hokej</category>
+      <category>MMA</category>
+      <category>piĹka rÄczna</category>
+      <category>skoki narciarskie</category>
+      <category>NHL</category>
+      <category>Ekstraklasa</category>
+      <category>Liga Europy</category>
+      <category>Euro 2020</category>
+      <category>Superliga</category>
+      <category>wiosna 2020</category>
       <description>
-        <![CDATA[<a href="https://media2.pl/technologie/43532-Nowy-szef-firmy-Symantec.html#utm_source=rss&utm_campaign=rss&utm_medium=link"><img src="https://media2.pl/g/rss/17456.jpg" alt="" title="" style="float:right;margin-left:10px;border:1px dotted #CCC;padding:3px" /></a>John W. Thompson, prezes i dyrektor generalny firmy Symantec, ustÄpuje ze stanowiska. ZarzÄ
-d wybiera Enrique Salema na stanowisko dyrektora generalnego]]>
-      </description>
-      <pubDate>Thu, 20 Nov 2008 12:37:32 +0100</pubDate>
-    </item>
-    <item>
-      <title>Zmiany w polskim FOX International Channels </title>
-      <link>https://media2.pl/reklama-pr/43526-Zmiany-w-polskim-FOX-International-Channels.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</link>
-      <comments>https://media2.pl/reklama-pr/43526-Zmiany-w-polskim-FOX-International-Channels.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</comments>
-      <guid isPermaLink="true">https://media2.pl/l/n/43526</guid>
-      <category>Reklama/PR</category>
-      <category>personel</category>
-      <category>Fox International Channels</category>
-      <description>
-        <![CDATA[<a href="https://media2.pl/reklama-pr/43526-Zmiany-w-polskim-FOX-International-Channels.html#utm_source=rss&utm_campaign=rss&utm_medium=link"><img src="https://media2.pl/g/rss/17407.jpg" alt="" title="" style="float:right;margin-left:10px;border:1px dotted #CCC;padding:3px" /></a>FOX International Channels Poland, firma zarzÄ
-dzajÄ
-ca telewizyjnymi kanaĹami dokumentalnymi National Geographic, National Geographic HD, Nat Geo Wild, Nat Geo Music oraz filmowym FOXlife, umacnia zespĂłĹ sprzedaĹźy.]]>
-      </description>
-      <pubDate>Thu, 20 Nov 2008 12:20:16 +0100</pubDate>
-    </item>
-    <item>
-      <title>Nowy PR-owiec w IMM </title>
-      <link>https://media2.pl/reklama-pr/43368-Nowy-PR-owiec-w-IMM.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</link>
-      <comments>https://media2.pl/reklama-pr/43368-Nowy-PR-owiec-w-IMM.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</comments>
-      <guid isPermaLink="true">https://media2.pl/l/n/43368</guid>
-      <category>Reklama/PR</category>
-      <category>IMM</category>
-      <category>personel</category>
-      <description>
-        <![CDATA[<a href="https://media2.pl/reklama-pr/43368-Nowy-PR-owiec-w-IMM.html#utm_source=rss&utm_campaign=rss&utm_medium=link"><img src="https://media2.pl/g/rss/9947.jpg" alt="" title="" style="float:right;margin-left:10px;border:1px dotted #CCC;padding:3px" /></a>Irena BanaĹ rozpoczÄĹa pracÄ na stanowisku specjalisty ds. PR w Instytucie Monitorowania MediĂłw. ZastÄ
-piĹa na nim KatarzynÄ Ewert. WczeĹniej pracowaĹa w agencji Ogilvy PR.]]>
-      </description>
-      <pubDate>Tue, 18 Nov 2008 11:28:46 +0100</pubDate>
-    </item>
-    <item>
-      <title>
-        Data Solutions pod nowymi rzÄ
-        dami
-      </title>
-      <link>https://media2.pl/reklama-pr/43098-Data-Solutions-pod-nowymi-rzadami.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</link>
-      <comments>https://media2.pl/reklama-pr/43098-Data-Solutions-pod-nowymi-rzadami.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</comments>
-      <guid isPermaLink="true">https://media2.pl/l/n/43098</guid>
-      <category>Reklama/PR</category>
-      <category>personel</category>
-      <category>Data Solutions</category>
-      <description><![CDATA[Nowym Managing Directorem agencji marketingu relacji Data Solutions bÄdzie Marek Kosakowski.]]></description>
-      <pubDate>Wed, 12 Nov 2008 16:56:33 +0100</pubDate>
-    </item>
-    <item>
-      <title>Marketingowe zmiany w Marquard Media</title>
-      <link>https://media2.pl/reklama-pr/42802-Marketingowe-zmiany-w-Marquard-Media.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</link>
-      <comments>https://media2.pl/reklama-pr/42802-Marketingowe-zmiany-w-Marquard-Media.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</comments>
-      <guid isPermaLink="true">https://media2.pl/l/n/42802</guid>
-      <category>Reklama/PR</category>
-      <category>personel</category>
-      <category>Marquard Media</category>
-      <description>
-        <![CDATA[W zwiÄ
-zku z rozwojem Marquard Media Polska, z poczÄ
-tkiem grudnia nastÄ
+        <![CDATA[<a href="https://media2.pl/media/160295-Wiosna-w-TVP-Sport-Mecze-reprezentacji-Polski-Liga-Mistrzow-Ekstraklasa-siatkowka-boks.html#utm_source=rss&utm_campaign=rss&utm_medium=link"><img src="https://media2.pl/g/rss/66599.jpg" alt="" title="" style="float:right;margin-left:10px;border:1px dotted #CCC;padding:3px" /></a>Wiosna w TVP Sport zapowiada siÄ emocjonujÄ
+co. W gĹĂłwnych rolach wystÄ
 piÄ
- zmiany w strukturach marketingu wydawnictwa.]]>
+: piĹkarska reprezentacja Polski, nasi skoczkowie narciarscy oraz siatkarki i siatkarze.]]>
       </description>
-      <pubDate>Tue, 04 Nov 2008 15:32:07 +0100</pubDate>
+      <pubDate>Thu, 27 Feb 2020 21:59:14 +0100</pubDate>
     </item>
     <item>
-      <title>Bartosz KluczyĹski dyrektorem w Peppermint</title>
-      <link>https://media2.pl/reklama-pr/42800-Bartosz-Kluczynski-dyrektorem-w-Peppermint.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</link>
-      <comments>https://media2.pl/reklama-pr/42800-Bartosz-Kluczynski-dyrektorem-w-Peppermint.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</comments>
-      <guid isPermaLink="true">https://media2.pl/l/n/42800</guid>
-      <category>Reklama/PR</category>
-      <category>personel</category>
-      <category>Peppermint</category>
-      <description>
-        <![CDATA[Z poczÄ
-tkiem listopada Bartosz KluczyĹski objÄ
-Ĺ stanowisko Dyrektora ZarzÄ
-dzajÄ
-cego w agencji marketingu zintegrowanego Peppermint.]]>
-      </description>
-      <pubDate>Tue, 04 Nov 2008 15:27:42 +0100</pubDate>
-    </item>
-    <item>
-      <title>Nowy szef marketingu w Pulsie Biznesu</title>
-      <link>https://media2.pl/reklama-pr/42796-Nowy-szef-marketingu-w-Pulsie-Biznesu.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</link>
-      <comments>https://media2.pl/reklama-pr/42796-Nowy-szef-marketingu-w-Pulsie-Biznesu.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</comments>
-      <guid isPermaLink="true">https://media2.pl/l/n/42796</guid>
-      <category>Reklama/PR</category>
-      <category>personel</category>
-      <category>Puls Biznesu</category>
-      <category>Bonnier Business</category>
-      <description><![CDATA[<a href="https://media2.pl/reklama-pr/42796-Nowy-szef-marketingu-w-Pulsie-Biznesu.html#utm_source=rss&utm_campaign=rss&utm_medium=link"><img src="https://media2.pl/g/rss/1716.jpg" alt="" title="" style="float:right;margin-left:10px;border:1px dotted #CCC;padding:3px" /></a>Aleksandra Ĺťurada objÄĹa stanowisko dyrektora marketingu Bonnier Business (Polska), wydawcy Pulsu Biznesu. Odpowiada za dziaĹ marketingui konferencji wydawnictwa.]]></description>
-      <pubDate>Tue, 04 Nov 2008 15:15:12 +0100</pubDate>
-    </item>
-    <item>
-      <title>Nowy dyrektor w Tequila Polska</title>
-      <link>https://media2.pl/reklama-pr/42721-Nowy-dyrektor-w-Tequila-Polska.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</link>
-      <comments>https://media2.pl/reklama-pr/42721-Nowy-dyrektor-w-Tequila-Polska.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</comments>
-      <guid isPermaLink="true">https://media2.pl/l/n/42721</guid>
-      <category>Reklama/PR</category>
-      <category>personel</category>
-      <category>Tequila Polska</category>
-      <description><![CDATA[Na czele jednego z zespoĹĂłw client services agencji marketingu zintegrowanego Tequila Polska stanie Marcin Jarysz.]]></description>
-      <pubDate>Mon, 03 Nov 2008 11:30:30 +0100</pubDate>
-    </item>
-    <item>
-      <title>Nowy dyrektor w Afilo</title>
-      <link>https://media2.pl/reklama-pr/42470-Nowy-dyrektor-w-Afilo.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</link>
-      <comments>https://media2.pl/reklama-pr/42470-Nowy-dyrektor-w-Afilo.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</comments>
-      <guid isPermaLink="true">https://media2.pl/l/n/42470</guid>
-      <category>Reklama/PR</category>
-      <category>personel</category>
-      <category>Afilo</category>
-      <description>
-        <![CDATA[Monika DÄ
-brĂłwka awansowaĹa na stanowisko Affiliate Director. Do jej obowiÄ
-zkĂłw bÄdzie naleĹźaĹ rozwĂłj sieci Afilo i ĹcisĹa wspĂłĹpraca z wydawcami.]]>
-      </description>
-      <pubDate>Wed, 29 Oct 2008 10:45:44 +0100</pubDate>
-    </item>
-    <item>
-      <title>Nowy prezes mPay</title>
-      <link>https://media2.pl/telekomunikacja/42435-Nowy-prezes-mPay.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</link>
-      <comments>https://media2.pl/telekomunikacja/42435-Nowy-prezes-mPay.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</comments>
-      <guid isPermaLink="true">https://media2.pl/l/n/42435</guid>
-      <category>Telekomunikacja</category>
-      <category>personel</category>
-      <category>mPay</category>
-      <description>
-        <![CDATA[<a href="https://media2.pl/telekomunikacja/42435-Nowy-prezes-mPay.html#utm_source=rss&utm_campaign=rss&utm_medium=link"><img src="https://media2.pl/g/rss/855.jpg" alt="" title="" style="float:right;margin-left:10px;border:1px dotted #CCC;padding:3px" /></a>W ubegĹym tygodniu na stanowisko prezesa zarzÄ
-du spĂłĹki mPay zostaĹ powoĹany dotychczasowy wiceprezes zarzÄ
-du Konrad Ĺuczak.]]>
-      </description>
-      <pubDate>Tue, 28 Oct 2008 15:18:04 +0100</pubDate>
-    </item>
-    <item>
-      <title>Nowa osoba w OMG Opera</title>
-      <link>https://media2.pl/reklama-pr/42247-Nowa-osoba-w-OMG-Opera.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</link>
-      <comments>https://media2.pl/reklama-pr/42247-Nowa-osoba-w-OMG-Opera.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</comments>
-      <guid isPermaLink="true">https://media2.pl/l/n/42247</guid>
-      <category>Reklama/PR</category>
-      <category>personel</category>
-      <category>OMG Opera</category>
-      <description>
-        <![CDATA[Paulina ZieliĹska (Zamorska) doĹÄ
-czyĹa do zespoĹu OMG Opera i objÄĹa stanowisko Media Buying Manager.]]>
-      </description>
-      <pubDate>Fri, 24 Oct 2008 12:00:13 +0200</pubDate>
-    </item>
-    <item>
-      <title>Awans w Optimum Media OMD</title>
-      <link>https://media2.pl/reklama-pr/41997-Awans-w-Optimum-Media-OMD.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</link>
-      <comments>https://media2.pl/reklama-pr/41997-Awans-w-Optimum-Media-OMD.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</comments>
-      <guid isPermaLink="true">https://media2.pl/l/n/41997</guid>
-      <category>Reklama/PR</category>
-      <category>personel</category>
-      <category>Optimum Media OMD</category>
-      <description><![CDATA[Katarzyna Wasiluk, dotychczas account manager w teamie MaÄka Ziomka w Optimum Media OMD, awansowaĹa na stanowisko group account director.]]></description>
-      <pubDate>Mon, 20 Oct 2008 16:12:56 +0200</pubDate>
-    </item>
-    <item>
-      <title>Personalne zmiany w Broker FM</title>
-      <link>https://media2.pl/media/39648-Personalne-zmiany-w-Broker-FM.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</link>
-      <comments>https://media2.pl/media/39648-Personalne-zmiany-w-Broker-FM.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</comments>
-      <guid isPermaLink="true">https://media2.pl/l/n/39648</guid>
+      <title>Walka MichaĹa CieĹlaka o pas Mistrza Ĺwiata Federacji WBC w PPV za 40 zĹ</title>
+      <link>https://media2.pl/media/159847-Walka-Michala-Cieslaka-o-pas-Mistrza-Swiata-Federacji-WBC-w-PPV-za-40-zl.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</link>
+      <comments>https://media2.pl/media/159847-Walka-Michala-Cieslaka-o-pas-Mistrza-Swiata-Federacji-WBC-w-PPV-za-40-zl.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</comments>
+      <guid isPermaLink="true">https://media2.pl/l/n/159847</guid>
       <category>Media</category>
-      <category>RMF FM</category>
-      <category>personel</category>
-      <category>Broker FM</category>
-      <description>
-        <![CDATA[<a href="https://media2.pl/media/39648-Personalne-zmiany-w-Broker-FM.html#utm_source=rss&utm_campaign=rss&utm_medium=link"><img src="https://media2.pl/g/rss/15023.jpg" alt="" title="" style="float:right;margin-left:10px;border:1px dotted #CCC;padding:3px" /></a>Marta Bratkowska i Klaudiusz Frydrych koĹczÄ
- pracÄ w Grupie Broker FM]]>
-      </description>
-      <pubDate>Sun, 24 Aug 2008 10:37:24 +0200</pubDate>
+      <category>Cyfrowy Polsat</category>
+      <category>sport</category>
+      <category>boks</category>
+      <category>ipla</category>
+      <category>PPV</category>
+      <description><![CDATA[<a href="https://media2.pl/media/159847-Walka-Michala-Cieslaka-o-pas-Mistrza-Swiata-Federacji-WBC-w-PPV-za-40-zl.html#utm_source=rss&utm_campaign=rss&utm_medium=link"><img src="https://media2.pl/g/rss/73591.jpg" alt="" title="" style="float:right;margin-left:10px;border:1px dotted #CCC;padding:3px" /></a>W Cyfrowym Polsacie i IPLI moĹźna juĹź zamawiaÄ dostÄp do walki MichaĹa CieĹlaka o Mistrzostwo Ĺwiata Federacji WBC w wadze junior ciÄĹźkiej. WalkÄ bÄdzie moĹźna obejrzeÄ w pĹatnym systemie PPV w cenie 40 zĹ.]]></description>
+      <pubDate>Wed, 29 Jan 2020 18:50:11 +0100</pubDate>
     </item>
     <item>
-      <title>Nowa osoba w Motoroli do wspĂłĹpracy z PTC</title>
-      <link>https://media2.pl/telekomunikacja/39438-Nowa-osoba-w-Motoroli-do-wspolpracy-z-PTC.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</link>
-      <comments>https://media2.pl/telekomunikacja/39438-Nowa-osoba-w-Motoroli-do-wspolpracy-z-PTC.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</comments>
-      <guid isPermaLink="true">https://media2.pl/l/n/39438</guid>
-      <category>Telekomunikacja</category>
-      <category>Motorola</category>
-      <category>PTC</category>
-      <category>personel</category>
+      <title>Dwie walki o mistrzostwo Europy na Ĺźywo w Fightklubie</title>
+      <link>https://media2.pl/media/159181-Dwie-walki-o-mistrzostwo-Europy-na-zywo-w-Fightklubie.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</link>
+      <comments>https://media2.pl/media/159181-Dwie-walki-o-mistrzostwo-Europy-na-zywo-w-Fightklubie.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</comments>
+      <guid isPermaLink="true">https://media2.pl/l/n/159181</guid>
+      <category>Media</category>
+      <category>sport</category>
+      <category>boks</category>
+      <category>Fightklub</category>
       <description>
-        <![CDATA[Sylwia Machnik-Kochan objÄĹa stanowisko Key Account Manager - Polska Telefonia Cyfrowa w Motoroli. Do jej gĹĂłwnych obowiÄ
-zkĂłw naleĹźeÄ bÄdzie rozwijanie wspĂłĹpracy z operatorem Era oraz z wszystkimi dystrybutorami wspĂłĹpracujÄ
-cymi z sieciÄ
- PTC.]]>
+        <![CDATA[<a href="https://media2.pl/media/159181-Dwie-walki-o-mistrzostwo-Europy-na-zywo-w-Fightklubie.html#utm_source=rss&utm_campaign=rss&utm_medium=link"><img src="https://media2.pl/g/rss/42213.jpg" alt="" title="" style="float:right;margin-left:10px;border:1px dotted #CCC;padding:3px" /></a>12 grudnia w Palau Olimpic w Badalonie dobrze  zapowiadajÄ
+ca siÄ bokserska gala, zwieĹczeniem ktĂłrej bÄdÄ
+ dwa pojedynki o mistrzostwo Europy. W walkach tych swoich tytuĹĂłw bronili bÄdÄ
+ David Avanesyan i Sandor Martin. Na Ĺźywo w Fightklubie.]]>
       </description>
-      <pubDate>Mon, 18 Aug 2008 12:25:32 +0200</pubDate>
+      <pubDate>Fri, 06 Dec 2019 13:33:59 +0100</pubDate>
     </item>
     <item>
-      <title>Nowy dyrektor w ZOOM Advertising</title>
-      <link>https://media2.pl/reklama-pr/39437-Nowy-dyrektor-w-ZOOM-Advertising.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</link>
-      <comments>https://media2.pl/reklama-pr/39437-Nowy-dyrektor-w-ZOOM-Advertising.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</comments>
-      <guid isPermaLink="true">https://media2.pl/l/n/39437</guid>
-      <category>Reklama/PR</category>
-      <category>personel</category>
-      <category>ZOOM Advertising</category>
-      <description><![CDATA[Jacek BieliĹski zostaĹ nowym  Dyrektorem Strategicznym w agencji ZOOM Advertising i bÄdzie odpowiadaĹ za przygotowywanie strategii komunikacji marek klientĂłw agencji.]]></description>
-      <pubDate>Mon, 18 Aug 2008 12:06:04 +0200</pubDate>
+      <title>Mistrzowski boks w Canal+</title>
+      <link>https://media2.pl/media/158565-Mistrzowski-boks-w-Canalplus.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</link>
+      <comments>https://media2.pl/media/158565-Mistrzowski-boks-w-Canalplus.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</comments>
+      <guid isPermaLink="true">https://media2.pl/l/n/158565</guid>
+      <category>Media</category>
+      <category>sport</category>
+      <category>boks</category>
+      <category>Canal+ Sport</category>
+      <description><![CDATA[<a href="https://media2.pl/media/158565-Mistrzowski-boks-w-Canalplus.html#utm_source=rss&utm_campaign=rss&utm_medium=link"><img src="https://media2.pl/g/rss/72671.jpg" alt="" title="" style="float:right;margin-left:10px;border:1px dotted #CCC;padding:3px" /></a>Platforma Canal+ przygotowaĹa dwa weekendy peĹne bokserskich emocji.]]></description>
+      <pubDate>Fri, 27 Sep 2019 22:38:56 +0200</pubDate>
+    </item>
+    <item>
+      <title>Walka Adam Kownacki vs. Chris Arreola na antenach Polsatu i Polsatu Sport</title>
+      <link>https://media2.pl/media/157681-Walka-Adam-Kownacki-vs.-Chris-Arreola-na-antenach-Polsatu-i-Polsatu-Sport.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</link>
+      <comments>https://media2.pl/media/157681-Walka-Adam-Kownacki-vs.-Chris-Arreola-na-antenach-Polsatu-i-Polsatu-Sport.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</comments>
+      <guid isPermaLink="true">https://media2.pl/l/n/157681</guid>
+      <category>Media</category>
+      <category>Polsat</category>
+      <category>sport</category>
+      <category>Polsat Sport</category>
+      <category>boks</category>
+      <description>
+        <![CDATA[<a href="https://media2.pl/media/157681-Walka-Adam-Kownacki-vs.-Chris-Arreola-na-antenach-Polsatu-i-Polsatu-Sport.html#utm_source=rss&utm_campaign=rss&utm_medium=link"><img src="https://media2.pl/g/rss/68057.jpg" alt="" title="" style="float:right;margin-left:10px;border:1px dotted #CCC;padding:3px" /></a>Telewizja Polsat pokaĹźe najwaĹźniejszÄ
+ walka tego roku z udziaĹem polskiego zawodnika.]]>
+      </description>
+      <pubDate>Tue, 30 Jul 2019 12:22:42 +0200</pubDate>
+    </item>
+    <item>
+      <title>Rocky Boxing Night, UFC 237, boks, mistrzowski ĹźuĹźel, 1 liga - weekend w Polsat Sport</title>
+      <link>https://media2.pl/media/156465-Rocky-Boxing-Night-UFC-237-boks-mistrzowski-zuzel-1-liga-weekend-w-Polsat-Sport.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</link>
+      <comments>https://media2.pl/media/156465-Rocky-Boxing-Night-UFC-237-boks-mistrzowski-zuzel-1-liga-weekend-w-Polsat-Sport.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</comments>
+      <guid isPermaLink="true">https://media2.pl/l/n/156465</guid>
+      <category>Media</category>
+      <category>koszykĂłwka</category>
+      <category>piĹka noĹźna</category>
+      <category>sport</category>
+      <category>Polsat Sport</category>
+      <category>ĹźuĹźel</category>
+      <category>tenis</category>
+      <category>boks</category>
+      <category>MMA</category>
+      <category>FormuĹa 3</category>
+      <category>FormuĹa 2</category>
+      <category>UFC</category>
+      <category>MLS</category>
+      <category>Basket Liga</category>
+      <category>Porsche Supercup</category>
+      <description>
+        <![CDATA[<a href="https://media2.pl/media/156465-Rocky-Boxing-Night-UFC-237-boks-mistrzowski-zuzel-1-liga-weekend-w-Polsat-Sport.html#utm_source=rss&utm_campaign=rss&utm_medium=link"><img src="https://media2.pl/g/rss/70863.jpg" alt="" title="" style="float:right;margin-left:10px;border:1px dotted #CCC;padding:3px" /></a>Sporty walki zdominujÄ
+ weekendowÄ
+ ramĂłwkÄ sportowych kanaĹĂłw Grupy Polsat. Nie zabraknie takĹźe ĹźuĹźlowego Mistrzostwa Polski Par Klubowych, tenisa, wyĹcigĂłw, koszykĂłwki, siatkĂłwki czy teĹź piĹki noĹźnej.]]>
+      </description>
+      <pubDate>Fri, 10 May 2019 18:22:18 +0200</pubDate>
+    </item>
+    <item>
+      <title>Gala UFC z Polakami, Turniej o ZĹoty Kask - Wielkanoc w Polsat Sport</title>
+      <link>https://media2.pl/media/156185-Gala-UFC-z-Polakami-Turniej-o-Zloty-Kask-Wielkanoc-w-Polsat-Sport.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</link>
+      <comments>https://media2.pl/media/156185-Gala-UFC-z-Polakami-Turniej-o-Zloty-Kask-Wielkanoc-w-Polsat-Sport.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</comments>
+      <guid isPermaLink="true">https://media2.pl/l/n/156185</guid>
+      <category>Media</category>
+      <category>koszykĂłwka</category>
+      <category>piĹka noĹźna</category>
+      <category>sport</category>
+      <category>Polsat Sport</category>
+      <category>ĹźuĹźel</category>
+      <category>tenis</category>
+      <category>boks</category>
+      <category>siatkĂłwka</category>
+      <category>MMA</category>
+      <category>1 Liga</category>
+      <category>UFC</category>
+      <description>
+        <![CDATA[<a href="https://media2.pl/media/156185-Gala-UFC-z-Polakami-Turniej-o-Zloty-Kask-Wielkanoc-w-Polsat-Sport.html#utm_source=rss&utm_campaign=rss&utm_medium=link"><img src="https://media2.pl/g/rss/70639.jpg" alt="" title="" style="float:right;margin-left:10px;border:1px dotted #CCC;padding:3px" /></a>Sportowa Wielkanoc na antenach Grupy Polsat zapowiada siÄ emocjonujÄ
+co.]]>
+      </description>
+      <pubDate>Fri, 19 Apr 2019 17:02:05 +0200</pubDate>
+    </item>
+    <item>
+      <title>PiÄĹciarska gala &#34;Ostatni Taniec&#34; i zakoĹczenie kariery Adamka - weekend w Polsacie Sport</title>
+      <link>https://media2.pl/media/155945-Piesciarska-gala-Ostatni-Taniec-i-zakonczenie-kariery-Adamka-weekend-w-Polsacie-Sport.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</link>
+      <comments>https://media2.pl/media/155945-Piesciarska-gala-Ostatni-Taniec-i-zakonczenie-kariery-Adamka-weekend-w-Polsacie-Sport.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</comments>
+      <guid isPermaLink="true">https://media2.pl/l/n/155945</guid>
+      <category>Media</category>
+      <category>koszykĂłwka</category>
+      <category>sport</category>
+      <category>Polsat Sport</category>
+      <category>boks</category>
+      <category>siatkĂłwka</category>
+      <category>MMA</category>
+      <category>MLS</category>
+      <description>
+        <![CDATA[<a href="https://media2.pl/media/155945-Piesciarska-gala-Ostatni-Taniec-i-zakonczenie-kariery-Adamka-weekend-w-Polsacie-Sport.html#utm_source=rss&utm_campaign=rss&utm_medium=link"><img src="https://media2.pl/g/rss/70389.jpg" alt="" title="" style="float:right;margin-left:10px;border:1px dotted #CCC;padding:3px" /></a>Wydarzeniem weekendu na sportowych antenach Grupy Polsat bÄdzie transmisja z katowickiego Spodka gali MB Boxing Night: Ostatni Taniec. Podczas gali oficjalnie zawodowÄ
+ karierÄ zakoĹczy Tomasz Adamek.]]>
+      </description>
+      <pubDate>Fri, 05 Apr 2019 18:56:44 +0200</pubDate>
+    </item>
+    <item>
+      <title>Wiosna w TVP Sport: Eliminacje do Euro 2020, Liga MistrzĂłw, siatkĂłwka, tenis i boks</title>
+      <link>https://media2.pl/media/155223-Wiosna-w-TVP-Sport-Eliminacje-do-Euro-2020-Liga-Mistrzow-siatkowka-tenis-i-boks.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</link>
+      <comments>https://media2.pl/media/155223-Wiosna-w-TVP-Sport-Eliminacje-do-Euro-2020-Liga-Mistrzow-siatkowka-tenis-i-boks.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</comments>
+      <guid isPermaLink="true">https://media2.pl/l/n/155223</guid>
+      <category>Media</category>
+      <category>koszykĂłwka</category>
+      <category>TVP</category>
+      <category>TVP1</category>
+      <category>TVP2</category>
+      <category>piĹka noĹźna</category>
+      <category>sport</category>
+      <category>Liga MistrzĂłw</category>
+      <category>TVP Sport</category>
+      <category>tenis</category>
+      <category>lekkoatletyka</category>
+      <category>boks</category>
+      <category>Hokej</category>
+      <category>narciarstwo</category>
+      <category>skoki narciarskie</category>
+      <category>NHL</category>
+      <category>Ekstraklasa</category>
+      <category>Euro 2020</category>
+      <category>PHL</category>
+      <description>
+        <![CDATA[<a href="https://media2.pl/media/155223-Wiosna-w-TVP-Sport-Eliminacje-do-Euro-2020-Liga-Mistrzow-siatkowka-tenis-i-boks.html#utm_source=rss&utm_campaign=rss&utm_medium=link"><img src="https://media2.pl/g/rss/66599.jpg" alt="" title="" style="float:right;margin-left:10px;border:1px dotted #CCC;padding:3px" /></a>WiosennÄ
+ ramĂłwkÄ TVP Sport zdominujÄ
+ m.in. piĹkarska reprezentacja Polski, skoczkowie narciarscy, lekkoatleci oraz siatkarki i siatkarze.]]>
+      </description>
+      <pubDate>Thu, 14 Feb 2019 21:40:02 +0100</pubDate>
+    </item>
+    <item>
+      <title>Gala PiĹki NoĹźnej, UFC, duĹźo boksu, polskiej siatkĂłwki i koszykĂłwki - weekend w Polsat Sport</title>
+      <link>https://media2.pl/media/155001-Gala-Pilki-Noznej-UFC-duzo-boksu-polskiej-siatkowki-i-koszykowki-weekend-w-Polsat-Sport.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</link>
+      <comments>https://media2.pl/media/155001-Gala-Pilki-Noznej-UFC-duzo-boksu-polskiej-siatkowki-i-koszykowki-weekend-w-Polsat-Sport.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</comments>
+      <guid isPermaLink="true">https://media2.pl/l/n/155001</guid>
+      <category>Media</category>
+      <category>koszykĂłwka</category>
+      <category>sport</category>
+      <category>Polsat Sport</category>
+      <category>boks</category>
+      <category>siatkĂłwka</category>
+      <category>MMA</category>
+      <category>PlusLiga</category>
+      <category>UFC</category>
+      <category>Basket Liga</category>
+      <description><![CDATA[<a href="https://media2.pl/media/155001-Gala-Pilki-Noznej-UFC-duzo-boksu-polskiej-siatkowki-i-koszykowki-weekend-w-Polsat-Sport.html#utm_source=rss&utm_campaign=rss&utm_medium=link"><img src="https://media2.pl/g/rss/37582.jpg" alt="" title="" style="float:right;margin-left:10px;border:1px dotted #CCC;padding:3px" /></a>Transmisja uroczystej gali tygodnika PiĹki NoĹźnej, rewanĹźowe starcie Eleidera Alvareza z Siergiejem Kowaliowem, gala UFC i sporo polskiej siatkĂłwki oraz koszykĂłwki - taki bÄdzie sportĂłw weekend na antach kanaĹĂłw Polsat Sport.]]></description>
+      <pubDate>Fri, 01 Feb 2019 17:06:33 +0100</pubDate>
+    </item>
+    <item>
+      <title>Walka Kownackiego, piĹka w 4K, MĹ SuperEnduro FIM, NBA - sportowy weekend w NC+</title>
+      <link>https://media2.pl/media/154897-Walka-Kownackiego-pilka-w-4K-MS-SuperEnduro-FIM-NBA-sportowy-weekend-w-NCplus.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</link>
+      <comments>https://media2.pl/media/154897-Walka-Kownackiego-pilka-w-4K-MS-SuperEnduro-FIM-NBA-sportowy-weekend-w-NCplus.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</comments>
+      <guid isPermaLink="true">https://media2.pl/l/n/154897</guid>
+      <category>Media</category>
+      <category>koszykĂłwka</category>
+      <category>piĹka noĹźna</category>
+      <category>NBA</category>
+      <category>boks</category>
+      <category>bundesliga</category>
+      <category>Canal+ Sport</category>
+      <category>LaLiga</category>
+      <description><![CDATA[<a href="https://media2.pl/media/154897-Walka-Kownackiego-pilka-w-4K-MS-SuperEnduro-FIM-NBA-sportowy-weekend-w-NCplus.html#utm_source=rss&utm_campaign=rss&utm_medium=link"><img src="https://media2.pl/g/rss/68057.jpg" alt="" title="" style="float:right;margin-left:10px;border:1px dotted #CCC;padding:3px" /></a>Walka Adama Kownackiego na gali boksu w USA, piĹkarskie hity Bundesligi i LaLiga w jakoĹci 4K, MĹ SuperEnduro FIM oraz mecze NBA - taki bÄdzie sportowy weekend w nc+.]]></description>
+      <pubDate>Sat, 26 Jan 2019 13:08:15 +0100</pubDate>
+    </item>
+    <item>
+      <title>PiĹkarskie hity w 4K, MLK Day w NBA, bokserska walka o mistrzostwo - sportowy weekend w nc+</title>
+      <link>https://media2.pl/media/154789-Pilkarskie-hity-w-4K-MLK-Day-w-NBA-bokserska-walka-o-mistrzostwo-sportowy-weekend-w-ncplus.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</link>
+      <comments>https://media2.pl/media/154789-Pilkarskie-hity-w-4K-MLK-Day-w-NBA-bokserska-walka-o-mistrzostwo-sportowy-weekend-w-ncplus.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</comments>
+      <guid isPermaLink="true">https://media2.pl/l/n/154789</guid>
+      <category>Media</category>
+      <category>koszykĂłwka</category>
+      <category>piĹka noĹźna</category>
+      <category>sport</category>
+      <category>NBA</category>
+      <category>boks</category>
+      <category>bundesliga</category>
+      <category>Canal+ Sport</category>
+      <category>LaLiga</category>
+      <category>Premiere League</category>
+      <description><![CDATA[<a href="https://media2.pl/media/154789-Pilkarskie-hity-w-4K-MLK-Day-w-NBA-bokserska-walka-o-mistrzostwo-sportowy-weekend-w-ncplus.html#utm_source=rss&utm_campaign=rss&utm_medium=link"><img src="https://media2.pl/g/rss/69515.jpg" alt="" title="" style="float:right;margin-left:10px;border:1px dotted #CCC;padding:3px" /></a>DzieĹ Martina Luthera Kinga w NBA, bokserskie walka o mistrzostwo Ĺwiata oraz piĹkarskie hity w jakoĹci 4K - taki bÄdzie weekend na sportowych antenach platformy NC+.]]></description>
+      <pubDate>Fri, 18 Jan 2019 17:58:25 +0100</pubDate>
+    </item>
+    <item>
+      <title>Walka Joanny JÄdrzejczyk w UFC hitem weekendu w Polsat Sport</title>
+      <link>https://media2.pl/media/154183-Walka-Joanny-Jedrzejczyk-w-UFC-hitem-weekendu-w-Polsat-Sport.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</link>
+      <comments>https://media2.pl/media/154183-Walka-Joanny-Jedrzejczyk-w-UFC-hitem-weekendu-w-Polsat-Sport.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</comments>
+      <guid isPermaLink="true">https://media2.pl/l/n/154183</guid>
+      <category>Media</category>
+      <category>koszykĂłwka</category>
+      <category>piĹka noĹźna</category>
+      <category>sport</category>
+      <category>Polsat Sport</category>
+      <category>boks</category>
+      <category>siatkĂłwka</category>
+      <category>MMA</category>
+      <category>UFC</category>
+      <description><![CDATA[<a href="https://media2.pl/media/154183-Walka-Joanny-Jedrzejczyk-w-UFC-hitem-weekendu-w-Polsat-Sport.html#utm_source=rss&utm_campaign=rss&utm_medium=link"><img src="https://media2.pl/g/rss/67361.jpg" alt="" title="" style="float:right;margin-left:10px;border:1px dotted #CCC;padding:3px" /></a>Weekend emocji dla kibicĂłw sportĂłw walki na antenach Grupy Polsat. Nie zabraknie takĹźe polskiej siatkĂłwki i koszykĂłwki.]]></description>
+      <pubDate>Fri, 07 Dec 2018 18:48:49 +0100</pubDate>
+    </item>
+    <item>
+      <title>Bravo Sport wydaĹo magazyn dla miĹoĹnikĂłw walk &#34;Fighter&#34;</title>
+      <link>https://media2.pl/media/154133-Bravo-Sport-wydalo-magazyn-dla-milosnikow-walk-Fighter.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</link>
+      <comments>https://media2.pl/media/154133-Bravo-Sport-wydalo-magazyn-dla-milosnikow-walk-Fighter.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</comments>
+      <guid isPermaLink="true">https://media2.pl/l/n/154133</guid>
+      <category>Media</category>
+      <category>sport</category>
+      <category>Bravo Sport</category>
+      <category>boks</category>
+      <category>MMA</category>
+      <description><![CDATA[<a href="https://media2.pl/media/154133-Bravo-Sport-wydalo-magazyn-dla-milosnikow-walk-Fighter.html#utm_source=rss&utm_campaign=rss&utm_medium=link"><img src="https://media2.pl/g/rss/69009.jpg" alt="" title="" style="float:right;margin-left:10px;border:1px dotted #CCC;padding:3px" /></a>Na rynku dostÄpne jest wydanie specjalne &#34;Bravo Sport poleca - Fighter&#34;.]]></description>
+      <pubDate>Fri, 07 Dec 2018 10:15:21 +0100</pubDate>
+    </item>
+    <item>
+      <title>Hity Ekstraklasy i Premier League w 4K, walka o mistrzowsko Ĺwiata - sportowy weekend w Canal+</title>
+      <link>https://media2.pl/media/154017-Hity-Ekstraklasy-i-Premier-League-w-4K-walka-o-mistrzowsko-swiata-sportowy-weekend-w-Canalplus.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</link>
+      <comments>https://media2.pl/media/154017-Hity-Ekstraklasy-i-Premier-League-w-4K-walka-o-mistrzowsko-swiata-sportowy-weekend-w-Canalplus.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</comments>
+      <guid isPermaLink="true">https://media2.pl/l/n/154017</guid>
+      <category>Media</category>
+      <category>koszykĂłwka</category>
+      <category>piĹka noĹźna</category>
+      <category>sport</category>
+      <category>NBA</category>
+      <category>boks</category>
+      <category>piĹka rÄczna</category>
+      <category>bundesliga</category>
+      <category>Ekstraklasa</category>
+      <category>premier League</category>
+      <category>Canal+ Sport</category>
+      <category>4K</category>
+      <category>LaLiga</category>
+      <description><![CDATA[<a href="https://media2.pl/media/154017-Hity-Ekstraklasy-i-Premier-League-w-4K-walka-o-mistrzowsko-swiata-sportowy-weekend-w-Canalplus.html#utm_source=rss&utm_campaign=rss&utm_medium=link"><img src="https://media2.pl/g/rss/64079.jpg" alt="" title="" style="float:right;margin-left:10px;border:1px dotted #CCC;padding:3px" /></a>Bokserska walka o mistrzostwo Ĺwiata WBC Wilder - Fury oraz piĹkarskie hity w 4K - taki bÄdzie sportowy weekend na antenach platformy NC+.]]></description>
+      <pubDate>Sat, 01 Dec 2018 15:12:40 +0100</pubDate>
+    </item>
+    <item>
+      <title>Bokserska walka o mistrzostwo Ĺwiata Wilder - Fury na Ĺźywo w Canal+ Sport (wideo)</title>
+      <link>https://media2.pl/media/153947-Bokserska-walka-o-mistrzostwo-swiata-Wilder-Fury-na-zywo-w-Canalplus-Sport-wideo.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</link>
+      <comments>https://media2.pl/media/153947-Bokserska-walka-o-mistrzostwo-swiata-Wilder-Fury-na-zywo-w-Canalplus-Sport-wideo.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</comments>
+      <guid isPermaLink="true">https://media2.pl/l/n/153947</guid>
+      <category>Media</category>
+      <category>sport</category>
+      <category>boks</category>
+      <category>Canal+ Sport</category>
+      <description><![CDATA[<a href="https://media2.pl/media/153947-Bokserska-walka-o-mistrzostwo-swiata-Wilder-Fury-na-zywo-w-Canalplus-Sport-wideo.html#utm_source=rss&utm_campaign=rss&utm_medium=link"><img src="https://media2.pl/g/rss/68865.jpg" alt="" title="" style="float:right;margin-left:10px;border:1px dotted #CCC;padding:3px" /></a>Deontay Wilder zmierzy siÄ 1 grudnia w Los Angeles z Tysonem Furym w obronie mistrza Ĺwiata federacji WBC w wadze ciÄĹźkiej. Tego samego dnia w Montrealu dojdzie do pojedynku Adonisa Stevensona z Oleksandrem Gwozdykiem o mistrzostwo Ĺwiata federacji WBC w wadze pĂłĹciÄĹźkiej. Obie walki bÄdzie transmitowaĹ Canal+ Sport.]]></description>
+      <pubDate>Tue, 27 Nov 2018 16:05:49 +0100</pubDate>
     </item>
     <item>
       <title>
-        Zmiany w zarzÄ
-        dzie TV Puls
+        PiÄĹciarski weekend w TVP Sport. WalczÄ
+        m.in. Szpilka, Wach, GĹowacki
       </title>
-      <link>https://media2.pl/media/39396-Zmiany-w-zarzadzie-TV-Puls.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</link>
-      <comments>https://media2.pl/media/39396-Zmiany-w-zarzadzie-TV-Puls.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</comments>
-      <guid isPermaLink="true">https://media2.pl/l/n/39396</guid>
+      <link>https://media2.pl/media/153731-Piesciarski-weekend-w-TVP-Sport.-Walcza-m.in.-Szpilka-Wach-Glowacki.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</link>
+      <comments>https://media2.pl/media/153731-Piesciarski-weekend-w-TVP-Sport.-Walcza-m.in.-Szpilka-Wach-Glowacki.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</comments>
+      <guid isPermaLink="true">https://media2.pl/l/n/153731</guid>
       <category>Media</category>
-      <category>personel</category>
-      <category>TV Puls</category>
-      <description>
-        <![CDATA[Telewizja Puls poinformowaĹa, Ĺźe 13 sierpnia 2008 nastÄ
-piĹy zmiany w skĹadzie ZarzÄ
-du oraz Rady Nadzorczej spĂłĹki.]]>
-      </description>
-      <pubDate>Fri, 15 Aug 2008 10:25:01 +0200</pubDate>
+      <category>sport</category>
+      <category>TVP Sport</category>
+      <category>boks</category>
+      <description><![CDATA[<a href="https://media2.pl/media/153731-Piesciarski-weekend-w-TVP-Sport.-Walcza-m.in.-Szpilka-Wach-Glowacki.html#utm_source=rss&utm_campaign=rss&utm_medium=link"><img src="https://media2.pl/g/rss/68719.jpg" alt="" title="" style="float:right;margin-left:10px;border:1px dotted #CCC;padding:3px" /></a>Sporo piÄĹciarskich emocji w ten weekend na sportowej antenie Telewizji Polskiej.]]></description>
+      <pubDate>Fri, 09 Nov 2018 16:40:15 +0100</pubDate>
     </item>
     <item>
-      <title>Wzmocnienia w Interia.pl</title>
-      <link>https://media2.pl/internet/39369-Wzmocnienia-w-Interia.pl.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</link>
-      <comments>https://media2.pl/internet/39369-Wzmocnienia-w-Interia.pl.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</comments>
-      <guid isPermaLink="true">https://media2.pl/l/n/39369</guid>
-      <category>Internet</category>
-      <category>Interia.pl</category>
-      <category>personel</category>
-      <description><![CDATA[<a href="https://media2.pl/internet/39369-Wzmocnienia-w-Interia.pl.html#utm_source=rss&utm_campaign=rss&utm_medium=link"><img src="https://media2.pl/g/rss/17540.jpg" alt="" title="" style="float:right;margin-left:10px;border:1px dotted #CCC;padding:3px" /></a>W sierpniu doszĹo do kilku istotnych zmian na kluczowych stanowiskach w internetowym portalu Interia.pl.]]></description>
-      <pubDate>Thu, 14 Aug 2008 12:28:34 +0200</pubDate>
-    </item>
-    <item>
-      <title>Awanse w IDMnet </title>
-      <link>https://media2.pl/reklama-pr/39341-Awanse-w-IDMnet.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</link>
-      <comments>https://media2.pl/reklama-pr/39341-Awanse-w-IDMnet.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</comments>
-      <guid isPermaLink="true">https://media2.pl/l/n/39341</guid>
-      <category>Reklama/PR</category>
-      <category>promocja</category>
-      <category>personel</category>
-      <category>IDMnet</category>
-      <description><![CDATA[MichaĹ Hejka obejmuje kierownictwo w Dziale Technologii w IDMnet. Mariusz Nowosielski przejmuje kontrolÄ nad dziaĹem traffikĂłw, jako Kierownik DziaĹu Traffic.]]></description>
-      <pubDate>Wed, 13 Aug 2008 17:18:44 +0200</pubDate>
-    </item>
-    <item>
-      <title>Nowy wiceprezes w MTV Networks Polska</title>
-      <link>https://media2.pl/media/39263-Nowy-wiceprezes-w-MTV-Networks-Polska.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</link>
-      <comments>https://media2.pl/media/39263-Nowy-wiceprezes-w-MTV-Networks-Polska.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</comments>
-      <guid isPermaLink="true">https://media2.pl/l/n/39263</guid>
+      <title>Odkodowany hit Ekstraklasy i &#34;Liga+ Extra&#34;, szlagiery w Premier League i LaLiga - sportowy weekend w NC+</title>
+      <link>https://media2.pl/media/153533-Odkodowany-hit-Ekstraklasy-i-Ligaplus-Extra-szlagiery-w-Premier-League-i-LaLiga-sportowy-weekend-w-NCplus.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</link>
+      <comments>https://media2.pl/media/153533-Odkodowany-hit-Ekstraklasy-i-Ligaplus-Extra-szlagiery-w-Premier-League-i-LaLiga-sportowy-weekend-w-NCplus.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</comments>
+      <guid isPermaLink="true">https://media2.pl/l/n/153533</guid>
       <category>Media</category>
-      <category>personel</category>
-      <category>MTV Networks Polska</category>
-      <description>
-        <![CDATA[<a href="https://media2.pl/media/39263-Nowy-wiceprezes-w-MTV-Networks-Polska.html#utm_source=rss&utm_campaign=rss&utm_medium=link"><img src="https://media2.pl/g/rss/2386.jpg" alt="" title="" style="float:right;margin-left:10px;border:1px dotted #CCC;padding:3px" /></a>Monika Chojnacka-MaĹcianica, dotychczas peĹniÄ
-ca obowiÄ
-zki dyrektor programowej MTV Networks Polska, awansowaĹa na stanowisko Wiceprezes ds. Programowych kanaĹĂłw muzycznych MTV Emerging Markets.]]>
-      </description>
-      <pubDate>Tue, 12 Aug 2008 17:19:22 +0200</pubDate>
+      <category>koszykĂłwka</category>
+      <category>piĹka noĹźna</category>
+      <category>sport</category>
+      <category>NBA</category>
+      <category>boks</category>
+      <category>bundesliga</category>
+      <category>Ekstraklasa</category>
+      <category>premier League</category>
+      <category>Canal+ Sport</category>
+      <category>LaLiga</category>
+      <description><![CDATA[<a href="https://media2.pl/media/153533-Odkodowany-hit-Ekstraklasy-i-Ligaplus-Extra-szlagiery-w-Premier-League-i-LaLiga-sportowy-weekend-w-NCplus.html#utm_source=rss&utm_campaign=rss&utm_medium=link"><img src="https://media2.pl/g/rss/68607.jpg" alt="" title="" style="float:right;margin-left:10px;border:1px dotted #CCC;padding:3px" /></a>PiĹkarskie hity w angielskiej Premier League, hiszpaĹskiej LaLiga, niemieckiej Bundeslidze i polskiej Ekstraklasie oraz mecze NBA i gala boksu w Bostonie - taki bÄdzie sportowy weekend w NC+.]]></description>
+      <pubDate>Fri, 19 Oct 2018 16:39:05 +0200</pubDate>
     </item>
     <item>
-      <title>Nowy szef Microsoft w Polsce</title>
-      <link>https://media2.pl/technologie/39226-Nowy-szef-Microsoft-w-Polsce.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</link>
-      <comments>https://media2.pl/technologie/39226-Nowy-szef-Microsoft-w-Polsce.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</comments>
-      <guid isPermaLink="true">https://media2.pl/l/n/39226</guid>
-      <category>Technologie</category>
-      <category>Microsoft</category>
-      <category>personel</category>
-      <category>Jacek Murawski</category>
-      <description><![CDATA[<a href="https://media2.pl/technologie/39226-Nowy-szef-Microsoft-w-Polsce.html#utm_source=rss&utm_campaign=rss&utm_medium=link"><img src="https://media2.pl/g/rss/17547.jpg" alt="" title="" style="float:right;margin-left:10px;border:1px dotted #CCC;padding:3px" /></a>Jacek Murawski zostanie nowym dyrektorem generalnym polskiego oddziaĹu Microsoft. Nowe stanowisko obejmie od pierwszego listopada 2008 roku.]]></description>
-      <pubDate>Mon, 11 Aug 2008 18:35:30 +0200</pubDate>
+      <title>Walka Krzysztofa &#34;Diablo&#34; WĹodarczyka, piÄĹciarska Liga MistrzĂłw - weekend w TVP Sport</title>
+      <link>https://media2.pl/media/153327-Walka-Krzysztofa-Diablo-Wlodarczyka-piesciarska-Liga-Mistrzow-weekend-w-TVP-Sport.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</link>
+      <comments>https://media2.pl/media/153327-Walka-Krzysztofa-Diablo-Wlodarczyka-piesciarska-Liga-Mistrzow-weekend-w-TVP-Sport.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</comments>
+      <guid isPermaLink="true">https://media2.pl/l/n/153327</guid>
+      <category>Media</category>
+      <category>sport</category>
+      <category>TVP Sport</category>
+      <category>boks</category>
+      <description><![CDATA[<a href="https://media2.pl/media/153327-Walka-Krzysztofa-Diablo-Wlodarczyka-piesciarska-Liga-Mistrzow-weekend-w-TVP-Sport.html#utm_source=rss&utm_campaign=rss&utm_medium=link"><img src="https://media2.pl/g/rss/68443.jpg" alt="" title="" style="float:right;margin-left:10px;border:1px dotted #CCC;padding:3px" /></a>PiÄĹciarski weekend czeka widzĂłw ogĂłlnodostÄpnej telewizji TVP Sport.]]></description>
+      <pubDate>Fri, 05 Oct 2018 17:58:16 +0200</pubDate>
+    </item>
+    <item>
+      <title>Walka Tomasza Adamka, UFC z Las Vegas - piÄĹciarki weekend w Polsacie</title>
+      <link>https://media2.pl/media/153295-Walka-Tomasza-Adamka-UFC-z-Las-Vegas-piesciarki-weekend-w-Polsacie.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</link>
+      <comments>https://media2.pl/media/153295-Walka-Tomasza-Adamka-UFC-z-Las-Vegas-piesciarki-weekend-w-Polsacie.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</comments>
+      <guid isPermaLink="true">https://media2.pl/l/n/153295</guid>
+      <category>Media</category>
+      <category>Polsat</category>
+      <category>Polsat Sport</category>
+      <category>boks</category>
+      <category>Tomasz Adamek</category>
+      <category>UFC</category>
+      <description>
+        <![CDATA[<a href="https://media2.pl/media/153295-Walka-Tomasza-Adamka-UFC-z-Las-Vegas-piesciarki-weekend-w-Polsacie.html#utm_source=rss&utm_campaign=rss&utm_medium=link"><img src="https://media2.pl/g/rss/52621.jpg" alt="" title="" style="float:right;margin-left:10px;border:1px dotted #CCC;padding:3px" /></a>W nadchodzÄ
+cy weekend na antenie gĹĂłwnej Polsatu oraz w Polsacie Sport bÄdzie moĹźna zobaczyÄ na Ĺźywo galÄ z Chicago, podczas ktĂłrej w ringu zobaczymy byĹego mistrza Ĺwiata dwĂłch wag Tomasza Adamka w walce  z Jarrellem Millerem. Grupa Polsat pokaĹźe takĹźe kolejnÄ
+ galÄ UFC.]]>
+      </description>
+      <pubDate>Thu, 04 Oct 2018 15:50:17 +0200</pubDate>
+    </item>
+    <item>
+      <title>Walka Adama Kownackiego z Charlesem Martinem w Canal+ Sport</title>
+      <link>https://media2.pl/media/152811-Walka-Adama-Kownackiego-z-Charlesem-Martinem-w-Canalplus-Sport.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</link>
+      <comments>https://media2.pl/media/152811-Walka-Adama-Kownackiego-z-Charlesem-Martinem-w-Canalplus-Sport.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</comments>
+      <guid isPermaLink="true">https://media2.pl/l/n/152811</guid>
+      <category>Media</category>
+      <category>sport</category>
+      <category>boks</category>
+      <category>Canal+ Sport</category>
+      <description><![CDATA[<a href="https://media2.pl/media/152811-Walka-Adama-Kownackiego-z-Charlesem-Martinem-w-Canalplus-Sport.html#utm_source=rss&utm_campaign=rss&utm_medium=link"><img src="https://media2.pl/g/rss/68057.jpg" alt="" title="" style="float:right;margin-left:10px;border:1px dotted #CCC;padding:3px" /></a>W nocy z soboty na niedzielÄ (8/9 wrzeĹnia) Adam Kownacki zmierzy siÄ z Charlesem Martinem podczas gali boksu zawodowego w Barclays Center na Brooklynie. W pojedynku wieczoru Danny Garcia bÄdzie walczyĹ z Shawnem Porterem o tytuĹ mistrza Ĺwiata WBC. Transmisja w Canal+ Sport.]]></description>
+      <pubDate>Thu, 06 Sep 2018 18:49:54 +0200</pubDate>
+    </item>
+    <item>
+      <title>Mistrzostwa Polski w siatkĂłwce plaĹźowej hitem weekendu w Polsat Sport</title>
+      <link>https://media2.pl/media/152605-Mistrzostwa-Polski-w-siatkowce-plazowej-hitem-weekendu-w-Polsat-Sport.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</link>
+      <comments>https://media2.pl/media/152605-Mistrzostwa-Polski-w-siatkowce-plazowej-hitem-weekendu-w-Polsat-Sport.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</comments>
+      <guid isPermaLink="true">https://media2.pl/l/n/152605</guid>
+      <category>Media</category>
+      <category>piĹka noĹźna</category>
+      <category>sport</category>
+      <category>Polsat Sport</category>
+      <category>boks</category>
+      <category>siatkĂłwka</category>
+      <description>
+        <![CDATA[<a href="https://media2.pl/media/152605-Mistrzostwa-Polski-w-siatkowce-plazowej-hitem-weekendu-w-Polsat-Sport.html#utm_source=rss&utm_campaign=rss&utm_medium=link"><img src="https://media2.pl/g/rss/37582.jpg" alt="" title="" style="float:right;margin-left:10px;border:1px dotted #CCC;padding:3px" /></a>WeekendowÄ
+ ramĂłwkÄ sportowych anten Polsatu zdominujÄ
+ odbywajÄ
+ce siÄ w Krakowie Mistrzostwa Polski w siatkĂłwce plaĹźowej. Co jeszcze bÄdzie moĹźna zobaczyÄ?]]>
+      </description>
+      <pubDate>Fri, 31 Aug 2018 20:16:32 +0200</pubDate>
+    </item>
+    <item>
+      <title>JesieĹ w TVP Sport: Liga MistrzĂłw i NarodĂłw z Polakami, mistrzowska siatkĂłwka, boks, skoki narciarskie</title>
+      <link>https://media2.pl/media/152445-Jesien-w-TVP-Sport-Liga-Mistrzow-i-Narodow-z-Polakami-mistrzowska-siatkowka-boks-skoki-narciarskie.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</link>
+      <comments>https://media2.pl/media/152445-Jesien-w-TVP-Sport-Liga-Mistrzow-i-Narodow-z-Polakami-mistrzowska-siatkowka-boks-skoki-narciarskie.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</comments>
+      <guid isPermaLink="true">https://media2.pl/l/n/152445</guid>
+      <category>Media</category>
+      <category>piĹka noĹźna</category>
+      <category>sport</category>
+      <category>TVP Sport</category>
+      <category>tenis</category>
+      <category>boks</category>
+      <category>siatkĂłwka</category>
+      <category>skoki narciarskie</category>
+      <category>jesieĹ 2018</category>
+      <description>
+        <![CDATA[<a href="https://media2.pl/media/152445-Jesien-w-TVP-Sport-Liga-Mistrzow-i-Narodow-z-Polakami-mistrzowska-siatkowka-boks-skoki-narciarskie.html#utm_source=rss&utm_campaign=rss&utm_medium=link"><img src="https://media2.pl/g/rss/66599.jpg" alt="" title="" style="float:right;margin-left:10px;border:1px dotted #CCC;padding:3px" /></a>JesieĹ 2018 roku na antenie TVP Sport upĹynie pod znakiem piĹki noĹźnej na wysokim poziomie: zarĂłwno klubowa - Liga MistrzĂłw, jak i reprezentacyjna - Liga NarodĂłw z udziaĹem naszej kadry oraz inne mecze europejskich potÄg. Stacja pokaĹźe takĹźe mistrzostwa Ĺwiata w siatkĂłwce mÄĹźczyzn. Do rywalizacji powrĂłcÄ
+ skoczkowie narciarscy]]>
+      </description>
+      <pubDate>Thu, 23 Aug 2018 22:02:55 +0200</pubDate>
     </item>
   </channel>
 </rss>
