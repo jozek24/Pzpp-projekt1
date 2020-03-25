@@ -10,7 +10,7 @@ namespace MediaReviewer.Tests.ModelTests
     public class ArticlesHelperTests
     {
         [Test]
-        public void GetArticles_WhenCalled_ReturnRootObject()
+        public void GetArticles_WhenCalled_ReturnRssChannelObject()
         {
             //Arrange
             var storage = new Mock<IArticlesStorage>();
@@ -33,13 +33,46 @@ namespace MediaReviewer.Tests.ModelTests
                     }
                 });
 
-            var articlesHelper = new ArticlesHelper("databaseName",storage.Object);
+            var articlesHelper = new ArticlesHelper("databaseName", storage.Object);
 
             //Act
             var result = articlesHelper.GetChannels();
 
             //Assert
             Assert.That(result.First().Articles.First().Title, Is.EqualTo("a"));
+        }
+
+        [Test]
+        public void GetArticles_WhenCalled_ReturnsAnyObject()
+        {
+            //Arrange
+            var storage = new Mock<IArticlesStorage>();
+            storage.Setup(s => s.LoadRecords<RssChannel>("RssChannel"))
+                .Returns(new List<RssChannel>
+                {new RssChannel()
+                    {
+                        Articles = new List<Article>()
+                        {
+                            new Article()
+                            {
+                                Title = "a"
+                            },
+                            new Article()
+                            {
+                                Title = "b"
+                            }
+                        }
+                    }
+                }
+                );
+
+            var articlesHelper = new ArticlesHelper("databaseName", storage.Object);
+
+            //Act
+            var result = articlesHelper.GetChannels();
+
+            //Assert
+            Assert.That(result.Count, Is.GreaterThan(0));
         }
     }
 }
