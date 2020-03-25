@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using MongoDB.Bson.Serialization.Attributes;
 
 namespace MediaReviewer.Model
@@ -6,8 +7,9 @@ namespace MediaReviewer.Model
 
     public class RssChannel
     {
-            public string Title { get; set; }
-            public string Link { get; set; }
-            public List<Article> Articles { get; set; }
+        [BsonId] public Guid Id { get; set; }
+        public string Title { get; set; }
+        public string Link { get; set; }
+        public List<Article> Articles { get; set; }
     }
 }

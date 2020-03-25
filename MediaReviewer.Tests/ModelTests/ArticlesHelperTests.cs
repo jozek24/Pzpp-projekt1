@@ -9,12 +9,13 @@ namespace MediaReviewer.Tests.ModelTests
     [TestFixture]
     public class ArticlesHelperTests
     {
-        [Test]
-        public void GetArticles_WhenCalled_ReturnRootObject()
+        private Mock<IArticlesStorage> _storage;
+
+        [SetUp]
+        public void SetUp()
         {
-            //Arrange
-            var storage = new Mock<IArticlesStorage>();
-            storage.Setup(s => s.LoadRecords<RssChannel>("RssChannel"))
+            _storage = new Mock<IArticlesStorage>();
+            _storage.Setup(s => s.LoadRecords<RssChannel>("RssChannel"))
                 .Returns(new List<RssChannel>
                 {new RssChannel()
                     {
@@ -32,14 +33,32 @@ namespace MediaReviewer.Tests.ModelTests
 
                     }
                 });
+        }
 
-            var articlesHelper = new ArticlesHelper("databaseName",storage.Object);
+        [Test]
+        public void GetArticles_WhenCalled_ReturnRssChannelObject()
+        {
+            //Arrange
+            var articlesHelper = new ArticlesHelper("databaseName", _storage.Object);
 
             //Act
             var result = articlesHelper.GetChannels();
 
             //Assert
             Assert.That(result.First().Articles.First().Title, Is.EqualTo("a"));
+        }
+
+        [Test]
+        public void GetArticles_WhenCalled_ReturnsAnyObject()
+        {
+            //Arrange
+            var articlesHelper = new ArticlesHelper("databaseName", _storage.Object);
+
+            //Act
+            var result = articlesHelper.GetChannels();
+
+            //Assert
+            Assert.That(result.Count, Is.GreaterThan(0));
         }
     }
 }

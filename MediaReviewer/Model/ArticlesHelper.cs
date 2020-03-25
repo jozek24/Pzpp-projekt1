@@ -11,7 +11,7 @@ namespace MediaReviewer.Model
         }
 
         /// <summary>
-        /// Returns List of objects from dataBase
+        /// Returns RssChannel list from dataBase.
         /// </summary>
         /// <returns></returns>
         public List<RssChannel> GetChannels()
