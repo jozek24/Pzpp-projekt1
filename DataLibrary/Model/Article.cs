@@ -37,5 +37,17 @@ namespace DataLibrary.Model
             }
             return articles;
         }
+
+        public Article GetArticle(Item item)
+        {
+            return new Article
+            {
+                Title = item.Title,
+                Link = item.Link,
+                HTML = _HTMLDataAccess.GetHTML(item.Link),
+                Category = item.Category,
+                PubDate = item.PubDate
+            };
+        }
     }
 }

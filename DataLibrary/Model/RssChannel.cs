@@ -1,5 +1,5 @@
-﻿using MongoDB.Bson;
-using MongoDB.Bson.Serialization.Attributes;
+﻿//using MongoDB.Bson;
+//using MongoDB.Bson.Serialization.Attributes;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,12 +12,12 @@ namespace DataLibrary.Model
     {
         private Article Article = new Article();
         //[BsonId] 
-        //public Guid Id { get; set; }
+        public System.Guid Id { get; set; }
         public string Title { get; set; }
         public string Link { get; set; }
         public List<Article> Articles { get; set; }
 
-        public List<RssChannel> GetRssChannelFromRootObject(List<RootObject> rootObjects)
+        public List<RssChannel> GetRssChannelFromRootObjects(List<RootObject> rootObjects)
         {
             List<RssChannel> rssChannels = new List<RssChannel>();
             foreach (var rootObject in rootObjects)
@@ -31,6 +31,16 @@ namespace DataLibrary.Model
                     });
             }
             return rssChannels;
+        }
+
+        public RssChannel GetRssChannelFromRootObjects(RootObject rootObject)
+        {
+            return new RssChannel 
+            { 
+                Title = rootObject.rss.Channel.Title, 
+                Link = rootObject.rss.Channel.Link, 
+                Articles = Article.GetArticles(rootObject) 
+            };
         }
     }
 }

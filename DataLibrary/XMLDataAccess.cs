@@ -17,12 +17,13 @@ namespace DataLibrary
 
         public XMLDataAccess()
         {
+
+            _HTMLDataAccess.GetFirstData();
             foreach (var url in _HTMLDataAccess.ListOfXMLURL)
             {
                 xmlDocuments.Add(new XmlDocument());
             }
-
-            xmlDocuments = GetListOfXmlDocument(_HTMLDataAccess.ListOfXMLURL);
+            XmlDocuments = GetListOfXmlDocument(_HTMLDataAccess.ListOfXMLURL);
         }
 
         public List<XmlDocument> GetListOfXmlDocument(List<string> urls)

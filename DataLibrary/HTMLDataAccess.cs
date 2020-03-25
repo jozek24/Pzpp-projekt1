@@ -14,6 +14,10 @@ namespace DataLibrary
         public List<string> ListOfXMLURL { get; set; }
         public HTMLDataAccess()
         {
+        }
+
+        public void GetFirstData()
+        {
             var html = GetHTML(Url);
             ListOfXMLURL = GetListOfXMLURL(html);
         }
