@@ -9,8 +9,9 @@ namespace DataLibrary
 {
    public  class Repository
     {
-        private JSONDataAccess jSONDataAccess = new JSONDataAccess();
-    
+        private IJSONDataAccess jSONDataAccess = new JSONDataAccess();
+        private RssChannel _rssChannel = new RssChannel();
+        private Article _article = new Article();
        
 		MongoCRUD db = new MongoCRUD("testowanieWDzien");//nazwa bazy
 		public Repository()
@@ -67,16 +68,34 @@ namespace DataLibrary
 		}
 
        
-        public void AddArticles()
+        public void AddArticles(RootObject rootObject)
         {
-            
+            foreach (var article in jSONDataAccess.RootObjects)
+            {
+                if (true)
+                {
+                    db.InsertRecord("Article", _article.GetArticle(article.rss.));
+                }
+            }
 
         }
-        public void AddRssChannels()
+        public void AddRssChannels(List<RssChannel>rssChannels)
         {
+            
+            foreach (var rootObject in jSONDataAccess.RootObjects)
+            {
+                if (!(rssChannels.FindAll(r=>r.Link.Equals(rootObject.rss.Channel.Link)).Any()))
+                {
+                    db.InsertRecord("RssChannel", _rssChannel.GetRssChannelFromRootObject(rootObject));
+                   
+                }
+                else
+                {
+                    AddArticles(rootObject);
 
-            var rssChannels = db.LoadRecords<RssChannel>("RssChannel");
-
+                }
+            }
+          
         }
 
 
