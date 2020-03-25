@@ -10,6 +10,17 @@ namespace DataLibrary
 {
     public class HTMLDataAccess : IHTMLDataAccess
     {
+        private string Url = "https://media2.pl/rss";
+        public List<string> ListOfXMLURL { get; set; }
+        public HTMLDataAccess()
+        {
+        }
+
+        public void GetFirstData()
+        {
+            var html = GetHTML(Url);
+            ListOfXMLURL = GetListOfXMLURL(html);
+        }
         public string GetHTML(string url)
         {
             using (WebClient client = new WebClient())
@@ -52,7 +63,14 @@ namespace DataLibrary
             if (match.Count == 0)
                 throw new ArgumentException("There is no match", "match");
 
-            match.Cast<Match>().ToList().ForEach(x => output.Add(x.Value));
+            match.Cast<Match>().ToList().ForEach(x =>
+                {
+                    if (!output.Contains(x.Value))
+                    {
+                        output.Add(x.Value);
+                    }
+                }
+            );
             return output;
         }
     }
