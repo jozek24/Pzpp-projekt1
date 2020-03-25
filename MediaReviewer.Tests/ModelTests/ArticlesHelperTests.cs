@@ -9,12 +9,13 @@ namespace MediaReviewer.Tests.ModelTests
     [TestFixture]
     public class ArticlesHelperTests
     {
-        [Test]
-        public void GetArticles_WhenCalled_ReturnRssChannelObject()
+        private Mock<IArticlesStorage> _storage;
+
+        [SetUp]
+        public void SetUp()
         {
-            //Arrange
-            var storage = new Mock<IArticlesStorage>();
-            storage.Setup(s => s.LoadRecords<RssChannel>("RssChannel"))
+            _storage = new Mock<IArticlesStorage>();
+            _storage.Setup(s => s.LoadRecords<RssChannel>("RssChannel"))
                 .Returns(new List<RssChannel>
                 {new RssChannel()
                     {
@@ -32,8 +33,13 @@ namespace MediaReviewer.Tests.ModelTests
 
                     }
                 });
+        }
 
-            var articlesHelper = new ArticlesHelper("databaseName", storage.Object);
+        [Test]
+        public void GetArticles_WhenCalled_ReturnRssChannelObject()
+        {
+            //Arrange
+            var articlesHelper = new ArticlesHelper("databaseName", _storage.Object);
 
             //Act
             var result = articlesHelper.GetChannels();
@@ -46,27 +52,7 @@ namespace MediaReviewer.Tests.ModelTests
         public void GetArticles_WhenCalled_ReturnsAnyObject()
         {
             //Arrange
-            var storage = new Mock<IArticlesStorage>();
-            storage.Setup(s => s.LoadRecords<RssChannel>("RssChannel"))
-                .Returns(new List<RssChannel>
-                {new RssChannel()
-                    {
-                        Articles = new List<Article>()
-                        {
-                            new Article()
-                            {
-                                Title = "a"
-                            },
-                            new Article()
-                            {
-                                Title = "b"
-                            }
-                        }
-                    }
-                }
-                );
-
-            var articlesHelper = new ArticlesHelper("databaseName", storage.Object);
+            var articlesHelper = new ArticlesHelper("databaseName", _storage.Object);
 
             //Act
             var result = articlesHelper.GetChannels();
