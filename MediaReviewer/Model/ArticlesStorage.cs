@@ -11,6 +11,7 @@ namespace MediaReviewer.Model
         {
             var client = new MongoClient();
             db = client.GetDatabase(databaseName);
+            
         }
 
         /// <summary>

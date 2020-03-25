@@ -14,40 +14,33 @@ namespace MediaReviewer.Tests.ModelTests
         {
             //Arrange
             var storage = new Mock<IArticlesStorage>();
-            storage.Setup(s => s.LoadRecords<RootObject>("RootObject"))
-                .Returns(new List<RootObject>
-                {
-                    new RootObject
+            storage.Setup(s => s.LoadRecords<RssChannel>("RssChannel"))
+                .Returns(new List<RssChannel>
+                {new RssChannel()
                     {
-                        Rss = new Rss
+                        Articles = new List<Article>()
                         {
-                            Channel = new Channel
+                            new Article()
                             {
-                                Item = new List<Item>
-                                {
-                                    new Item
-                                    {
-                                        Title = "a",
-                                        HTML = new HTML
-                                        {
-                                            Text = "b"
-                                        },
-                                        Link = "c",
-                                        PubDate = "d",
-                                        }
-                                }
+                                Title = "a"
+                            },
+                            new Article()
+                            {
+                                Title = "b"
                             }
-                        }
+                        },
+
                     }
                 });
 
             var articlesHelper = new ArticlesHelper("databaseName",storage.Object);
 
             //Act
-            var result = articlesHelper.GetArticles();
+            var result = articlesHelper.GetChannels();
 
             //Assert
-            Assert.That(result.First().Rss.Channel.Item.First().Title, Is.EqualTo("a"));
+            Assert.That(result.First().Articles.First().Title, Is.EqualTo("a"));
         }
     }
 }
+
