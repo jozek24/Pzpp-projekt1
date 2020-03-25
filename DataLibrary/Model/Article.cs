@@ -8,6 +8,8 @@ namespace DataLibrary.Model
 {
     public class Article
     {
+        private IHTMLDataAccess _HTMLDataAccess = new HTMLDataAccess();
+
         public string Title { get; set; }
         public string Link { get; set; }
 
@@ -16,5 +18,36 @@ namespace DataLibrary.Model
         public List<string> Category { get; set; }
 
         public string PubDate { get; set; }
+
+
+        public List<Article> GetArticles(RootObject rootObject)
+        {
+            List<Article> articles = new List<Article>();
+            foreach (var item in rootObject.rss.Channel.Item)
+            {
+                articles.Add(
+                    new Article 
+                    { 
+                        Title = item.Title, 
+                        Link = item.Link, 
+                        HTML = _HTMLDataAccess.GetHTML(item.Link), 
+                        Category = item.Category, 
+                        PubDate = item.PubDate 
+                    });
+            }
+            return articles;
+        }
+
+        public Article GetArticle(Item item)
+        {
+            return new Article
+            {
+                Title = item.Title,
+                Link = item.Link,
+                HTML = _HTMLDataAccess.GetHTML(item.Link),
+                Category = item.Category,
+                PubDate = item.PubDate
+            };
+        }
     }
 }
