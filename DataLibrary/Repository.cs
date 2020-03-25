@@ -9,14 +9,19 @@ namespace DataLibrary
 {
    public  class Repository
     {
+        private JSONDataAccess jSONDataAccess = new JSONDataAccess();
+    
+       
 		MongoCRUD db = new MongoCRUD("testowanieWDzien");//nazwa bazy
 		public Repository()
 		{
+            List<RootObject> root = jSONDataAccess.DeserializeJSONToList(new List<string>());
             List<RssChannel> rssChannel = new List<RssChannel>();
             rssChannel.Add(new RssChannel()
             {
-                Title = "tytuł art 1",
+                Title = root[0].rss.Channel.Title,
                 Link = "dfjkldjlf",
+
                 Articles = new List<Article>
                 {
                     new Article
