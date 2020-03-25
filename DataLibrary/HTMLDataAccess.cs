@@ -10,6 +10,13 @@ namespace DataLibrary
 {
     public class HTMLDataAccess : IHTMLDataAccess
     {
+        private string Url = "https://media2.pl/rss";
+        public List<string> ListOfXMLURL { get; set; }
+        public HTMLDataAccess()
+        {
+            var html = GetHTML(Url);
+            ListOfXMLURL = GetListOfXMLURL(html);
+        }
         public string GetHTML(string url)
         {
             using (WebClient client = new WebClient())

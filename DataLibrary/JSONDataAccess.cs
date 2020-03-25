@@ -11,6 +11,17 @@ namespace DataLibrary
 {
     public class JSONDataAccess : IJSONDataAccess
     {
+        private XMLDataAccess _XMLDataAccess = new XMLDataAccess();
+        private RssChannel RssChannel = new RssChannel();
+
+        public List<RssChannel> RssChannels { get; set; }
+        public JSONDataAccess()
+        {
+            var serialize = SerializeXMLToJSONlist(_XMLDataAccess.XmlDocuments);
+            var rootObjects = DeserializeJSONToList(serialize);
+            RssChannels = RssChannel.GetRssChannelFromRootObject(rootObjects);
+        }
+
         public List<RootObject> DeserializeJSONToList(List<string> json)
         {
             return json.Select(x => JsonConvert.DeserializeObject<RootObject>(x)).ToList();
