@@ -35,14 +35,15 @@ namespace DataLibrary.Model
             return rssChannels;
         }
 
-        public RssChannel GetRssChannelFromRootObjects(RootObject rootObject)
+        public List< RssChannel>  GetRssChannelFromRootObject(RootObject rootObject)
         {
-            return new RssChannel 
-            { 
-                Title = rootObject.rss.Channel.Title, 
-                Link = rootObject.rss.Channel.Link, 
-                Articles = Article.GetArticles(rootObject) 
-            };
+            return new List<RssChannel>{new RssChannel
+            {
+                Title = rootObject.rss.Channel.Title,
+                Link = rootObject.rss.Channel.Link,
+                Articles = Article.GetArticles(rootObject)
+            }};
+            
         }
     }
 }
