@@ -12,11 +12,12 @@ namespace DataLibrary.Tests
     {
         private IXMLDataAccess _XMLDataAccess = new XMLDataAccess();
         private IJSONDataAccess _JSONDataAccess = new JSONDataAccess();
-        
+        private string Path = @"D:\Pzpp\Projekt 1\DataLibrary.Tests\TestObjects\Boks.xml";
+
         [Fact]
         public void GetListOfXmlDocument_IsValid()
         {
-            var result = XmlDocuments(@"D:\Pzpp\Projekt 1\DataLibrary.Tests\TestObjects\Boks.xml");
+            var result = XmlDocuments(Path);
 
             List<string> actual = _JSONDataAccess.SerializeXMLToJSONlist(result);
 
@@ -38,6 +39,16 @@ namespace DataLibrary.Tests
             xmlDocuments.Add(new XmlDocument());
             xmlDocuments[0].Load(path);
             return xmlDocuments;
+        }
+
+        [Fact]
+        public void DeserializeJSONToList_IsValid()
+        {
+            List<string> result = _JSONDataAccess.SerializeXMLToJSONlist(XmlDocuments(Path));
+
+            var actual = _JSONDataAccess.DeserializeJSONToList(result);
+
+            Assert.True(actual.Count > 0);
         }
     }
 }
