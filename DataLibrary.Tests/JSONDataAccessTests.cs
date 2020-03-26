@@ -16,12 +16,28 @@ namespace DataLibrary.Tests
         [Fact]
         public void GetListOfXmlDocument_IsValid()
         {
+            var result = XmlDocuments(@"D:\Pzpp\Projekt 1\DataLibrary.Tests\TestObjects\Boks.xml");
+
+            List<string> actual = _JSONDataAccess.SerializeXMLToJSONlist(result);
+
+            Assert.True(actual.Count > 0);
+        }
+
+        [Theory]
+        [InlineData("xmls")]
+        public void GetMatchCollection_Invalid(string param)
+        {
+            List<XmlDocument> result = new List<XmlDocument>();
+
+            Assert.Throws<ArgumentException>(param, () => _JSONDataAccess.SerializeXMLToJSONlist(result));
+        }
+
+        public List<XmlDocument> XmlDocuments(string path)
+        {
             List<XmlDocument> xmlDocuments = new List<XmlDocument>();
             xmlDocuments.Add(new XmlDocument());
-            xmlDocuments[0].Load(@"D:\Pzpp\Projekt 1\DataLibrary.Tests\TestObjects\Boks.xml");
-
-            List<string> actual = _JSONDataAccess.SerializeXMLToJSONlist(xmlDocuments);
-            Assert.True(actual.Count > 0);
+            xmlDocuments[0].Load(path);
+            return xmlDocuments;
         }
     }
 }
