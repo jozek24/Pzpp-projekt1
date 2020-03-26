@@ -22,9 +22,6 @@ namespace DataLibrary
             var channelsfromdatabase = db.LoadRecords<RssChannel>("RssChannel");
 
             AddNewRssChannels(channelsfromdatabase);
-            
-
-
 		}
      
 
@@ -68,11 +65,6 @@ namespace DataLibrary
                     }
                 }
             }
-
-
         }
-
-
-
     }
 }
