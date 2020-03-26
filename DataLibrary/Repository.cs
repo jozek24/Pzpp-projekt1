@@ -44,7 +44,7 @@ namespace DataLibrary
             var channelsfromdatabase = db.LoadRecords<RssChannel>("RssChannel");
 
             AddNewRssChannels(channelsfromdatabase);
-            Console.WriteLine("Hello Tomasz piwko");
+            Console.WriteLine("Hello  ");
         }
 
 
