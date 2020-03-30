@@ -81,6 +81,8 @@
     <Compile Include="HTMLDataAccess.cs" />
     <Compile Include="Interfaces\IHTMLDataAccess.cs" />
     <Compile Include="Interfaces\IJSONDataAccess.cs" />
+    <Compile Include="Interfaces\IMongoCRUD.cs" />
+    <Compile Include="Interfaces\IRepository.cs" />
     <Compile Include="Interfaces\IXMLDataAccess.cs" />
     <Compile Include="JSONDataAccess.cs" />
     <Compile Include="Model\Article.cs" />
