@@ -11,12 +11,19 @@ namespace DataLibrary
     {
         private List<XmlDocument> xmlDocuments = new List<XmlDocument>();
 
-        public XMLDataAccess(List<string> urls)
+        IHTMLDataAccess _HTMLDataAccess = new HTMLDataAccess();
+
+        public List<XmlDocument> XmlDocuments { get; set; }
+
+        public XMLDataAccess()
         {
-            foreach (var url in urls)
+
+            _HTMLDataAccess.GetFirstData();
+            foreach (var url in _HTMLDataAccess.ListOfXMLURL)
             {
                 xmlDocuments.Add(new XmlDocument());
             }
+            XmlDocuments = GetListOfXmlDocument(_HTMLDataAccess.ListOfXMLURL);
         }
 
         public List<XmlDocument> GetListOfXmlDocument(List<string> urls)

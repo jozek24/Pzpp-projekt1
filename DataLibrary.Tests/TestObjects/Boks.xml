@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Media2.pl - boks</title>
+    <link>https://media2.pl/tag/boks</link>
+    <description>WiadomoĹci w tagu boks</description>
+    <language>pl</language>
+    <pubDate>Wed, 25 Mar 2020 15:35:44 +0100</pubDate>
+    <webMaster>b.kucharczyk@kreativ.pl (BartĹomiej Kucharczyk)</webMaster>
+    <docs>http://feedvalidator.org/docs/rss2.html</docs>
+    <ttl>15</ttl>
+    <image>
+      <title>Media2.pl - boks</title>
+      <url>https://media2.pl/res/logo/rss.png</url>
+      <link>https://media2.pl/tag/boks</link>
+      <width>154</width>
+      <height>40</height>
+    </image>
+    <item>
+      <title>Walki Kownackiego, JÄdrzejczyk i Brodnickiej - piÄĹciarski weekend w Polsacie Sport</title>
+      <link>https://media2.pl/media/160479-Walki-Kownackiego-Jedrzejczyk-i-Brodnickiej-piesciarski-weekend-w-Polsacie-Sport.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</link>
+      <comments>https://media2.pl/media/160479-Walki-Kownackiego-Jedrzejczyk-i-Brodnickiej-piesciarski-weekend-w-Polsacie-Sport.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</comments>
+      <guid isPermaLink="true">https://media2.pl/l/n/160479</guid>
+      <category>Media</category>
+      <category>koszykĂłwka</category>
+      <category>piĹka noĹźna</category>
+      <category>sport</category>
+      <category>Polsat Sport</category>
+      <category>boks</category>
+      <category>siatkĂłwka</category>
+      <category>MMA</category>
+      <category>1 Liga</category>
+      <category>UFC</category>
+      <description>
+        <![CDATA[<a href="https://media2.pl/media/160479-Walki-Kownackiego-Jedrzejczyk-i-Brodnickiej-piesciarski-weekend-w-Polsacie-Sport.html#utm_source=rss&utm_campaign=rss&utm_medium=link"><img src="https://media2.pl/g/rss/70415.jpg" alt="" title="" style="float:right;margin-left:10px;border:1px dotted #CCC;padding:3px" /></a>Weekend na sportowych antenach Polsatu zapowiada siÄ emocjonujÄ
+co miĹoĹnikĂłw sportĂłw walki.]]>
+      </description>
+      <pubDate>Fri, 06 Mar 2020 11:09:11 +0100</pubDate>
+    </item>
+  </channel>
+</rss>

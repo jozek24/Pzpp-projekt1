@@ -11,14 +11,24 @@ namespace DataLibrary
 {
     public class JSONDataAccess : IJSONDataAccess
     {
+        private IXMLDataAccess _XMLDataAccess = new XMLDataAccess();
+
+        public List<RootObject> RootObjects { get; set; }
+
+        public JSONDataAccess()
+        {
+            var serialize = SerializeXMLToJSONlist(_XMLDataAccess.XmlDocuments);
+            RootObjects = DeserializeJSONToList(serialize);
+        }
+
         public List<RootObject> DeserializeJSONToList(List<string> json)
         {
             return json.Select(x => JsonConvert.DeserializeObject<RootObject>(x)).ToList();
         }
 
-        public List<string> SerializeXMLToJSONlist(List<XmlDocument> xml)
+        public List<string> SerializeXMLToJSONlist(List<XmlDocument> xmls)
         {
-            return xml.Select(x => $"{JsonConvert.SerializeXmlNode(x)}").ToList();
+            return xmls.Select(x => $"{JsonConvert.SerializeXmlNode(x)}").ToList();
         }
     }
 }

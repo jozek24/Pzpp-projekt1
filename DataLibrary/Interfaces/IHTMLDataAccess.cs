@@ -9,6 +9,8 @@ namespace DataLibrary
 {
     public interface IHTMLDataAccess
     {
+        void GetFirstData();
+        List<string> ListOfXMLURL { get; set; }
         string GetHTML(string url);
         List<string> GetListOfXMLURL(string html);
         MatchCollection GetMatchCollection(string html);
