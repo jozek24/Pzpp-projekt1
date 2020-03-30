@@ -44,6 +44,7 @@ namespace MediaReviewer
                 newBtnCh.Name = "ButtonChannel" + i.ToString();
                 newBtnCh.Content = i + 1 + ". " + ChannelsList[i].Title;
                 newBtnCh.Click += ChannelButtons;
+                
                 TitleView.Children.Add(newBtnCh);
             }
         }
@@ -53,7 +54,7 @@ namespace MediaReviewer
         {
 
 
-            System.Threading.Thread.Sleep(100);
+           
             Button b = (Button)sender;
             string count = b.Content.ToString();
             string[] count1 = count.Split(new char[] { '.' });
@@ -62,7 +63,7 @@ namespace MediaReviewer
 
             Int32.TryParse(count, out chanNum);
             ArtView.Children.Clear();
-            System.Threading.Thread.Sleep(1000);
+            
             for (int i = 0; i < ChannelsList[chanNum - 1].Articles.Count; i++)
             {
                 ArticlesList = ChannelsList[chanNum - 1].Articles;
@@ -88,7 +89,7 @@ namespace MediaReviewer
             List<String> CategoryList = new List<string>(ArticlesList[artNum - 1].Category);
 
             ArticleBody.Text = ArticlesList[artNum - 1].HTML;
-            Stopka.Content = ArticlesList[artNum - 1].PubDate;
+            Stopka.Content = "Publication Date: " + ArticlesList[artNum - 1].PubDate;
             foreach (var item in CategoryList)
             {
                 CategoryView.Items.Add(item);
