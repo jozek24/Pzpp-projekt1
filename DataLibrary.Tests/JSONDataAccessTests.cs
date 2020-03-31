@@ -17,7 +17,7 @@ namespace DataLibrary.Tests
         [Fact]
         public void GetListOfXmlDocument_IsValid()
         {
-            var result = XmlDocuments(Path);
+            var result = XMLMethods.XmlDocuments(Path);
 
             List<string> actual = _JSONDataAccess.SerializeXMLToJSONlist(result);
 
@@ -33,22 +33,34 @@ namespace DataLibrary.Tests
             Assert.Throws<ArgumentException>(param, () => _JSONDataAccess.SerializeXMLToJSONlist(result));
         }
 
-        public List<XmlDocument> XmlDocuments(string path)
-        {
-            List<XmlDocument> xmlDocuments = new List<XmlDocument>();
-            xmlDocuments.Add(new XmlDocument());
-            xmlDocuments[0].Load(path);
-            return xmlDocuments;
-        }
-
         [Fact]
         public void DeserializeJSONToList_IsValid()
         {
-            List<string> result = _JSONDataAccess.SerializeXMLToJSONlist(XmlDocuments(Path));
+            List<string> result = _JSONDataAccess.SerializeXMLToJSONlist(XMLMethods.XmlDocuments(Path));
 
             var actual = _JSONDataAccess.DeserializeJSONToList(result);
 
             Assert.True(actual.Count > 0);
         }
+
+        [Theory]
+        [InlineData("jsons")]
+        public void DeserializeJSONToList_Invalid(string param)
+        {
+            List<string> result = new List<string>();
+
+            Assert.Throws<ArgumentException>(param, () => _JSONDataAccess.DeserializeJSONToList(result));
+        }
+
+        //[Theory]
+        //[InlineData("jsons")]
+        //public void DeseriazlizeJSONToList_InvalidJSON(string param)
+        //{
+        //    string path = @"D:\Pzpp\Projekt 1\DataLibrary.Tests\TestObjects\Invalid.xml";
+
+        //    List<string> result = _JSONDataAccess.SerializeXMLToJSONlist(XMLMethods.XmlDocuments(path));
+
+        //    Assert.Throws<ArgumentException>(param, () => _JSONDataAccess.DeserializeJSONToList(result));
+        //}
     }
 }

@@ -23,7 +23,19 @@ namespace DataLibrary
 
         public List<RootObject> DeserializeJSONToList(List<string> json)
         {
-            return json.Select(x => JsonConvert.DeserializeObject<RootObject>(x)).ToList();
+            if (json.Count > 0)
+            {
+                try
+                {
+                    return json.Select(x => JsonConvert.DeserializeObject<RootObject>(x)).ToList();
+                }
+                catch (Exception)
+                {
+                    throw new ArgumentException("You passed invalid JSONs for deserialize", "jsons");
+                }
+            }
+
+            throw new ArgumentException("You pasted empty list of JSON", "jsons");
         }
 
         public List<string> SerializeXMLToJSONlist(List<XmlDocument> xmls)
