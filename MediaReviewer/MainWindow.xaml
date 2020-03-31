@@ -23,9 +23,9 @@
     </Controls:MetroWindow.Resources>
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="*" MinWidth="90"/>
-            <ColumnDefinition Width="*" MinWidth="90"/>
-            <ColumnDefinition Width=" 4*" MinWidth="550"/>
+            <ColumnDefinition Width="*" MinWidth="150"/>
+            <ColumnDefinition Width="*" MinWidth="150"/>
+            <ColumnDefinition Width=" 4*" MinWidth="500"/>
         </Grid.ColumnDefinitions >
         <Grid.RowDefinitions>
             <RowDefinition Height="2*"/>
@@ -37,7 +37,7 @@
         </ScrollViewer>
         <GridSplitter Grid.Column="0" Grid.Row="0" Width="3" Background="#A6A29C "></GridSplitter>
         <StackPanel Grid.Column="0" Grid.Row="0" Margin="7">
-            <Button Style="{StaticResource AccentedSquareButtonStyle}" Command="{Binding RefreschCommand}" Content="Refresch"></Button>
+            <Button Style="{StaticResource AccentedSquareButtonStyle}" Command="{Binding RefreschCommand}" Content="Refresch" ></Button>
             
         </StackPanel>
        

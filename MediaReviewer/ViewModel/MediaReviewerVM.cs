@@ -53,7 +53,7 @@ namespace MediaReviewer.ViewModel
 
         private void AddArticleButton(RssChannel rssChannel )
         {
-         
+            Articles.Clear();
             foreach (var item in rssChannel.Articles)
             {
                 Articles.Add(item);
