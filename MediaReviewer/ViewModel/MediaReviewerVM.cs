@@ -14,6 +14,7 @@ namespace MediaReviewer.ViewModel
     class MediaReviewerVM : BindableBase
     {
         private ObservableCollection<RssChannel> _rssChannels = new ObservableCollection<RssChannel>();
+        
 
 
         public ObservableCollection<RssChannel> RssChannels
@@ -26,18 +27,29 @@ namespace MediaReviewer.ViewModel
 
             }
         }
-        private List<RssChannel> _rssChannelsList = new List<RssChannel>();
-        public List<RssChannel> RssChannelsList
-        {
+        //private List<RssChannel> _rssChannelsList = new List<RssChannel>();
+        //public List<RssChannel> RssChannelsList
+        //{
 
-            get => _rssChannelsList;
+        //    get => _rssChannelsList;
+        //    set
+        //    {
+        //        SetProperty(ref _rssChannelsList, value);
+
+        //    }
+
+        //}
+        private ObservableCollection<Article> _article = new ObservableCollection<Article>();
+        public ObservableCollection<Article> Articles
+        {
+            get => _article;
             set
             {
-                SetProperty(ref _rssChannelsList, value);
-
+                SetProperty(ref _article, value);
             }
-
         }
+       
+
         public ICommand RefreschCommand
         {
             get;
@@ -45,22 +57,35 @@ namespace MediaReviewer.ViewModel
         public MediaReviewerVM()
         {
             RefreschCommand = new DelegateCommand(RefreschListOfChannels);
+            AddArticleCommand = new DelegateCommand(AddArticleButton);
           
+        }
+
+        private void AddArticleButton()
+        {
+           
         }
 
         private void RefreschListOfChannels()
         {
-            RssChannels.Clear();
-            RssChannelsList.Clear();
-            var articlesHelper = new ArticlesHelper("NowaBaza");
+          List<RssChannel>rssChannelsList = new List<RssChannel>();
+          RssChannels.Clear();
             
-            RssChannelsList = articlesHelper.GetChannels();
-            foreach (var item in RssChannelsList)
+            var articlesHelper = new ArticlesHelper("NowaBaza");
+
+            rssChannelsList = articlesHelper.GetChannels();
+            foreach (var item in rssChannelsList)
             {
                 RssChannels.Add(item);
             }
           
         }
 
+
+        public ICommand AddArticleCommand
+        {
+            get;
+        }
+       
     }
 }

@@ -46,7 +46,7 @@
                 <ItemsControl ItemsSource="{Binding RssChannels}">
                     <ItemsControl.ItemTemplate>
                         <DataTemplate>
-                            <Button Content="{Binding Title}"/>
+                            <Button Content="{Binding Title}" Command="{Binding AddArticleCommand}"/>
                         </DataTemplate>
                     </ItemsControl.ItemTemplate>
                 </ItemsControl>
