@@ -30,6 +30,7 @@ namespace MediaReviewer
         public MainWindow()
         {
             InitializeComponent();
+            DataContext = new MediaReviewerVM();
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
@@ -51,10 +52,7 @@ namespace MediaReviewer
 
 
         private void ChannelButtons(object sender, RoutedEventArgs e)
-        {
-
-
-           
+        {     
             Button b = (Button)sender;
             string count = b.Content.ToString();
             string[] count1 = count.Split(new char[] { '.' });
@@ -72,6 +70,7 @@ namespace MediaReviewer
                 newBtnArt.Content = i + 1 + ". " + ArticlesList[i].Title;
                 newBtnArt.Click += ArticleButton;
                 ArtView.Children.Add(newBtnArt);
+                
             }
 
         }
@@ -94,7 +93,17 @@ namespace MediaReviewer
             {
                 CategoryView.Items.Add(item);
             }
+            foreach (var item in CategoryList)
+            {
+                CategoryListing.Items.Add(item);
+            }
 
+        }
+        public void selectArticleByCategory()
+        {
+            string category;
+            category = CategoryListing.SelectedItem.ToString();
+           
         }
     }
 

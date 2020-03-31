@@ -37,12 +37,19 @@
         </ScrollViewer>
         <GridSplitter Grid.Column="0" Grid.Row="0" Width="3" Background="#A6A29C "></GridSplitter>
         <StackPanel Grid.Column="0" Grid.Row="0" Margin="7">
-            <Button Style="{StaticResource AccentedSquareButtonStyle}" Click="Button_Click">Refresch</Button>
+            <Button Style="{StaticResource AccentedSquareButtonStyle}" Command="{Binding RefreschCommand}" Content="Refresch"></Button>
+            
         </StackPanel>
        
         <ScrollViewer Grid.Row="1" Grid.Column="0" VerticalScrollBarVisibility="Auto" >
             <StackPanel  x:Name="TitleView">
-                
+                <ItemsControl ItemsSource="{Binding RssChannels}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <Button Content="{Binding Title}"/>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
             </StackPanel>
         </ScrollViewer>
         <GridSplitter Grid.Column="1" Grid.Row="1" Width="3" Background="#A6A29C "></GridSplitter>
@@ -54,6 +61,8 @@
         </ComboBox>
       
         <Label Grid.Row="0" Grid.Column="1"  Content="Kategoria: "/>
+        <ComboBox Grid.Row="0" Grid.Column="1" x:Name="CategoryListing" IsEditable="True" >
+        </ComboBox>
         <Label Grid.Row="2"  Background="#0BC6E9"  Grid.Column ="2" x:Name="Stopka" Content="Publication Date:"/>
 
     </Grid>
