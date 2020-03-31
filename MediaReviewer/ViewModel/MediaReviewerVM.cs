@@ -27,19 +27,8 @@ namespace MediaReviewer.ViewModel
 
             }
         }
-        //private List<RssChannel> _rssChannelsList = new List<RssChannel>();
-        //public List<RssChannel> RssChannelsList
-        //{
-
-        //    get => _rssChannelsList;
-        //    set
-        //    {
-        //        SetProperty(ref _rssChannelsList, value);
-
-        //    }
-
-        //}
-        private ObservableCollection<Article> _article = new ObservableCollection<Article>();
+     
+      private ObservableCollection<Article> _article = new ObservableCollection<Article>();
         public ObservableCollection<Article> Articles
         {
             get => _article;
@@ -48,7 +37,7 @@ namespace MediaReviewer.ViewModel
                 SetProperty(ref _article, value);
             }
         }
-       
+
 
         public ICommand RefreschCommand
         {
@@ -57,13 +46,18 @@ namespace MediaReviewer.ViewModel
         public MediaReviewerVM()
         {
             RefreschCommand = new DelegateCommand(RefreschListOfChannels);
-            AddArticleCommand = new DelegateCommand(AddArticleButton);
-          
+            AddArticleCommand = new DelegateCommand<RssChannel>(AddArticleButton);
+
+
         }
 
-        private void AddArticleButton()
+        private void AddArticleButton(RssChannel rssChannel )
         {
-           
+         
+            foreach (var item in rssChannel.Articles)
+            {
+                Articles.Add(item);
+            }
         }
 
         private void RefreschListOfChannels()
@@ -85,6 +79,7 @@ namespace MediaReviewer.ViewModel
         public ICommand AddArticleCommand
         {
             get;
+            private set;
         }
        
     }

@@ -46,7 +46,9 @@
                 <ItemsControl ItemsSource="{Binding RssChannels}">
                     <ItemsControl.ItemTemplate>
                         <DataTemplate>
-                            <Button Content="{Binding Title}" Command="{Binding AddArticleCommand}"/>
+                            <Button CommandParameter= "{Binding }" Content="{Binding Title}" Command="{Binding 
+    RelativeSource={RelativeSource AncestorType={x:Type ItemsControl}}, 
+    Path=DataContext.AddArticleCommand}"/>
                         </DataTemplate>
                     </ItemsControl.ItemTemplate>
                 </ItemsControl>
@@ -55,6 +57,15 @@
         <GridSplitter Grid.Column="1" Grid.Row="1" Width="3" Background="#A6A29C "></GridSplitter>
         <ScrollViewer Grid.Row="1" Grid.Column="1" VerticalScrollBarVisibility="Auto">
             <StackPanel x:Name="ArtView" Grid.Column="1" Grid.Row="1" Margin="7">
+                <ItemsControl ItemsSource="{Binding Articles}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <Button CommandParameter= "{Binding }" Content="{Binding Title}" Command="{Binding 
+    RelativeSource={RelativeSource AncestorType={x:Type ItemsControl}}, 
+    Path=DataContext.ShowTextCommand}"/>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
             </StackPanel>
         </ScrollViewer>
         <ComboBox Grid.Row="0" Grid.Column="2" x:Name="CategoryView"  >
