@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using MahApps.Metro.Controls;
+using MediaReviewer.Model;
 using MediaReviewer.ViewModel;
 
 namespace MediaReviewer
@@ -33,11 +34,10 @@ namespace MediaReviewer
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            for (int i = 0; i < 10; i++)
-            {
-                RssChannel rssobj = new RssChannel();
-                ChannelsList.Add(rssobj);
-            }
+            ChannelsList.Clear();
+            TitleView.Children.Clear();
+            var articlesHelper = new ArticlesHelper("NowaBaza");
+            ChannelsList =  articlesHelper.GetChannels();
             for (int i = 0; i < ChannelsList.Count; i++)
             {
                 System.Windows.Controls.Button newBtnCh = new Button();
