@@ -27,8 +27,8 @@ namespace DataLibrary
             {
                 try
                 {
-                    string htmlCode = client.DownloadString(url);
-                    return htmlCode;
+                    var htmlData = client.DownloadData(url);
+                    return Encoding.UTF8.GetString(htmlData);
                 }
                 catch (WebException)
                 {
@@ -73,6 +73,6 @@ namespace DataLibrary
             );
             return output;
         }
-        
+
     }
 }
