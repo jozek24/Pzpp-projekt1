@@ -106,18 +106,7 @@ namespace MediaReviewer
            
         }
 
-        private void Button_Click_1(object sender, RoutedEventArgs e)
-        {
-            if(ArticleDisplay.SelectedIndex != 0)
-            ArticleDisplay.SelectedIndex--;
-
-        }
-
-        private void Button_Click_2(object sender, RoutedEventArgs e)
-        {
-            if (ArticleDisplay.SelectedIndex != ArticleDisplay.Items.Count)
-                ArticleDisplay.SelectedIndex++; 
-        }
+       
     }
 
 }

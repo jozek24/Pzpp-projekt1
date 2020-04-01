@@ -58,17 +58,20 @@
        
         <Label Grid.Row="0" Grid.Column="1"  Content="Kategoria: "/>
         <StackPanel Grid.Row="0" Grid.Column="1">
-            <ComboBox  x:Name="ArticleDisplay" IsEditable="True"                   
+            <ComboBox  x:Name="ArticleDisplay" IsEditable="True"    
+                      Controls:TextBoxHelper.Watermark="List of articles"
+                
                    ItemsSource="{Binding Path=Articles}"    
-                  SelectedItem="{Binding Path= SelectedArticle }"   
-                  
+                  SelectedItem="{Binding Path= SelectedArticle }"    
+                  SelectedIndex="{Binding Path=DefaultArticle}"
+
                   DisplayMemberPath="Title">
                
             </ComboBox>
             <StackPanel  Orientation="Horizontal" HorizontalAlignment="Center">
 
-                <Button  Content="Previous" Margin="10,0,0,0"  Click="Button_Click_1"/>
-                <Button  Content="Next" Margin="10,0,0,0"  Click="Button_Click_2" />
+                <Button  Content="Previous" Margin="10,0,0,0"  Command="{Binding PreviousArticleCommand}" />
+                <Button  Content="Next" Margin="10,0,0,0"  Command="{Binding NextArticleCommand}" />
 
             </StackPanel>
         </StackPanel>
@@ -79,7 +82,7 @@
             </StackPanel>
         </ScrollViewer>
 
-        <Label Grid.Row="2"  Background="#0BC6E9"  Grid.Column ="1" x:Name="Stopka2" Content="Publication Date:"/>
-        <Label Grid.Row="2"  Background="#0BC6E9"  Grid.Column ="0" x:Name="Stopka1" Content=" Articles"/>
+        <TextBlock Grid.Row="2"  Background="#0BC6E9"  Grid.Column ="1" x:Name="Stopka2" Text="{Binding PublicationDate}"/>
+        <TextBlock Grid.Row="2"  Background="#0BC6E9"  Grid.Column ="0" x:Name="Stopka1" Text="{Binding CountOfArticle}"/>
     </Grid>
 </Controls:MetroWindow>
