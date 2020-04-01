@@ -13,6 +13,7 @@ namespace MediaReviewer.ViewModel
 {
     class MediaReviewerVM : BindableBase
     {
+     
         private ObservableCollection<RssChannel> _rssChannels = new ObservableCollection<RssChannel>();
         
 
@@ -37,9 +38,34 @@ namespace MediaReviewer.ViewModel
                 SetProperty(ref _article, value);
             }
         }
+        private string _htmlText = "LOlolol";
+        public string HtmlText
+        {
+            get => _htmlText;
+
+            set
+            {
+                SetProperty(ref _htmlText, value);
+            }
+        }
+        private Article _selectedArticle;
+        public Article SelectedArticle
+        {
+            get => _selectedArticle;
+            set 
+            {
+                SetProperty(ref _selectedArticle, value);
+                DisplayArticleText();
+            }
+        }
+
 
 
         public ICommand RefreschCommand
+        {
+            get;
+        }
+        public ICommand ShowTextCommand
         {
             get;
         }
@@ -47,8 +73,15 @@ namespace MediaReviewer.ViewModel
         {
             RefreschCommand = new DelegateCommand(RefreschListOfChannels);
             AddArticleCommand = new DelegateCommand<RssChannel>(AddArticleButton);
+            ShowTextCommand = new DelegateCommand(DisplayArticleText);
 
 
+
+        }
+
+        private void DisplayArticleText()
+        {
+           HtmlText = SelectedArticle.HTML;
         }
 
         private void AddArticleButton(RssChannel rssChannel )
@@ -62,8 +95,8 @@ namespace MediaReviewer.ViewModel
 
         private void RefreschListOfChannels()
         {
-          List<RssChannel>rssChannelsList = new List<RssChannel>();
-          RssChannels.Clear();
+            List<RssChannel> rssChannelsList = new List<RssChannel>();
+            RssChannels.Clear();
             
             var articlesHelper = new ArticlesHelper("NowaBaza");
 

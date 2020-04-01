@@ -28,8 +28,8 @@
             
         </Grid.ColumnDefinitions >
         <Grid.RowDefinitions>
-            <RowDefinition Height="2*"/>
-            <RowDefinition Height="20*"/>
+            <RowDefinition Height="2.5*"/>
+            <RowDefinition Height="18*"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
         <ScrollViewer Grid.Row="1" Grid.Column="1" VerticalScrollBarVisibility="Auto">
@@ -55,25 +55,32 @@
             </StackPanel>
         </ScrollViewer>
         <GridSplitter Grid.Column="1" Grid.Row="1" Width="3" Background="#A6A29C "></GridSplitter>
+       
+        <Label Grid.Row="0" Grid.Column="1"  Content="Kategoria: "/>
+        <StackPanel Grid.Row="0" Grid.Column="1">
+            <ComboBox  IsEditable="True"                   
+                   ItemsSource="{Binding Path=Articles}"    
+                  SelectedItem="{Binding Path= SelectedArticle }"   
+                  
+                  DisplayMemberPath="Title">
+               
+            </ComboBox>
+            <StackPanel  Orientation="Horizontal" HorizontalAlignment="Center">
+                
+                <Button Content="Previous" Margin="10,0,0,0"/>
+                <Button Content="Next" Margin="10,0,0,0"/>
+                
+            </StackPanel>
+        </StackPanel>
         <ScrollViewer Grid.Row="1" Grid.Column="1" VerticalScrollBarVisibility="Auto">
             <StackPanel x:Name="ArtView" Grid.Column="1" Grid.Row="1" Margin="7">
-                <ItemsControl ItemsSource="{Binding Articles}">
-                    <ItemsControl.ItemTemplate>
-                        <DataTemplate>
-                            <Button CommandParameter= "{Binding }" Content="{Binding Title}" Command="{Binding 
-    RelativeSource={RelativeSource AncestorType={x:Type ItemsControl}}, 
-    Path=DataContext.ShowTextCommand}"/>
-                        </DataTemplate>
-                    </ItemsControl.ItemTemplate>
-                </ItemsControl>
+                <TextBlock Text="{Binding HtmlText}">
+                </TextBlock>
+                
+
             </StackPanel>
         </ScrollViewer>
-        <ComboBox Grid.Row="0" Grid.Column="1" x:Name="CategoryView"  >
-        </ComboBox>
-      
-        <Label Grid.Row="0" Grid.Column="1"  Content="Kategoria: "/>
-        <ComboBox Grid.Row="0" Grid.Column="1" x:Name="CategoryListing" IsEditable="True" >
-        </ComboBox>
+
         <Label Grid.Row="2"  Background="#0BC6E9"  Grid.Column ="1" x:Name="Stopka2" Content="Publication Date:"/>
         <Label Grid.Row="2"  Background="#0BC6E9"  Grid.Column ="0" x:Name="Stopka1" Content=" Articles"/>
     </Grid>

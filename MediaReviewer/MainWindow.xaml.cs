@@ -91,18 +91,18 @@ namespace MediaReviewer
            // Stopka.Content = "Publication Date: " + ArticlesList[artNum - 1].PubDate;
             foreach (var item in CategoryList)
             {
-                CategoryView.Items.Add(item);
+                //CategoryView.Items.Add(item);
             }
             foreach (var item in CategoryList)
             {
-                CategoryListing.Items.Add(item);
+                //CategoryListing.Items.Add(item);
             }
 
         }
         public void selectArticleByCategory()
         {
             string category;
-            category = CategoryListing.SelectedItem.ToString();
+            //category = CategoryListing.SelectedItem.ToString();
            
         }
     }
