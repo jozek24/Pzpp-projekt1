@@ -23,16 +23,16 @@
     </Controls:MetroWindow.Resources>
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="*" MinWidth="150"/>
-            <ColumnDefinition Width="*" MinWidth="150"/>
-            <ColumnDefinition Width=" 4*" MinWidth="500"/>
+            <ColumnDefinition  MinWidth="150"/>
+            <ColumnDefinition MinWidth="650"/>
+            
         </Grid.ColumnDefinitions >
         <Grid.RowDefinitions>
             <RowDefinition Height="2*"/>
             <RowDefinition Height="20*"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-        <ScrollViewer Grid.Row="1" Grid.Column="2" VerticalScrollBarVisibility="Auto">
+        <ScrollViewer Grid.Row="1" Grid.Column="1" VerticalScrollBarVisibility="Auto">
             <TextBlock x:Name="ArticleBody" TextWrapping="Wrap" FontSize="12"   Grid.Column="2" Grid.Row="1"></TextBlock>
         </ScrollViewer>
         <GridSplitter Grid.Column="0" Grid.Row="0" Width="3" Background="#A6A29C "></GridSplitter>
@@ -68,13 +68,13 @@
                 </ItemsControl>
             </StackPanel>
         </ScrollViewer>
-        <ComboBox Grid.Row="0" Grid.Column="2" x:Name="CategoryView"  >
+        <ComboBox Grid.Row="0" Grid.Column="1" x:Name="CategoryView"  >
         </ComboBox>
       
         <Label Grid.Row="0" Grid.Column="1"  Content="Kategoria: "/>
         <ComboBox Grid.Row="0" Grid.Column="1" x:Name="CategoryListing" IsEditable="True" >
         </ComboBox>
-        <Label Grid.Row="2"  Background="#0BC6E9"  Grid.Column ="2" x:Name="Stopka" Content="Publication Date:"/>
-
+        <Label Grid.Row="2"  Background="#0BC6E9"  Grid.Column ="1" x:Name="Stopka2" Content="Publication Date:"/>
+        <Label Grid.Row="2"  Background="#0BC6E9"  Grid.Column ="0" x:Name="Stopka1" Content=" Articles"/>
     </Grid>
 </Controls:MetroWindow>

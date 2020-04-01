@@ -88,7 +88,7 @@ namespace MediaReviewer
             List<String> CategoryList = new List<string>(ArticlesList[artNum - 1].Category);
 
             ArticleBody.Text = ArticlesList[artNum - 1].HTML;
-            Stopka.Content = "Publication Date: " + ArticlesList[artNum - 1].PubDate;
+           // Stopka.Content = "Publication Date: " + ArticlesList[artNum - 1].PubDate;
             foreach (var item in CategoryList)
             {
                 CategoryView.Items.Add(item);
