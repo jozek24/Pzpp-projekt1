@@ -22,8 +22,9 @@ namespace MediaReviewer.Tests.Resources
             <body>
                 <div class=""news-lead"" >Text in news-lead class</div>
                 <p>Here also some text..<p>
-                <div class=""news-body bbtext"">Text in news-body class.
-                    <div class=""x-rwd-inl-c""><div class=""spolecznoscinet"" id=""spolecznosci-1304"">
+                <div class=""news-body bbtext"">Text in news-body class.<div class=""x-rwd-inl-c"">
+                    <div 
+                        class=""spolecznoscinet"" id=""spolecznosci-1304"">
                     </div>
                 </div>
 
@@ -58,7 +59,7 @@ namespace MediaReviewer.Tests.Resources
                 <script src='main.js'></script>
             </head>
             <body>
-                <div class=""news-lead"" >Text in news-lead class</div>
+                
                 <p>Here also some text..<p>
                 <div class=""news-body bbtext"">Text in news-body class.
                     <div class=""x-rwd-inl-c""><div class=""spolecznoscinet"" id=""spolecznosci-1304"">

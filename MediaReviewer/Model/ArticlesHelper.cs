@@ -1,4 +1,6 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using HtmlAgilityPack;
 
 namespace MediaReviewer.Model
 {
@@ -24,7 +26,38 @@ namespace MediaReviewer.Model
 
         private void HtmlToArticlesText(List<RssChannel> rssChannel)
         {
-            throw new System.NotImplementedException();
+            foreach (var channel in rssChannel)
+            {
+                foreach (var article in channel.Articles)
+                {
+                    if (article.Text == null)
+                        continue;
+
+                    var html = article.Text;
+                    var htmlDoc = new HtmlDocument();
+                    htmlDoc.LoadHtml(html);
+
+                    var fullText = "";
+                    if (htmlDoc.DocumentNode.SelectSingleNode("//*[@class='news-lead']/text()") != null)
+                    {
+                        fullText += htmlDoc.DocumentNode.SelectSingleNode("//*[@class='news-lead']/text()").InnerText
+                            .Trim();
+                    }
+
+                    if (htmlDoc.DocumentNode.SelectSingleNode("//*[@class='news-body bbtext']/text()") != null)
+                    {
+                        if (fullText != "")
+                            fullText += Environment.NewLine;
+
+                        fullText += htmlDoc.DocumentNode.SelectSingleNode("//*[@class='news-body bbtext']/text()").InnerText.Trim();
+                    }
+
+                    if (fullText == "")
+                        fullText = "Could not find any text.";
+
+                    article.Text = fullText;
+                }
+            }
         }
     }
 }

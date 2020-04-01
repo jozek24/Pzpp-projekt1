@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using MediaReviewer.Model;
 using MediaReviewer.Tests.Resources;
@@ -85,7 +86,7 @@ namespace MediaReviewer.Tests.ModelTests
 
             var result = articlesHelper.GetChannels();
 
-            Assert.That(result.First().Articles.First().Text, Is.EqualTo("Text in news-lead class\nText in news-body class."));
+            Assert.That(result.First().Articles.First().Text, Is.EqualTo("Text in news-lead class"+ Environment.NewLine +"Text in news-body class."));
         }
 
         [Test]
@@ -138,7 +139,7 @@ namespace MediaReviewer.Tests.ModelTests
 
             var result = articlesHelper.GetChannels();
 
-            Assert.That(result.First().Articles.First().Text, Is.EqualTo("Text in news-lead class"));
+            Assert.That(result.First().Articles.First().Text, Is.EqualTo("Text in news-body class."));
 
         }
 
