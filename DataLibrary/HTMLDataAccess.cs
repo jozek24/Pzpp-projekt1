@@ -27,7 +27,7 @@ namespace DataLibrary
             {
                 try
                 {
-                    string htmlCode = WebUtility.HtmlDecode(client.DownloadString(url));
+                    string htmlCode = client.DownloadString(url);
                     return htmlCode;
                 }
                 catch (WebException)
