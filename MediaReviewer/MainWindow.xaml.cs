@@ -87,7 +87,7 @@ namespace MediaReviewer
             MessageBox.Show(artNum.ToString());
             List<String> CategoryList = new List<string>(ArticlesList[artNum - 1].Category);
 
-            ArticleBody.Text = ArticlesList[artNum - 1].HTML;
+         //   ArticleBody.Text = ArticlesList[artNum - 1].HTML;
            // Stopka.Content = "Publication Date: " + ArticlesList[artNum - 1].PubDate;
             foreach (var item in CategoryList)
             {
@@ -104,6 +104,19 @@ namespace MediaReviewer
             string category;
             //category = CategoryListing.SelectedItem.ToString();
            
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            if(ArticleDisplay.SelectedIndex != 0)
+            ArticleDisplay.SelectedIndex--;
+
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            if (ArticleDisplay.SelectedIndex != ArticleDisplay.Items.Count)
+                ArticleDisplay.SelectedIndex++; 
         }
     }
 

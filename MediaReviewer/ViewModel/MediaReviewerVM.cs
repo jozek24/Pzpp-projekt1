@@ -15,7 +15,7 @@ namespace MediaReviewer.ViewModel
     {
      
         private ObservableCollection<RssChannel> _rssChannels = new ObservableCollection<RssChannel>();
-        
+        public int count;
 
 
         public ObservableCollection<RssChannel> RssChannels
@@ -38,7 +38,7 @@ namespace MediaReviewer.ViewModel
                 SetProperty(ref _article, value);
             }
         }
-        private string _htmlText = "LOlolol";
+        private string _htmlText;
         public string HtmlText
         {
             get => _htmlText;
@@ -56,9 +56,10 @@ namespace MediaReviewer.ViewModel
             {
                 SetProperty(ref _selectedArticle, value);
                 DisplayArticleText();
+                
             }
         }
-
+        
 
 
         public ICommand RefreschCommand
@@ -69,19 +70,27 @@ namespace MediaReviewer.ViewModel
         {
             get;
         }
+       
+      
+
         public MediaReviewerVM()
         {
             RefreschCommand = new DelegateCommand(RefreschListOfChannels);
             AddArticleCommand = new DelegateCommand<RssChannel>(AddArticleButton);
             ShowTextCommand = new DelegateCommand(DisplayArticleText);
-
-
-
+           
         }
 
         private void DisplayArticleText()
         {
-           HtmlText = SelectedArticle.HTML;
+            try
+            {
+                HtmlText = SelectedArticle.Text;
+            }
+            catch(Exception e)
+            {
+                HtmlText = "";
+            }
         }
 
         private void AddArticleButton(RssChannel rssChannel )

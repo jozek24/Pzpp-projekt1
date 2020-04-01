@@ -58,7 +58,7 @@
        
         <Label Grid.Row="0" Grid.Column="1"  Content="Kategoria: "/>
         <StackPanel Grid.Row="0" Grid.Column="1">
-            <ComboBox  IsEditable="True"                   
+            <ComboBox  x:Name="ArticleDisplay" IsEditable="True"                   
                    ItemsSource="{Binding Path=Articles}"    
                   SelectedItem="{Binding Path= SelectedArticle }"   
                   
@@ -66,18 +66,16 @@
                
             </ComboBox>
             <StackPanel  Orientation="Horizontal" HorizontalAlignment="Center">
-                
-                <Button Content="Previous" Margin="10,0,0,0"/>
-                <Button Content="Next" Margin="10,0,0,0"/>
-                
+
+                <Button  Content="Previous" Margin="10,0,0,0"  Click="Button_Click_1"/>
+                <Button  Content="Next" Margin="10,0,0,0"  Click="Button_Click_2" />
+
             </StackPanel>
         </StackPanel>
         <ScrollViewer Grid.Row="1" Grid.Column="1" VerticalScrollBarVisibility="Auto">
             <StackPanel x:Name="ArtView" Grid.Column="1" Grid.Row="1" Margin="7">
-                <TextBlock Text="{Binding HtmlText}">
+                <TextBlock Text="{Binding HtmlText}" TextWrapping="Wrap">
                 </TextBlock>
-                
-
             </StackPanel>
         </ScrollViewer>
 
