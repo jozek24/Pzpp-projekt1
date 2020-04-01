@@ -11,23 +11,23 @@ namespace DataLibrary
 {
     class MongoCRUD
     {
-		private IMongoDatabase db;
+        private IMongoDatabase db;
 
-		public MongoCRUD(string database) //chyba połączenie do bazy
-		{
-			var client = new MongoClient();
-			db = client.GetDatabase(database);
-		}
-		public void InsertRecord<T>(string table, List<T> record)
-		{
-			var collection = db.GetCollection<T>(table);//tworzenie kolekcji gengerycznej
-			collection.InsertMany(record); //wstawia wiele rekord
-		}
-		public List<T> LoadRecords<T>(string table)
-		{
-			var collection = db.GetCollection<T>(table);
-			return collection.Find(new BsonDocument()).ToList();
-		}
+        public MongoCRUD(string database) // połączenie do bazy
+        {
+            var client = new MongoClient();
+            db = client.GetDatabase(database);
+        }
+        public void InsertRecord<T>(string table, List<T> record)
+        {
+            var collection = db.GetCollection<T>(table);//tworzenie kolekcji generycznej
+            collection.InsertMany(record); //wstawia wiele rekord
+        }
+        public List<T> LoadRecords<T>(string table)
+        {
+            var collection = db.GetCollection<T>(table);
+            return collection.Find(new BsonDocument()).ToList();
+        }
 
-	}
+    }
 }
