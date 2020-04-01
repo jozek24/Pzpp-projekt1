@@ -30,32 +30,32 @@ namespace MediaReviewer.Model
             {
                 foreach (var article in channel.Articles)
                 {
-                    if (article.Text == null)
+                    if (string.IsNullOrEmpty(article.Text))
                         continue;
 
                     var html = article.Text;
                     var htmlDoc = new HtmlDocument();
                     htmlDoc.LoadHtml(html);
 
-                    var fullText = "";
+                    var resultText = "";
                     if (htmlDoc.DocumentNode.SelectSingleNode("//*[@class='news-lead']/text()") != null)
                     {
-                        fullText += htmlDoc.DocumentNode.SelectSingleNode("//*[@class='news-lead']/text()").InnerText
+                        resultText += htmlDoc.DocumentNode.SelectSingleNode("//*[@class='news-lead']/text()").InnerText
                             .Trim();
                     }
 
                     if (htmlDoc.DocumentNode.SelectSingleNode("//*[@class='news-body bbtext']/text()") != null)
                     {
-                        if (fullText != "")
-                            fullText += Environment.NewLine;
+                        if (!String.IsNullOrEmpty(resultText))
+                            resultText += Environment.NewLine;
 
-                        fullText += htmlDoc.DocumentNode.SelectSingleNode("//*[@class='news-body bbtext']/text()").InnerText.Trim();
+                        resultText += htmlDoc.DocumentNode.SelectSingleNode("//*[@class='news-body bbtext']/text()").InnerText.Trim();
                     }
 
-                    if (fullText == "")
-                        fullText = "Could not find any text.";
+                    if (String.IsNullOrEmpty(resultText))
+                        resultText = "Could not find any text.";
 
-                    article.Text = fullText;
+                    article.Text = resultText;
                 }
             }
         }
