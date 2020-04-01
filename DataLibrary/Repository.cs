@@ -46,24 +46,31 @@ namespace DataLibrary
 
         public void AddNewRssChannels(List<RssChannel>rssChannels)
         {
-            jSONDataAccess.RootObjects.ForEach(x =>
+            if (rssChannels.Count > 0)
             {
-                if (!(rssChannels.Where(o => o.Link.ToString() == (x.rss.Channel.Link.ToString())).Any()))
+                jSONDataAccess.RootObjects.ForEach(x =>
                 {
-                    db.InsertOneRecord<RssChannel>("RssChannel", _rssChannel.GetRssChannelFromRootObject(x)).GetAwaiter().GetResult();
-                }
-                else
-                {
-                    x.rss.Channel.Item.ForEach(q =>
+                    if (!(rssChannels.Where(o => o.Link.ToString() == (x.rss.Channel.Link.ToString())).Any()))
                     {
-                    if (!rssChannels.Where(p => p.Articles.Where(l => l.Link == (q.Link)).Any()).Any())
+                        db.InsertOneRecord<RssChannel>("RssChannel", _rssChannel.GetRssChannelFromRootObject(x)).GetAwaiter().GetResult();
+                    }
+                    else
+                    {
+                        x.rss.Channel.Item.ForEach(q =>
                         {
-                            var obj = _article.GetArticle(q);
-                            db.AddNewArticle(x.rss.Channel.Link, obj.Link, obj).GetAwaiter().GetResult();
-                        }
-                    });
-                }
-            });
+                            if (!rssChannels.Where(p => p.Articles.Where(l => l.Link == (q.Link)).Any()).Any())
+                            {
+                                var obj = _article.GetArticle(q);
+                                db.AddNewArticle(x.rss.Channel.Link, obj.Link, obj).GetAwaiter().GetResult();
+                            }
+                        });
+                    }
+                });
+            }
+            else
+            {
+                throw new ArgumentException("You don't have data in rssChannels", "rssChannels");
+            }
         }
     }
 }

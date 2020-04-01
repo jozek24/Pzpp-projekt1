@@ -15,6 +15,9 @@ namespace DataLibrary.Tests
         private string _URL = @"C:\Users\Tomek\Documents\Pzpp-projekt1\DataLibrary.Tests\TestObjects\MainPage.html";
         private string _html = "https://media2.pl/rss/tag/jesien-2016.xml";
 
+        /// <summary>
+        /// The method checks if the GetHTML_ValidURL method returns a value with a valid URL.
+        /// </summary>
         [Fact]
         public void GetHTML_ValidURL()
         {
@@ -31,6 +34,11 @@ namespace DataLibrary.Tests
             }
         }
 
+        /// <summary>
+        /// The method checks if the GetHTML() method returns an exception with an invalid URL.
+        /// </summary>
+        /// <param name="url">Invalid url</param>
+        /// <param name="param">Exception parameter</param>
         [Theory]
         [InlineData("Invalid", "Url")]
         public void GetHTML_InvalidURL(string url, string param)
@@ -38,13 +46,21 @@ namespace DataLibrary.Tests
             Assert.Throws<ArgumentException>(param, () => _HTMLDataAccess.GetHTML(url));
         }
 
+        /// <summary>
+        /// The method checks if the GetHTML() method returns an exception without internet connection.
+        /// </summary>
+        /// <param name="url">Invalid url</param>
+        /// <param name="param">Exception parameter</param>
         [Theory]
-        [InlineData("", "Url, connection")]
+        [InlineData("","Url, connection")]
         public void GetHTML_WithoutURLOrConnectionLost(string url, string param)
         {
             Assert.Throws<ArgumentException>(param, () => _HTMLDataAccess.GetHTML(url));
         }
 
+        /// <summary>
+        /// The method checks if the GetMatchCollection() method returns a value.
+        /// </summary>
         [Fact]
         public void GetMatchCollection_ShoutWork()
         {
@@ -52,6 +68,11 @@ namespace DataLibrary.Tests
             Assert.True(actual.Count > 0);
         }
 
+        /// <summary>
+        /// The method checks if the GetMatchCollection() method method returns an exception with an invalid html.
+        /// </summary>
+        /// <param name="html">Invalid html</param>
+        /// <param name="param">Exception parameter</param>
         [Theory]
         [InlineData("aaaa", "html")]
         public void GetMatchCollection_ShoutFail(string html, string param)
@@ -59,6 +80,9 @@ namespace DataLibrary.Tests
             Assert.Throws<ArgumentException>(param, () => _HTMLDataAccess.GetMatchCollection(html));
         }
 
+        /// <summary>
+        /// The method checks if the AddNewURLForXML() method returns a value. 
+        /// </summary>
         [Fact]
         public void AddNewURLForXML_ShoutWork()
         {
@@ -67,6 +91,11 @@ namespace DataLibrary.Tests
             Assert.True(actual.Count > 0);
         }
 
+        /// <summary>
+        /// The method checks if the AddNewURLForXML() method method returns an exception with an invalid html.
+        /// </summary>
+        /// <param name="html">Invalid html</param>
+        /// <param name="param">Exception parameter</param>
         [Theory]
         [InlineData("aaa", "match")]
         public void AddNewURLForXML_ShoutFail(string html, string param)

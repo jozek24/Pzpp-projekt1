@@ -15,15 +15,15 @@ namespace DataLibrary
     {
 		private IMongoDatabase db;
 
-		public MongoCRUD(string database) //chyba połączenie do bazy
+		public MongoCRUD(string database) 
 		{
 			var client = new MongoClient();
 			db = client.GetDatabase(database);
 		}
 		public void InsertRecord<T>(string table, List<T> record)
 		{
-			var collection = db.GetCollection<T>(table);//tworzenie kolekcji gengerycznej
-			collection.InsertMany(record); //wstawia wiele rekord
+			var collection = db.GetCollection<T>(table);
+			collection.InsertMany(record);
 		}
 
 		public async Task InsertOneRecord<T>(string table, T record) where T : class
