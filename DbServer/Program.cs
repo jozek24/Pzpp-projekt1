@@ -11,7 +11,7 @@ namespace DbServer
     {
         static void Main(string[] args)
         {
-            Repository repository = new Repository();
+            Repository repository = new Repository("ChannelsFromMedia2",300);
             repository.CheckNewData();
 
             Console.ReadLine();
