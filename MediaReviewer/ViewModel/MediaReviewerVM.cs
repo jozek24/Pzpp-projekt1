@@ -73,7 +73,12 @@ namespace MediaReviewer.ViewModel
 
             set => SetProperty(ref _publicationDate, value);
         }
-
+        private string _countOfArticle;
+        public string CountOfArticle
+        {
+            get => _countOfArticle;
+            set => SetProperty(ref _countOfArticle, value);
+        }
 
         public ICommand RefreschCommand
         {
@@ -120,7 +125,7 @@ namespace MediaReviewer.ViewModel
             try
             {
                 HtmlText = SelectedArticle.Text;
-                PublicationDate = SelectedArticle.PubDate;
+                PublicationDate ="Publication date: " + SelectedArticle.PubDate;
             }
             catch(Exception e)
             {
@@ -137,7 +142,9 @@ namespace MediaReviewer.ViewModel
                 Articles.Add(item);
             }
             DefaultArticle = 0;
-             
+            CountOfArticle= "Number of Articles: " + Articles.Count.ToString();
+
+
         }
 
         private void RefreschListOfChannels()
