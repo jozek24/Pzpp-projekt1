@@ -1,5 +1,6 @@
-﻿using System.Collections.Generic;
-using System.Collections.ObjectModel;
+﻿using System;
+using System.Collections.Generic;
+using HtmlAgilityPack;
 
 namespace MediaReviewer.Model
 {
@@ -18,8 +19,45 @@ namespace MediaReviewer.Model
         public List<RssChannel> GetChannels()
         {
             var rssChannel = _articlesStorage.LoadRecords<RssChannel>("RssChannel");
+            HtmlToArticlesText(rssChannel);
 
             return rssChannel;
+        }
+
+        private void HtmlToArticlesText(List<RssChannel> rssChannel)
+        {
+            foreach (var channel in rssChannel)
+            {
+                foreach (var article in channel.Articles)
+                {
+                    if (string.IsNullOrEmpty(article.Text))
+                        continue;
+
+                    var html = article.Text;
+                    var htmlDoc = new HtmlDocument();
+                    htmlDoc.LoadHtml(html);
+
+                    var resultText = "";
+                    if (htmlDoc.DocumentNode.SelectSingleNode("//*[@class='news-lead']/text()") != null)
+                    {
+                        resultText += htmlDoc.DocumentNode.SelectSingleNode("//*[@class='news-lead']/text()").InnerText
+                            .Trim();
+                    }
+
+                    if (htmlDoc.DocumentNode.SelectSingleNode("//*[@class='news-body bbtext']/text()") != null)
+                    {
+                        if (!String.IsNullOrEmpty(resultText))
+                            resultText += Environment.NewLine;
+
+                        resultText += htmlDoc.DocumentNode.SelectSingleNode("//*[@class='news-body bbtext']/text()").InnerText.Trim();
+                    }
+
+                    if (String.IsNullOrEmpty(resultText))
+                        resultText = "Could not find any text.";
+
+                    article.Text = resultText;
+                }
+            }
         }
     }
 }
