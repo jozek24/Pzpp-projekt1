@@ -1,4 +1,6 @@
 ﻿
+using DataLibrary.Interfaces;
+using DataLibrary.Model;
 using MongoDB.Bson;
 using MongoDB.Driver;
 using System;
@@ -9,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace DataLibrary
 {
-    class MongoCRUD
+    public class MongoCRUD : IMongoCRUD
     {
 		private IMongoDatabase db;
 
@@ -23,10 +25,24 @@ namespace DataLibrary
 			var collection = db.GetCollection<T>(table);//tworzenie kolekcji gengerycznej
 			collection.InsertMany(record); //wstawia wiele rekord
 		}
-		public List<T> LoadRecords<T>(string table)
+
+		public async Task InsertOneRecord<T>(string table, T record) where T : class
 		{
 			var collection = db.GetCollection<T>(table);
-			return collection.Find(new BsonDocument()).ToList();
+			await collection.InsertOneAsync(record);
+		}
+		public async Task<List<T>> LoadRecords<T>(string table)
+		{
+			var collection = db.GetCollection<T>(table);
+			return await collection.FindSync(new BsonDocument()).ToListAsync();
+		}
+
+		public async Task AddNewArticle(string linkRootObject, string linkArticle, Article article)
+		{
+			var collection = db.GetCollection<RssChannel>("RssChannel");
+			var filter = Builders<RssChannel>.Filter.Where(x => x.Link == linkRootObject);
+			var update = Builders<RssChannel>.Update.Push(x => x.Articles, article);
+			await collection.FindOneAndUpdateAsync(filter, update);
 		}
 
 	}

@@ -38,16 +38,16 @@ namespace DataLibrary.Model
             return articles;
         }
 
-        public List <Article> GetArticle(Item item)
+        public Article GetArticle(Item item)
         {
-            return new List<Article> { new Article
+            return new Article
             {
                 Title = item.Title,
                 Link = item.Link,
                 HTML = _HTMLDataAccess.GetHTML(item.Link),
                 Category = item.Category,
                 PubDate = item.PubDate
-            }};
+            };
         }
     }
 }

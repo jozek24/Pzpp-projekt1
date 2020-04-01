@@ -8,10 +8,9 @@ using System.Timers;
 
 namespace DataLibrary.Interfaces
 {
-    interface IRepository
+    public interface IRepository
     {
         void CheckNewData();
-        void OnTimedEvent(Object source, ElapsedEventArgs e);
         void AddNewRssChannels(List<RssChannel> rssChannels);
     }
 }

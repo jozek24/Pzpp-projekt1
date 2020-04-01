@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 
 namespace DataLibrary.Model
 {
+    [BsonIgnoreExtraElements]
     public class RssChannel
     {
         private Article Article = new Article();
@@ -35,15 +36,14 @@ namespace DataLibrary.Model
             return rssChannels;
         }
 
-        public List< RssChannel>  GetRssChannelFromRootObject(RootObject rootObject)
+        public RssChannel  GetRssChannelFromRootObject(RootObject rootObject)
         {
-            return new List<RssChannel>{new RssChannel
+            return new RssChannel
             {
                 Title = rootObject.rss.Channel.Title,
                 Link = rootObject.rss.Channel.Link,
                 Articles = Article.GetArticles(rootObject)
-            }};
-            
+            };
         }
     }
 }

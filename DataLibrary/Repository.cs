@@ -1,4 +1,5 @@
-﻿using DataLibrary.Model;
+﻿using DataLibrary.Interfaces;
+using DataLibrary.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,27 +9,34 @@ using System.Timers;
 
 namespace DataLibrary
 {
-   public  class Repository
+    public class Lista
+    {
+        public string MyProperty { get; set; }
+    }
+    public class ListaDwa
+    {
+        public string MyProperty { get; set; }
+    }
+    public  class Repository : IRepository
     {
         private IJSONDataAccess jSONDataAccess = new JSONDataAccess();
         private RssChannel _rssChannel = new RssChannel();
         private Article _article = new Article();
        
-		MongoCRUD db = new MongoCRUD("NowaBaza");//nazwa bazy
+		MongoCRUD db = new MongoCRUD("NowaBaza3");
         private static Timer aTimer;
 
         public Repository()
 		{
-            var channelsfromdatabase = db.LoadRecords<RssChannel>("RssChannel");
-
+            var channelsfromdatabase = db.LoadRecords<RssChannel>("RssChannel").GetAwaiter().GetResult();
             AddNewRssChannels(channelsfromdatabase);
-		}
-     
+        }
+
 
         public void CheckNewData()
         {
             // Create a timer with a two second interval.
-            aTimer = new System.Timers.Timer(1000);
+            aTimer = new System.Timers.Timer(600000);
             // Hook up the Elapsed event for the timer. 
             aTimer.Elapsed += OnTimedEvent;
 
@@ -38,33 +46,32 @@ namespace DataLibrary
 
         private  void OnTimedEvent(Object source, ElapsedEventArgs e)
         {
-            var channelsfromdatabase = db.LoadRecords<RssChannel>("RssChannel");
+            var channelsfromdatabase = db.LoadRecords<RssChannel>("RssChannel").GetAwaiter().GetResult();
 
             AddNewRssChannels(channelsfromdatabase);
             Console.WriteLine("Hello  ");
         }
 
-
         public void AddNewRssChannels(List<RssChannel>rssChannels)
         {
-
-            foreach (var rootObject in jSONDataAccess.RootObjects)
+            jSONDataAccess.RootObjects.ForEach(x =>
             {
-                if (!(rssChannels.FindAll(x => x.Link.Equals(rootObject.rss.Channel.Link)).Any()))
+                if (!(rssChannels.Where(o => o.Link.ToString() == (x.rss.Channel.Link.ToString())).Any()))
                 {
-
-                    db.InsertRecord("RssChannel", _rssChannel.GetRssChannelFromRootObject(rootObject));
-
+                    db.InsertOneRecord<RssChannel>("RssChannel", _rssChannel.GetRssChannelFromRootObject(x)).GetAwaiter().GetResult();
                 }
-
-                foreach (var item in rootObject.rss.Channel.Item)
+                else
                 {
-                    if (rssChannels.FindAll(x => x.Articles.Equals(item.Link)).Any())
+                    x.rss.Channel.Item.ForEach(q =>
                     {
-                        db.InsertRecord("Article", _article.GetArticle(item));
-                    }
+                    if (!rssChannels.Where(p => p.Articles.Where(l => l.Link == (q.Link)).Any()).Any())
+                        {
+                            var obj = _article.GetArticle(q);
+                            db.AddNewArticle(x.rss.Channel.Link, obj.Link, obj).GetAwaiter().GetResult();
+                        }
+                    });
                 }
-            }
+            });
         }
     }
 }

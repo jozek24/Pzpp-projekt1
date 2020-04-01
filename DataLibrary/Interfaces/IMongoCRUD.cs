@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace DataLibrary.Interfaces
 {
-    interface IMongoCRUD
+    public interface IMongoCRUD
     {
 
         void InsertRecord<T>(string table, List<T> record);
-        List<T> LoadRecords<T>(string table);
+        Task<List<T>> LoadRecords<T>(string table);
 
     }
 }
