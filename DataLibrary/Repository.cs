@@ -14,7 +14,7 @@ namespace DataLibrary
         private RssChannel _rssChannel = new RssChannel();
         private Article _article = new Article();
        
-		MongoCRUD db = new MongoCRUD("NowaBaza");//nazwa bazy
+		MongoCRUD db = new MongoCRUD("NowaBaza1");//nazwa bazy
         private static Timer aTimer;
 
         public Repository()
@@ -53,7 +53,7 @@ namespace DataLibrary
 
             foreach (var rootObject in jSONDataAccess.RootObjects)
             {
-                if (!(rssChannels.FindAll(x => x.Link.Equals(rootObject.rss.Channel.Link)).Any()))
+                if (!(rssChannels.Where(x => x.Link == (rootObject.rss.Channel.Link)).Any()))
                 {
 
                     db.InsertRecord("RssChannel", _rssChannel.GetRssChannelFromRootObject(rootObject));
@@ -72,7 +72,7 @@ namespace DataLibrary
 
         }
 
-
+       
 
     }
 }
