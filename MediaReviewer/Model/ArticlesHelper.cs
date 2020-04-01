@@ -17,8 +17,14 @@ namespace MediaReviewer.Model
         public List<RssChannel> GetChannels()
         {
             var rssChannel = _articlesStorage.LoadRecords<RssChannel>("RssChannel");
+            HtmlToArticlesText(rssChannel);
 
             return rssChannel;
+        }
+
+        private void HtmlToArticlesText(List<RssChannel> rssChannel)
+        {
+            throw new System.NotImplementedException();
         }
     }
 }
