@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using MahApps.Metro.Controls;
+using MediaReviewer.Model;
 using MediaReviewer.ViewModel;
 
 namespace MediaReviewer
@@ -29,15 +30,15 @@ namespace MediaReviewer
         public MainWindow()
         {
             InitializeComponent();
+            DataContext = new MediaReviewerVM();
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            for (int i = 0; i < 10; i++)
-            {
-                RssChannel rssobj = new RssChannel();
-                ChannelsList.Add(rssobj);
-            }
+            ChannelsList.Clear();
+            TitleView.Children.Clear();
+            var articlesHelper = new ArticlesHelper("NowaBaza");
+            ChannelsList =  articlesHelper.GetChannels();
             for (int i = 0; i < ChannelsList.Count; i++)
             {
                 System.Windows.Controls.Button newBtnCh = new Button();
@@ -51,10 +52,7 @@ namespace MediaReviewer
 
 
         private void ChannelButtons(object sender, RoutedEventArgs e)
-        {
-
-
-           
+        {     
             Button b = (Button)sender;
             string count = b.Content.ToString();
             string[] count1 = count.Split(new char[] { '.' });
@@ -72,6 +70,7 @@ namespace MediaReviewer
                 newBtnArt.Content = i + 1 + ". " + ArticlesList[i].Title;
                 newBtnArt.Click += ArticleButton;
                 ArtView.Children.Add(newBtnArt);
+                
             }
 
         }
@@ -88,13 +87,36 @@ namespace MediaReviewer
             MessageBox.Show(artNum.ToString());
             List<String> CategoryList = new List<string>(ArticlesList[artNum - 1].Category);
 
-            ArticleBody.Text = ArticlesList[artNum - 1].HTML;
-            Stopka.Content = "Publication Date: " + ArticlesList[artNum - 1].PubDate;
+         //   ArticleBody.Text = ArticlesList[artNum - 1].HTML;
+           // Stopka.Content = "Publication Date: " + ArticlesList[artNum - 1].PubDate;
             foreach (var item in CategoryList)
             {
-                CategoryView.Items.Add(item);
+                //CategoryView.Items.Add(item);
+            }
+            foreach (var item in CategoryList)
+            {
+                //CategoryListing.Items.Add(item);
             }
 
+        }
+        public void selectArticleByCategory()
+        {
+            string category;
+            //category = CategoryListing.SelectedItem.ToString();
+           
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            if(ArticleDisplay.SelectedIndex != 0)
+            ArticleDisplay.SelectedIndex--;
+
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            if (ArticleDisplay.SelectedIndex != ArticleDisplay.Items.Count)
+                ArticleDisplay.SelectedIndex++; 
         }
     }
 

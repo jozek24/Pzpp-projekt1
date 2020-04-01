@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MediaReviewer.ViewModel
 {
-    class ChannelEditor : RssChannel
+    class ChannelEditor 
     {
         void AddChannelButton()
         {
