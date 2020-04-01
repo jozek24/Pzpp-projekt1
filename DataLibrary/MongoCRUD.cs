@@ -13,7 +13,7 @@ namespace DataLibrary
 {
     public class MongoCRUD : IMongoCRUD
     {
-		private IMongoDatabase db;
+        private IMongoDatabase db;
 
 		public MongoCRUD(string database) //chyba połączenie do bazy
 		{
@@ -45,5 +45,5 @@ namespace DataLibrary
 			await collection.FindOneAndUpdateAsync(filter, update);
 		}
 
-	}
+    }
 }
