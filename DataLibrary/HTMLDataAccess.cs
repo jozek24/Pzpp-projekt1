@@ -50,10 +50,10 @@ namespace DataLibrary
 
         public MatchCollection GetMatchCollection(string html)
         {
-            MatchCollection mcol = Regex.Matches(html, @"https://media2.pl/rss/tag/\b\S+?\bxml");
+            MatchCollection mcol = Regex.Matches(html, @"https://media2.pl/rss/tag/\b\S+?\b.xml");
+
             if (mcol.Count == 0)
                 throw new ArgumentException("There is no phrase in the text", "html");
-
             return mcol;
         }
 

@@ -1,85 +1,69 @@
-﻿using DataLibrary.Model;
+﻿using DataLibrary.Interfaces;
+using DataLibrary.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Timers;
 
 namespace DataLibrary
 {
-   public  class Repository
+    public  class Repository : IRepository
     {
-        private JSONDataAccess jSONDataAccess = new JSONDataAccess();
-    
+        private IJSONDataAccess jSONDataAccess = new JSONDataAccess();
+        private RssChannel _rssChannel = new RssChannel();
+        private Article _article = new Article();
        
-		MongoCRUD db = new MongoCRUD("testowanieWDzien");//nazwa bazy
-		public Repository()
+		MongoCRUD db = new MongoCRUD("NowaBaza");
+        private static Timer aTimer;
+
+        public Repository()
 		{
-            List<RootObject> root = jSONDataAccess.DeserializeJSONToList(new List<string>());
-            List<RssChannel> rssChannel = new List<RssChannel>();
-            rssChannel.Add(new RssChannel()
-            {
-                Title = root[0].rss.Channel.Title,
-                Link = "dfjkldjlf",
-
-                Articles = new List<Article>
-                {
-                    new Article
-                    {
-                        Title = "tytuł1",
-                        HTML = "tekst1",
-                        Link = "link1",
-                        PubDate = "d",
-                    },
-                    new Article
-                    {
-                        Title = "tytuł2",
-                        HTML = "tekst2",
-                        Link = "link2",
-                        PubDate = "d",
-                    }
-                }
-            });
-            rssChannel.Add(new RssChannel()
-            {
-                Title = "Tytuł art 2",
-                Link = "dfkljdflkf",
-                Articles = new List<Article>
-                {
-                    new Article
-                    {
-                        Title = "tytuł3",
-                        HTML = "tekst3",
-                        Link = "link3",
-                        PubDate = "d",
-                    },
-                    new Article
-                    {
-                        Title = "tytuł3",
-                        HTML = "tekst3",
-                        Link = "link3",
-                        PubDate = "d",
-                    }
-                }
-            });
-            db.InsertRecord("RssChannel",rssChannel);//tworzenie dokładnej kolekcji jaką chcemy z nazwą
-
-		}
-
-       
-        public void AddArticles()
-        {
-            
-
-        }
-        public void AddRssChannels()
-        {
-
-            var rssChannels = db.LoadRecords<RssChannel>("RssChannel");
-
+            var channelsfromdatabase = db.LoadRecords<RssChannel>("RssChannel").GetAwaiter().GetResult();
+            AddNewRssChannels(channelsfromdatabase);
         }
 
 
+        public void CheckNewData()
+        {
+            // Create a timer with a two second interval.
+            aTimer = new System.Timers.Timer(600000);
+            // Hook up the Elapsed event for the timer. 
+            aTimer.Elapsed += OnTimedEvent;
 
+            aTimer.AutoReset = true;
+            aTimer.Enabled = true;
+        }
+
+        private  void OnTimedEvent(Object source, ElapsedEventArgs e)
+        {
+            var channelsfromdatabase = db.LoadRecords<RssChannel>("RssChannel").GetAwaiter().GetResult();
+
+            AddNewRssChannels(channelsfromdatabase);
+            Console.WriteLine("Hello  ");
+        }
+
+        public void AddNewRssChannels(List<RssChannel>rssChannels)
+        {
+            jSONDataAccess.RootObjects.ForEach(x =>
+            {
+                if (!(rssChannels.Where(o => o.Link.ToString() == (x.rss.Channel.Link.ToString())).Any()))
+                {
+                    db.InsertOneRecord<RssChannel>("RssChannel", _rssChannel.GetRssChannelFromRootObject(x)).GetAwaiter().GetResult();
+                }
+                else
+                {
+                    x.rss.Channel.Item.ForEach(q =>
+                    {
+                    if (!rssChannels.Where(p => p.Articles.Where(l => l.Link == (q.Link)).Any()).Any())
+                        {
+                            var obj = _article.GetArticle(q);
+                            db.AddNewArticle(x.rss.Channel.Link, obj.Link, obj).GetAwaiter().GetResult();
+                        }
+                    });
+                }
+            });
+        }
     }
 }

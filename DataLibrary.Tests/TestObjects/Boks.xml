@@ -1,41 +1,465 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0">
   <channel>
-    <title>Media2.pl - boks</title>
-    <link>https://media2.pl/tag/boks</link>
-    <description>WiadomoĹci w tagu boks</description>
+    <title>Media2.pl - telemetria</title>
+    <link>https://media2.pl/tag/telemetria</link>
+    <description>WiadomoĹci w tagu telemetria</description>
     <language>pl</language>
-    <pubDate>Wed, 25 Mar 2020 15:35:44 +0100</pubDate>
+    <pubDate>Tue, 31 Mar 2020 10:52:38 +0200</pubDate>
     <webMaster>b.kucharczyk@kreativ.pl (BartĹomiej Kucharczyk)</webMaster>
     <docs>http://feedvalidator.org/docs/rss2.html</docs>
     <ttl>15</ttl>
     <image>
-      <title>Media2.pl - boks</title>
+      <title>Media2.pl - telemetria</title>
       <url>https://media2.pl/res/logo/rss.png</url>
-      <link>https://media2.pl/tag/boks</link>
+      <link>https://media2.pl/tag/telemetria</link>
       <width>154</width>
       <height>40</height>
     </image>
     <item>
-      <title>Walki Kownackiego, JÄdrzejczyk i Brodnickiej - piÄĹciarski weekend w Polsacie Sport</title>
-      <link>https://media2.pl/media/160479-Walki-Kownackiego-Jedrzejczyk-i-Brodnickiej-piesciarski-weekend-w-Polsacie-Sport.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</link>
-      <comments>https://media2.pl/media/160479-Walki-Kownackiego-Jedrzejczyk-i-Brodnickiej-piesciarski-weekend-w-Polsacie-Sport.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</comments>
-      <guid isPermaLink="true">https://media2.pl/l/n/160479</guid>
+      <title>
+        Kwarantanna przed TV: DĹuĹźej oglÄ
+        damy telewizjÄ, najwiÄcej zyskujÄ
+        kanaĹy informacyjne
+      </title>
+      <link>https://media2.pl/media/160913-Kwarantanna-przed-TV-Dluzej-ogladamy-telewizje-najwiecej-zyskuja-kanaly-informacyjne.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</link>
+      <comments>https://media2.pl/media/160913-Kwarantanna-przed-TV-Dluzej-ogladamy-telewizje-najwiecej-zyskuja-kanaly-informacyjne.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</comments>
+      <guid isPermaLink="true">https://media2.pl/l/n/160913</guid>
       <category>Media</category>
-      <category>koszykĂłwka</category>
-      <category>piĹka noĹźna</category>
-      <category>sport</category>
-      <category>Polsat Sport</category>
-      <category>boks</category>
-      <category>siatkĂłwka</category>
-      <category>MMA</category>
-      <category>1 Liga</category>
-      <category>UFC</category>
+      <category>telewizja</category>
+      <category>telemetria</category>
+      <category>Nielsen Media Research</category>
       <description>
-        <![CDATA[<a href="https://media2.pl/media/160479-Walki-Kownackiego-Jedrzejczyk-i-Brodnickiej-piesciarski-weekend-w-Polsacie-Sport.html#utm_source=rss&utm_campaign=rss&utm_medium=link"><img src="https://media2.pl/g/rss/70415.jpg" alt="" title="" style="float:right;margin-left:10px;border:1px dotted #CCC;padding:3px" /></a>Weekend na sportowych antenach Polsatu zapowiada siÄ emocjonujÄ
-co miĹoĹnikĂłw sportĂłw walki.]]>
+        <![CDATA[<a href="https://media2.pl/media/160913-Kwarantanna-przed-TV-Dluzej-ogladamy-telewizje-najwiecej-zyskuja-kanaly-informacyjne.html#utm_source=rss&utm_campaign=rss&utm_medium=link"><img src="https://media2.pl/g/rss/72831.jpg" alt="" title="" style="float:right;margin-left:10px;border:1px dotted #CCC;padding:3px" /></a>Aktualna sytuacja zwiÄ
+zana z pandemiÄ
+ i koniecznoĹÄ pozostania w domach sprawia, Ĺźe konsumenci oglÄ
+dajÄ
+ TV czÄĹciej i dĹuĹźej.]]>
       </description>
-      <pubDate>Fri, 06 Mar 2020 11:09:11 +0100</pubDate>
+      <pubDate>Thu, 26 Mar 2020 13:06:12 +0100</pubDate>
+    </item>
+    <item>
+      <title>Polsat News chwali sie rekordowymi wynikami za luty</title>
+      <link>https://media2.pl/media/160429-Polsat-News-chwali-sie-rekordowymi-wynikami-za-luty.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</link>
+      <comments>https://media2.pl/media/160429-Polsat-News-chwali-sie-rekordowymi-wynikami-za-luty.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</comments>
+      <guid isPermaLink="true">https://media2.pl/l/n/160429</guid>
+      <category>Media</category>
+      <category>Polsat News</category>
+      <category>telemetria</category>
+      <description>
+        <![CDATA[<a href="https://media2.pl/media/160429-Polsat-News-chwali-sie-rekordowymi-wynikami-za-luty.html#utm_source=rss&utm_campaign=rss&utm_medium=link"><img src="https://media2.pl/g/rss/28261.jpg" alt="" title="" style="float:right;margin-left:10px;border:1px dotted #CCC;padding:3px" /></a>Coraz wiÄcej widzĂłw oglÄ
+da Polsat News. Luty 2020 byĹ jednym z najlepszych miesiÄcy w historii stacji. Polsat News zyskuje rĂłwnieĹź w rankingach cytowalnoĹci.]]>
+      </description>
+      <pubDate>Wed, 04 Mar 2020 11:41:21 +0100</pubDate>
+    </item>
+    <item>
+      <title>Luty przed TV: TVP1 liderem w ogĂłlnej grupie widzĂłw, Polsat prowadzi w komercyjnej</title>
+      <link>https://media2.pl/media/160413-Luty-przed-TV-TVP1-liderem-w-ogolnej-grupie-widzow-Polsat-prowadzi-w-komercyjnej.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</link>
+      <comments>https://media2.pl/media/160413-Luty-przed-TV-TVP1-liderem-w-ogolnej-grupie-widzow-Polsat-prowadzi-w-komercyjnej.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</comments>
+      <guid isPermaLink="true">https://media2.pl/l/n/160413</guid>
+      <category>Media</category>
+      <category>telemetria</category>
+      <description>
+        <![CDATA[<a href="https://media2.pl/media/160413-Luty-przed-TV-TVP1-liderem-w-ogolnej-grupie-widzow-Polsat-prowadzi-w-komercyjnej.html#utm_source=rss&utm_campaign=rss&utm_medium=link"><img src="https://media2.pl/g/rss/5916.jpg" alt="" title="" style="float:right;margin-left:10px;border:1px dotted #CCC;padding:3px" /></a>W drugim miesiÄ
+cu 2020 roku najchÄtniej oglÄ
+dalnym kanaĹem telewizyjnym w ogĂłlnej grupie widzĂłw byĹa Jedynka, z grupie komercyjnej prowadzi Polsat.]]>
+      </description>
+      <pubDate>Tue, 03 Mar 2020 17:38:11 +0100</pubDate>
+    </item>
+    <item>
+      <title>GĹĂłwne kanaĹy informacyjne w lutym: Liderem TVN24, duĹźe wzrosty TVP Info i Polsat News</title>
+      <link>https://media2.pl/media/160393-Glowne-kanaly-informacyjne-w-lutym-Liderem-TVN24-duze-wzrosty-TVP-Info-i-Polsat-News.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</link>
+      <comments>https://media2.pl/media/160393-Glowne-kanaly-informacyjne-w-lutym-Liderem-TVN24-duze-wzrosty-TVP-Info-i-Polsat-News.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</comments>
+      <guid isPermaLink="true">https://media2.pl/l/n/160393</guid>
+      <category>Media</category>
+      <category>TVN24</category>
+      <category>TVP Info</category>
+      <category>Polsat News</category>
+      <category>telemetria</category>
+      <description>
+        <![CDATA[<a href="https://media2.pl/media/160393-Glowne-kanaly-informacyjne-w-lutym-Liderem-TVN24-duze-wzrosty-TVP-Info-i-Polsat-News.html#utm_source=rss&utm_campaign=rss&utm_medium=link"><img src="https://media2.pl/g/rss/27974.jpg" alt="" title="" style="float:right;margin-left:10px;border:1px dotted #CCC;padding:3px" /></a>W drugim miesiÄ
+cu 2020 roku kanaĹ TVN24 utrzymaĹ pozycjÄ lidera wĹrĂłd kanaĹĂłw informacyjnych. DuĹźe wzrosty oglÄ
+dalnoĹci notujÄ
+ Polsat News i TVP Info.]]>
+      </description>
+      <pubDate>Mon, 02 Mar 2020 16:23:21 +0100</pubDate>
+    </item>
+    <item>
+      <title>
+        Programy informacyjne w styczniu: &#34;Fakty&#34; TVN z duĹźym spadkiem, zyskujÄ
+        &#34;WiadomoĹci&#34; TVP1
+      </title>
+      <link>https://media2.pl/media/159967-Programy-informacyjne-w-styczniu-Fakty-TVN-z-duzym-spadkiem-zyskuja-Wiadomosci-TVP1.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</link>
+      <comments>https://media2.pl/media/159967-Programy-informacyjne-w-styczniu-Fakty-TVN-z-duzym-spadkiem-zyskuja-Wiadomosci-TVP1.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</comments>
+      <guid isPermaLink="true">https://media2.pl/l/n/159967</guid>
+      <category>Media</category>
+      <category>TVN</category>
+      <category>fakty</category>
+      <category>Polsat</category>
+      <category>WiadomoĹci</category>
+      <category>TVP1</category>
+      <category>TVP2</category>
+      <category>Wydarzenia</category>
+      <category>Panorama</category>
+      <category>Teleexpress</category>
+      <category>TVP Info</category>
+      <category>telemetria</category>
+      <description>
+        <![CDATA[<a href="https://media2.pl/media/159967-Programy-informacyjne-w-styczniu-Fakty-TVN-z-duzym-spadkiem-zyskuja-Wiadomosci-TVP1.html#utm_source=rss&utm_campaign=rss&utm_medium=link"><img src="https://media2.pl/g/rss/58797.jpg" alt="" title="" style="float:right;margin-left:10px;border:1px dotted #CCC;padding:3px" /></a>W pierwszym miesiÄ
+cu 2020 roku pozycjÄ lidera wĹrĂłd programĂłw informacyjnych zajmuje &#34;Teleexpress&#34; TVP1. &#34;Fakty&#34; TVN notujÄ
+ duĹźy spadek oglÄ
+dalnoĹci, zyskujÄ
+ &#34;WiadomoĹci&#34; TVP1.]]>
+      </description>
+      <pubDate>Thu, 06 Feb 2020 08:35:33 +0100</pubDate>
+    </item>
+    <item>
+      <title>Muzyczna TV: Liderem Polo TV, duĹźy spadek 4Fun.TV, awanse Disco Polo Music i Stars.TV</title>
+      <link>https://media2.pl/media/159961-Muzyczna-TV-Liderem-Polo-TV-duzy-spadek-4Fun.TV-awanse-Disco-Polo-Music-i-Stars.TV.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</link>
+      <comments>https://media2.pl/media/159961-Muzyczna-TV-Liderem-Polo-TV-duzy-spadek-4Fun.TV-awanse-Disco-Polo-Music-i-Stars.TV.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</comments>
+      <guid isPermaLink="true">https://media2.pl/l/n/159961</guid>
+      <category>Media</category>
+      <category>4fun.tv</category>
+      <category>Eska TV</category>
+      <category>telemetria</category>
+      <category>Polo TV</category>
+      <category>STARS.TV</category>
+      <category>Disco Polo Music</category>
+      <description>
+        <![CDATA[<a href="https://media2.pl/media/159961-Muzyczna-TV-Liderem-Polo-TV-duzy-spadek-4Fun.TV-awanse-Disco-Polo-Music-i-Stars.TV.html#utm_source=rss&utm_campaign=rss&utm_medium=link"><img src="https://media2.pl/g/rss/73671.jpg" alt="" title="" style="float:right;margin-left:10px;border:1px dotted #CCC;padding:3px" /></a>W pierwszym miesiÄ
+cu 2020 roku Polo TV  utrzymuje pozycjÄ lidera wĹrĂłd muzycznych kanaĹĂłw telewizyjnych w Polsce - wynika z danych Nielsen Audience Measurement udostÄpnionych nam przez nadawcÄ Stars.TV. DuĹźe zmiany w pierwszej piÄ
+tce.]]>
+      </description>
+      <pubDate>Wed, 05 Feb 2020 17:17:54 +0100</pubDate>
+    </item>
+    <item>
+      <title>StyczeĹ przed TV: TVP1 liderem w ogĂłlnej grupie widzĂłw, Polsat w komercyjnej</title>
+      <link>https://media2.pl/media/159915-Styczen-przed-TV-TVP1-liderem-w-ogolnej-grupie-widzow-Polsat-w-komercyjnej.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</link>
+      <comments>https://media2.pl/media/159915-Styczen-przed-TV-TVP1-liderem-w-ogolnej-grupie-widzow-Polsat-w-komercyjnej.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</comments>
+      <guid isPermaLink="true">https://media2.pl/l/n/159915</guid>
+      <category>Media</category>
+      <category>telemetria</category>
+      <description>
+        <![CDATA[<a href="https://media2.pl/media/159915-Styczen-przed-TV-TVP1-liderem-w-ogolnej-grupie-widzow-Polsat-w-komercyjnej.html#utm_source=rss&utm_campaign=rss&utm_medium=link"><img src="https://media2.pl/g/rss/5916.jpg" alt="" title="" style="float:right;margin-left:10px;border:1px dotted #CCC;padding:3px" /></a>W pierwszym miesiÄ
+cu 2020 roku najchÄtniej oglÄ
+dalnym kanaĹem telewizyjnym w ogĂłlnej grupie widzĂłw byĹa Jedynka, z grupie komercyjnej prowadzi Polsat.]]>
+      </description>
+      <pubDate>Tue, 03 Mar 2020 18:35:02 +0100</pubDate>
+    </item>
+    
+    
+    <item>
+      <title>TV: Najpopularniejsze filmy 2019 roku. Hitem &#34;Kevin sam w domu&#34;</title>
+      <link>https://media2.pl/media/159473-TV-Najpopularniejsze-filmy-2019-roku.-Hitem-Kevin-sam-w-domu.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</link>
+      <comments>https://media2.pl/media/159473-TV-Najpopularniejsze-filmy-2019-roku.-Hitem-Kevin-sam-w-domu.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</comments>
+      <guid isPermaLink="true">https://media2.pl/l/n/159473</guid>
+      <category>Media</category>
+      <category>TVN</category>
+      <category>Polsat</category>
+      <category>TVP1</category>
+      <category>film</category>
+      <category>telemetria</category>
+      <description>
+        <![CDATA[<a href="https://media2.pl/media/159473-TV-Najpopularniejsze-filmy-2019-roku.-Hitem-Kevin-sam-w-domu.html#utm_source=rss&utm_campaign=rss&utm_medium=link"><img src="https://media2.pl/g/rss/69351.jpg" alt="" title="" style="float:right;margin-left:10px;border:1px dotted #CCC;padding:3px" /></a>Jakie filmy cieszyĹy siÄ najwiÄkszÄ
+ popularnoĹciÄ
+ wĹrĂłd telewidzĂłw w 2019 roku?]]>
+      </description>
+      <pubDate>Mon, 06 Jan 2020 10:19:11 +0100</pubDate>
+    </item>
+    <item>
+      <title>
+        TV: Najpopularniejsze seriale 2019 roku. Hitem wciÄ
+        Ĺź &#34;M jak miĹoĹÄ&#34;
+      </title>
+      <link>https://media2.pl/media/159471-TV-Najpopularniejsze-seriale-2019-roku.-Hitem-wciaz-M-jak-milosc.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</link>
+      <comments>https://media2.pl/media/159471-TV-Najpopularniejsze-seriale-2019-roku.-Hitem-wciaz-M-jak-milosc.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</comments>
+      <guid isPermaLink="true">https://media2.pl/l/n/159471</guid>
+      <category>Media</category>
+      <category>serial</category>
+      <category>TVP1</category>
+      <category>TVP2</category>
+      <category>M jak miĹoĹÄ</category>
+      <category>Blondynka</category>
+      <category>Barwy SzczÄĹcia</category>
+      <category>Na dobre i na zĹe</category>
+      <category>Ojciec Mateusz</category>
+      <category>telemetria</category>
+      <category>Komisarz Alex</category>
+      <description>
+        <![CDATA[<a href="https://media2.pl/media/159471-TV-Najpopularniejsze-seriale-2019-roku.-Hitem-wciaz-M-jak-milosc.html#utm_source=rss&utm_campaign=rss&utm_medium=link"><img src="https://media2.pl/g/rss/69349.jpg" alt="" title="" style="float:right;margin-left:10px;border:1px dotted #CCC;padding:3px" /></a>KtĂłre seriale cieszyĹy siÄ najwiÄkszÄ
+ popularnoĹciÄ
+ wĹrĂłd telewidzĂłw w 2019 roku?]]>
+      </description>
+      <pubDate>Mon, 06 Jan 2020 10:18:53 +0100</pubDate>
+    </item>
+    <item>
+      <title>TV: Najpopularniejsze programy rozrywkowe 2019 roku. Hitami rolnicy i seniorzy</title>
+      <link>https://media2.pl/media/159469-TV-Najpopularniejsze-programy-rozrywkowe-2019-roku.-Hitami-rolnicy-i-seniorzy.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</link>
+      <comments>https://media2.pl/media/159469-TV-Najpopularniejsze-programy-rozrywkowe-2019-roku.-Hitami-rolnicy-i-seniorzy.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</comments>
+      <guid isPermaLink="true">https://media2.pl/l/n/159469</guid>
+      <category>Media</category>
+      <category>TVN</category>
+      <category>Polsat</category>
+      <category>TVP1</category>
+      <category>TVP2</category>
+      <category>Taniec z gwiazdami</category>
+      <category>koĹo fortuny</category>
+      <category>Milionerzy</category>
+      <category>Familiada</category>
+      <category>Mam Talent</category>
+      <category>Jaka to melodia</category>
+      <category>telemetria</category>
+      <category>Dancing with the Stars. Taniec z Gwiazdami</category>
+      <category>Rolnik szuka Ĺźony</category>
+      <category>The Voice of Kids</category>
+      <category>The Voice Senior</category>
+      <description><![CDATA[<a href="https://media2.pl/media/159469-TV-Najpopularniejsze-programy-rozrywkowe-2019-roku.-Hitami-rolnicy-i-seniorzy.html#utm_source=rss&utm_campaign=rss&utm_medium=link"><img src="https://media2.pl/g/rss/67957.jpg" alt="" title="" style="float:right;margin-left:10px;border:1px dotted #CCC;padding:3px" /></a>Reality-show telewizyjnej Jedynki &#34;Rolnik szuka Ĺźony&#34; utrzymuje pozycjÄ najpopularniejszego programu rozrywkowego polskiej telewizji w 2019 roku -  wynika z telewizyjnego raportu Nielsen Audience Measurement.]]></description>
+      <pubDate>Mon, 06 Jan 2020 10:18:39 +0100</pubDate>
+    </item>
+    <item>
+      <title>TV: Najpopularniejsze programy sportowe 2019 roku. Hitem skoki narciarskie</title>
+      <link>https://media2.pl/media/159467-TV-Najpopularniejsze-programy-sportowe-2019-roku.-Hitem-skoki-narciarskie.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</link>
+      <comments>https://media2.pl/media/159467-TV-Najpopularniejsze-programy-sportowe-2019-roku.-Hitem-skoki-narciarskie.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</comments>
+      <guid isPermaLink="true">https://media2.pl/l/n/159467</guid>
+      <category>Media</category>
+      <category>TVP1</category>
+      <category>sport</category>
+      <category>skoki narciarskie</category>
+      <category>telemetria</category>
+      <category>Nielsen Audience Measurement</category>
+      <description><![CDATA[<a href="https://media2.pl/media/159467-TV-Najpopularniejsze-programy-sportowe-2019-roku.-Hitem-skoki-narciarskie.html#utm_source=rss&utm_campaign=rss&utm_medium=link"><img src="https://media2.pl/g/rss/32891.jpg" alt="" title="" style="float:right;margin-left:10px;border:1px dotted #CCC;padding:3px" /></a>Sportowy rok 2019 przed telewizyjnym ekranem zdecydowanie naleĹźaĹ do transmisji skokĂłw narciarskich - wynika z telewizyjnego raportu Nielsen Audience Measurement.]]></description>
+      <pubDate>Mon, 06 Jan 2020 10:18:21 +0100</pubDate>
+    </item>
+    <item>
+      <title>
+        GĹĂłwne kanaĹy informacyjne w grudniu zyskujÄ
+        widzĂłw. Liderem TVN24
+      </title>
+      <link>https://media2.pl/media/159443-Glowne-kanaly-informacyjne-w-grudniu-zyskuja-widzow.-Liderem-TVN24.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</link>
+      <comments>https://media2.pl/media/159443-Glowne-kanaly-informacyjne-w-grudniu-zyskuja-widzow.-Liderem-TVN24.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</comments>
+      <guid isPermaLink="true">https://media2.pl/l/n/159443</guid>
+      <category>Media</category>
+      <category>TVN24</category>
+      <category>TVP Info</category>
+      <category>Polsat News</category>
+      <category>telemetria</category>
+      <description>
+        <![CDATA[<a href="https://media2.pl/media/159443-Glowne-kanaly-informacyjne-w-grudniu-zyskuja-widzow.-Liderem-TVN24.html#utm_source=rss&utm_campaign=rss&utm_medium=link"><img src="https://media2.pl/g/rss/27974.jpg" alt="" title="" style="float:right;margin-left:10px;border:1px dotted #CCC;padding:3px" /></a>Telewizja TVN24 w dwunastym miesiÄ
+cu 2019 roku TVN24 utrzymuje pozycjÄ lidera wĹrĂłd gĹĂłwnych kanaĹĂłw informacyjnych w Polsce.]]>
+      </description>
+      <pubDate>Thu, 02 Jan 2020 16:14:40 +0100</pubDate>
+    </item>
+    <item>
+      <title>&#34;The Voice Senior&#34; hitem DwĂłjki. Prawie 3 mln widzĂłw</title>
+      <link>https://media2.pl/media/159439-The-Voice-Senior-hitem-Dwojki.-Prawie-3-mln-widzow.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</link>
+      <comments>https://media2.pl/media/159439-The-Voice-Senior-hitem-Dwojki.-Prawie-3-mln-widzow.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</comments>
+      <guid isPermaLink="true">https://media2.pl/l/n/159439</guid>
+      <category>Media</category>
+      <category>TVP2</category>
+      <category>telemetria</category>
+      <category>The Voice Senior</category>
+      <description><![CDATA[<a href="https://media2.pl/media/159439-The-Voice-Senior-hitem-Dwojki.-Prawie-3-mln-widzow.html#utm_source=rss&utm_campaign=rss&utm_medium=link"><img src="https://media2.pl/g/rss/73023.jpg" alt="" title="" style="float:right;margin-left:10px;border:1px dotted #CCC;padding:3px" /></a>&#34;The Voice Senior&#34; rozrywkowym hitem telewizyjnej DwĂłjki.]]></description>
+      <pubDate>Mon, 30 Dec 2019 17:06:39 +0100</pubDate>
+    </item>
+    <item>
+      <title>
+        &#34;My Way&#34; z EdytÄ
+        GĂłrniak nie byĹ hitem TVN. Prawie 900 tys. widzĂłw
+      </title>
+      <link>https://media2.pl/media/159387-My-Way-z-Edyta-Gorniak-nie-byl-hitem-TVN.-Prawie-900-tys.-widzow.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</link>
+      <comments>https://media2.pl/media/159387-My-Way-z-Edyta-Gorniak-nie-byl-hitem-TVN.-Prawie-900-tys.-widzow.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</comments>
+      <guid isPermaLink="true">https://media2.pl/l/n/159387</guid>
+      <category>Media</category>
+      <category>TVN</category>
+      <category>telemetria</category>
+      <category>My Way</category>
+      <category>Edyta GrĂłniak</category>
+      <description>
+        <![CDATA[<a href="https://media2.pl/media/159387-My-Way-z-Edyta-Gorniak-nie-byl-hitem-TVN.-Prawie-900-tys.-widzow.html#utm_source=rss&utm_campaign=rss&utm_medium=link"><img src="https://media2.pl/g/rss/72215.jpg" alt="" title="" style="float:right;margin-left:10px;border:1px dotted #CCC;padding:3px" /></a>Tylko prawie 900 tys. widzĂłw oglÄ
+daĹo nowe reality-show z udziaĹem Edyty GĂłrniak.]]>
+      </description>
+      <pubDate>Thu, 19 Dec 2019 16:07:04 +0100</pubDate>
+    </item>
+    <item>
+      <title>
+        Rekordowa oglÄ
+        dalnoĹÄ El Clasico w Eleven Sports
+      </title>
+      <link>https://media2.pl/media/159357-Rekordowa-ogladalnosc-El-Clasico-w-Eleven-Sports.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</link>
+      <comments>https://media2.pl/media/159357-Rekordowa-ogladalnosc-El-Clasico-w-Eleven-Sports.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</comments>
+      <guid isPermaLink="true">https://media2.pl/l/n/159357</guid>
+      <category>Media</category>
+      <category>telemetria</category>
+      <category>Eleven Sports</category>
+      <description><![CDATA[<a href="https://media2.pl/media/159357-Rekordowa-ogladalnosc-El-Clasico-w-Eleven-Sports.html#utm_source=rss&utm_campaign=rss&utm_medium=link"><img src="https://media2.pl/g/rss/67017.jpg" alt="" title="" style="float:right;margin-left:10px;border:1px dotted #CCC;padding:3px" /></a>Kolejny rekord Eleven Sports]]></description>
+      <pubDate>Thu, 19 Dec 2019 12:57:06 +0100</pubDate>
+    </item>
+    <item>
+      <title>11 sezon &#34;Gogglebox. Przed telewizorem&#34; hitem TTV. W ĹwiÄta odcinek specjalny</title>
+      <link>https://media2.pl/media/159351-11-sezon-Gogglebox.-Przed-telewizorem-hitem-TTV.-W-swieta-odcinek-specjalny.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</link>
+      <comments>https://media2.pl/media/159351-11-sezon-Gogglebox.-Przed-telewizorem-hitem-TTV.-W-swieta-odcinek-specjalny.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</comments>
+      <guid isPermaLink="true">https://media2.pl/l/n/159351</guid>
+      <category>Media</category>
+      <category>telemetria</category>
+      <category>TTV</category>
+      <category>Gogglebox</category>
+      <description>
+        <![CDATA[<a href="https://media2.pl/media/159351-11-sezon-Gogglebox.-Przed-telewizorem-hitem-TTV.-W-swieta-odcinek-specjalny.html#utm_source=rss&utm_campaign=rss&utm_medium=link"><img src="https://media2.pl/g/rss/73201.jpg" alt="" title="" style="float:right;margin-left:10px;border:1px dotted #CCC;padding:3px" /></a>JesieniÄ
+ 2019 roku program &#34;Gogglebox. Przed telewizorem&#34; wciÄ
+Ĺź pozostaje hitem telewizji TTV. Program oglÄ
+da Ĺrednio prawie 0,6 mln widzĂłw. W ĹwiÄta TTV wyemituje odcinek specjalny, a juĹź wiosnÄ
+ 2020 kolejny sezon.]]>
+      </description>
+      <pubDate>Wed, 18 Dec 2019 19:39:08 +0100</pubDate>
+    </item>
+    <item>
+      <title>
+        DuĹźy spadek oglÄ
+        dalnoĹci jesiennej edycji &#34;Big Brothera&#34; w TVN7
+      </title>
+      <link>https://media2.pl/media/159311-Duzy-spadek-ogladalnosci-jesiennej-edycji-Big-Brothera-w-TVN7.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</link>
+      <comments>https://media2.pl/media/159311-Duzy-spadek-ogladalnosci-jesiennej-edycji-Big-Brothera-w-TVN7.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</comments>
+      <guid isPermaLink="true">https://media2.pl/l/n/159311</guid>
+      <category>Media</category>
+      <category>Big Brother</category>
+      <category>telemetria</category>
+      <category>TVN7</category>
+      <description>
+        <![CDATA[<a href="https://media2.pl/media/159311-Duzy-spadek-ogladalnosci-jesiennej-edycji-Big-Brothera-w-TVN7.html#utm_source=rss&utm_campaign=rss&utm_medium=link"><img src="https://media2.pl/g/rss/70297.jpg" alt="" title="" style="float:right;margin-left:10px;border:1px dotted #CCC;padding:3px" /></a>Ĺrednio niecaĹe 0,5 mln widzĂłw ĹledziĹo jesiennÄ
+ edycjÄ reality-show &#34;Big Brother&#34; na antenie TVN7. Program zanotowaĹ duĹźy spadek oglÄ
+dalnoĹci.]]>
+      </description>
+      <pubDate>Tue, 17 Dec 2019 14:06:08 +0100</pubDate>
+    </item>
+    <item>
+      <title>
+        &#34;MasterChef&#34; jesieniÄ
+        notuje spadek oglÄ
+        dalnoĹci. TVN liderem w grupie komercyjnej
+      </title>
+      <link>https://media2.pl/media/159223-MasterChef-jesienia-notuje-spadek-ogladalnosci.-TVN-liderem-w-grupie-komercyjnej.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</link>
+      <comments>https://media2.pl/media/159223-MasterChef-jesienia-notuje-spadek-ogladalnosci.-TVN-liderem-w-grupie-komercyjnej.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</comments>
+      <guid isPermaLink="true">https://media2.pl/l/n/159223</guid>
+      <category>Media</category>
+      <category>TVN</category>
+      <category>telemetria</category>
+      <category>MasterChef</category>
+      <category>jesieĹ 2018</category>
+      <description>
+        <![CDATA[<a href="https://media2.pl/media/159223-MasterChef-jesienia-notuje-spadek-ogladalnosci.-TVN-liderem-w-grupie-komercyjnej.html#utm_source=rss&utm_campaign=rss&utm_medium=link"><img src="https://media2.pl/g/rss/72479.jpg" alt="" title="" style="float:right;margin-left:10px;border:1px dotted #CCC;padding:3px" /></a>Kulinarne reality-show &#34;MasterChef&#34; jesieniÄ
+ 2019 roku straciĹ ponad 400 tys. widzĂłw.]]>
+      </description>
+      <pubDate>Tue, 10 Dec 2019 13:44:46 +0100</pubDate>
+    </item>
+    <item>
+      <title>
+        &#34;Milionerzy&#34; TVN jesieniÄ
+        tracÄ
+        widzĂłw. WiosnÄ
+        kolejna edycja
+      </title>
+      <link>https://media2.pl/media/159215-Milionerzy-TVN-jesienia-traca-widzow.-Wiosna-kolejna-edycja.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</link>
+      <comments>https://media2.pl/media/159215-Milionerzy-TVN-jesienia-traca-widzow.-Wiosna-kolejna-edycja.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</comments>
+      <guid isPermaLink="true">https://media2.pl/l/n/159215</guid>
+      <category>Media</category>
+      <category>TVN</category>
+      <category>Milionerzy</category>
+      <category>telemetria</category>
+      <category>jesieĹ 2019</category>
+      <description>
+        <![CDATA[<a href="https://media2.pl/media/159215-Milionerzy-TVN-jesienia-traca-widzow.-Wiosna-kolejna-edycja.html#utm_source=rss&utm_campaign=rss&utm_medium=link"><img src="https://media2.pl/g/rss/67993.jpg" alt="" title="" style="float:right;margin-left:10px;border:1px dotted #CCC;padding:3px" /></a>JesieniÄ
+ 2019 roku teleturniej &#34;Milionerzy&#34; na antenie TVN oglÄ
+daĹo Ĺrednio ponad 1,8 mln widzĂłw. Program notuje spadek oglÄ
+dalnoĹci, a podczas jego emisji TVN przegrywa jedynie z popularnym serialem TVP2.]]>
+      </description>
+      <pubDate>Mon, 09 Dec 2019 13:39:18 +0100</pubDate>
+    </item>
+    <item>
+      <title>
+        Programy informacyjne w listopadzie: Liderem &#34;Fakty&#34; TVN, zyskujÄ
+        &#34;WiadomoĹci&#34; TVP1
+      </title>
+      <link>https://media2.pl/media/159159-Programy-informacyjne-w-listopadzie-Liderem-Fakty-TVN-zyskuja-Wiadomosci-TVP1.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</link>
+      <comments>https://media2.pl/media/159159-Programy-informacyjne-w-listopadzie-Liderem-Fakty-TVN-zyskuja-Wiadomosci-TVP1.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</comments>
+      <guid isPermaLink="true">https://media2.pl/l/n/159159</guid>
+      <category>Media</category>
+      <category>TVN</category>
+      <category>Polsat</category>
+      <category>WiadomoĹci</category>
+      <category>TVP1</category>
+      <category>TVP2</category>
+      <category>Wydarzenia</category>
+      <category>Panorama</category>
+      <category>Teleexpress</category>
+      <category>telemetria</category>
+      <description>
+        <![CDATA[<a href="https://media2.pl/media/159159-Programy-informacyjne-w-listopadzie-Liderem-Fakty-TVN-zyskuja-Wiadomosci-TVP1.html#utm_source=rss&utm_campaign=rss&utm_medium=link"><img src="https://media2.pl/g/rss/56231.jpg" alt="" title="" style="float:right;margin-left:10px;border:1px dotted #CCC;padding:3px" /></a>W jedenastym miesiÄ
+cu 2019 roku, mimo spadku oglÄ
+dalnoĹci, pozycjÄ lidera wĹrĂłd programĂłw informacyjnych utrzymujÄ
+ &#34;Fakty&#34; TVN. NajwiÄkszy wzrost oglÄ
+dalnoĹci notujÄ
+ &#34;WiadomoĹci&#34; TVP1]]>
+      </description>
+      <pubDate>Wed, 04 Dec 2019 18:59:29 +0100</pubDate>
+    </item>
+    <item>
+      <title>
+        &#34;Kuba WojewĂłdzki&#34; wygrywa z konkurencjÄ
+        . Hitem jesiennego sezonu odcinek z GĂłrniak i Figurskim
+      </title>
+      <link>https://media2.pl/media/159121-Kuba-Wojewodzki-wygrywa-z-konkurencja.-Hitem-jesiennego-sezonu-odcinek-z-Gorniak-i-Figurskim.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</link>
+      <comments>https://media2.pl/media/159121-Kuba-Wojewodzki-wygrywa-z-konkurencja.-Hitem-jesiennego-sezonu-odcinek-z-Gorniak-i-Figurskim.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</comments>
+      <guid isPermaLink="true">https://media2.pl/l/n/159121</guid>
+      <category>Media</category>
+      <category>TVN</category>
+      <category>Kuba WojewĂłdzki</category>
+      <category>MichaĹ Figurski</category>
+      <category>Edyta GĂłrniak</category>
+      <category>telemetria</category>
+      <description>
+        <![CDATA[<a href="https://media2.pl/media/159121-Kuba-Wojewodzki-wygrywa-z-konkurencja.-Hitem-jesiennego-sezonu-odcinek-z-Gorniak-i-Figurskim.html#utm_source=rss&utm_campaign=rss&utm_medium=link"><img src="https://media2.pl/g/rss/58861.jpg" alt="" title="" style="float:right;margin-left:10px;border:1px dotted #CCC;padding:3px" /></a>Telewizyjny talk-show Kuby WojewĂłdzkiego jesieniÄ
+ 2019 roku utrzymuje pozycjÄ lidera we wtorkowe wieczory.]]>
+      </description>
+      <pubDate>Mon, 02 Dec 2019 20:00:08 +0100</pubDate>
+    </item>
+    <item>
+      <title>
+        XII edycja &#34;Mam talent&#34; notuje spadek oglÄ
+        dalnoĹci. Show wciÄ
+        Ĺź hitem TVN
+      </title>
+      <link>https://media2.pl/media/159117-XII-edycja-Mam-talent-notuje-spadek-ogladalnosci.-Show-wciaz-hitem-TVN.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</link>
+      <comments>https://media2.pl/media/159117-XII-edycja-Mam-talent-notuje-spadek-ogladalnosci.-Show-wciaz-hitem-TVN.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</comments>
+      <guid isPermaLink="true">https://media2.pl/l/n/159117</guid>
+      <category>Media</category>
+      <category>TVN</category>
+      <category>Mam Talent</category>
+      <category>telemetria</category>
+      <category>jesieĹ 2019</category>
+      <description>
+        <![CDATA[<a href="https://media2.pl/media/159117-XII-edycja-Mam-talent-notuje-spadek-ogladalnosci.-Show-wciaz-hitem-TVN.html#utm_source=rss&utm_campaign=rss&utm_medium=link"><img src="https://media2.pl/g/rss/72471.jpg" alt="" title="" style="float:right;margin-left:10px;border:1px dotted #CCC;padding:3px" /></a>&#34;Mam talent&#34; pozostaje rozrywkowym hitem telewizji TVN. JesieniÄ
+ 2019 roku program zanotowaĹ spadek oglÄ
+dalnoĹci oglÄ
+dalnoĹci. Mimo to stacja TVN utrzymuje pozycjÄ lidera.]]>
+      </description>
+      <pubDate>Mon, 02 Dec 2019 18:14:48 +0100</pubDate>
+    </item>
+    <item>
+      <title>10 edycja &#34;The Voice of Poland&#34; w DwĂłjce traci widzĂłw. Kolejna edycja za rok</title>
+      <link>https://media2.pl/media/159115-10-edycja-The-Voice-of-Poland-w-Dwojce-traci-widzow.-Kolejna-edycja-za-rok.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</link>
+      <comments>https://media2.pl/media/159115-10-edycja-The-Voice-of-Poland-w-Dwojce-traci-widzow.-Kolejna-edycja-za-rok.html#utm_source=rss&#38;utm_campaign=rss&#38;utm_medium=link</comments>
+      <guid isPermaLink="true">https://media2.pl/l/n/159115</guid>
+      <category>Media</category>
+      <category>TVP2</category>
+      <category>telemetria</category>
+      <category>The Voice of Poland</category>
+      <description>
+        <![CDATA[<a href="https://media2.pl/media/159115-10-edycja-The-Voice-of-Poland-w-Dwojce-traci-widzow.-Kolejna-edycja-za-rok.html#utm_source=rss&utm_campaign=rss&utm_medium=link"><img src="https://media2.pl/g/rss/72467.jpg" alt="" title="" style="float:right;margin-left:10px;border:1px dotted #CCC;padding:3px" /></a>Muzyczne show telewizyjnej DwĂłjki &#34;The Voice of Poland&#34; jesieniÄ
+ 2019 roku zanotowaĹo lekki spadek oglÄ
+dalnoĹci. Program oglÄ
+daĹo Ĺrednio nieco ponad 1,8 mln widzĂłw. Kolejna edycja za rok.]]>
+      </description>
+      <pubDate>Mon, 02 Dec 2019 18:05:06 +0100</pubDate>
     </item>
   </channel>
 </rss>
