@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using MediaReviewer.Model;
+using MediaReviewer.Tests.Resources;
 using Moq;
 using NUnit.Framework;
 
@@ -36,7 +37,7 @@ namespace MediaReviewer.Tests.ModelTests
         }
 
         [Test]
-        public void GetArticles_WhenCalled_ReturnRssChannelObject()
+        public void GetChannels_WhenCalled_ReturnRssChannelObject()
         {
             //Arrange
             var articlesHelper = new ArticlesHelper("databaseName", _storage.Object);
@@ -49,7 +50,7 @@ namespace MediaReviewer.Tests.ModelTests
         }
 
         [Test]
-        public void GetArticles_WhenCalled_ReturnsAnyObject()
+        public void GetChannels_WhenCalled_ReturnsAnyObject()
         {
             //Arrange
             var articlesHelper = new ArticlesHelper("databaseName", _storage.Object);
@@ -60,6 +61,114 @@ namespace MediaReviewer.Tests.ModelTests
             //Assert
             Assert.That(result.Count, Is.GreaterThan(0));
         }
+
+        [Test]
+        public void GetChannels_InHtmlWasLeadAndBodyText_HtmlToOnlyTextString()
+        {
+            _storage.Setup(s => s.LoadRecords<RssChannel>("RssChannel"))
+                .Returns(new List<RssChannel>
+                {new RssChannel()
+                    {
+                        Articles = new List<Article>()
+                        {
+                            new Article()
+                            {
+                                Title = "a",
+                                Text = HtmlString.HtmlLeadAndBody
+                            }
+                        },
+
+                    }
+                });
+
+            var articlesHelper = new ArticlesHelper("databaseName", _storage.Object);
+
+            var result = articlesHelper.GetChannels();
+
+            Assert.That(result.First().Articles.First().Text, Is.EqualTo("Text in news-lead class\nText in news-body class."));
+        }
+
+        [Test]
+        public void GetChannels_InHtmlWasOnlyLeadText_HtmlToOnlyLeadString()
+        {
+            _storage.Setup(s => s.LoadRecords<RssChannel>("RssChannel"))
+                .Returns(new List<RssChannel>
+                {new RssChannel()
+                    {
+                        Articles = new List<Article>()
+                        {
+                            new Article()
+                            {
+                                Title = "a",
+                                Text = HtmlString.HtmlArticlesLead
+                            }
+                        },
+
+                    }
+                });
+
+            var articlesHelper = new ArticlesHelper("databaseName", _storage.Object);
+
+            var result = articlesHelper.GetChannels();
+
+            Assert.That(result.First().Articles.First().Text, Is.EqualTo("Text in news-lead class"));
+
+        }
+
+        [Test]
+        public void GetChannels_InHtmlWasOnlyArticlesBodyText_HtmlToOnlyBodyString()
+        {
+            _storage.Setup(s => s.LoadRecords<RssChannel>("RssChannel"))
+                .Returns(new List<RssChannel>
+                {new RssChannel()
+                    {
+                        Articles = new List<Article>()
+                        {
+                            new Article()
+                            {
+                                Title = "a",
+                                Text = HtmlString.HtmlArticlesBody
+                            }
+                        },
+
+                    }
+                });
+
+            var articlesHelper = new ArticlesHelper("databaseName", _storage.Object);
+
+            var result = articlesHelper.GetChannels();
+
+            Assert.That(result.First().Articles.First().Text, Is.EqualTo("Text in news-lead class"));
+
+        }
+
+        [Test]
+        public void GetChannels_CouldNotFoundArticlesText_HtmlsToInformationString()
+        {
+            _storage.Setup(s => s.LoadRecords<RssChannel>("RssChannel"))
+                .Returns(new List<RssChannel>
+                {new RssChannel()
+                    {
+                        Articles = new List<Article>()
+                        {
+                            new Article()
+                            {
+                                Title = "a",
+                                Text = HtmlString.HtmlNoLeadAndBody
+                            }
+                        },
+
+                    }
+                });
+
+            var articlesHelper = new ArticlesHelper("databaseName", _storage.Object);
+
+            var result = articlesHelper.GetChannels();
+
+            Assert.That(result.First().Articles.First().Text, Is.EqualTo("Could not find any text."));
+        }
+
+
     }
 }
 

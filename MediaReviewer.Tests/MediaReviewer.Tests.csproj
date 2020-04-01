@@ -69,6 +69,7 @@
   <ItemGroup>
     <Compile Include="ModelTests\ArticlesHelperTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources\HtmlString.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
