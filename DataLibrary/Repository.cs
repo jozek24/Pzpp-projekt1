@@ -9,21 +9,13 @@ using System.Timers;
 
 namespace DataLibrary
 {
-    public class Lista
-    {
-        public string MyProperty { get; set; }
-    }
-    public class ListaDwa
-    {
-        public string MyProperty { get; set; }
-    }
     public  class Repository : IRepository
     {
         private IJSONDataAccess jSONDataAccess = new JSONDataAccess();
         private RssChannel _rssChannel = new RssChannel();
         private Article _article = new Article();
        
-		MongoCRUD db = new MongoCRUD("NowaBaza3");
+		MongoCRUD db = new MongoCRUD("NowaBaza");
         private static Timer aTimer;
 
         public Repository()
