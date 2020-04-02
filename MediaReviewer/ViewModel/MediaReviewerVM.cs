@@ -127,7 +127,7 @@ namespace MediaReviewer.ViewModel
                 HtmlText = SelectedArticle.Text;
                 PublicationDate ="Publication date: " + SelectedArticle.PubDate;
             }
-            catch(Exception e)
+            catch (Exception e)
             {
                 HtmlText = "";
             }
@@ -159,7 +159,7 @@ namespace MediaReviewer.ViewModel
             {
                 RssChannels.Add(item);
             }
-          
+
         }
 
 
@@ -168,6 +168,6 @@ namespace MediaReviewer.ViewModel
             get;
             private set;
         }
-       
+
     }
 }

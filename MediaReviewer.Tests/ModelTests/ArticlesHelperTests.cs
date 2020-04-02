@@ -63,32 +63,15 @@ namespace MediaReviewer.Tests.ModelTests
             Assert.That(result.Count, Is.GreaterThan(0));
         }
 
-        [TestCase(HtmlString.HtmlLeadAndBody, "Text in news-lead class\r\nText in news-body class.")]
         [TestCase(HtmlString.HtmlArticlesLead, "Text in news-lead class")]
         [TestCase(HtmlString.HtmlArticlesBody, "Text in news-body class.")]
         [TestCase(HtmlString.HtmlNoLeadAndBody, "Could not find any text.")]
-        public void GetChannels_WhenCalled_ChangesHtmlToProperString(string htmlText,string value)
+        [TestCase(HtmlString.HtmlClassNewsLeadNoImg, "Could not find any text.")]
+        public void HtmlToArticlesText_WhenCalled_ChangesHtmlToProperString(string htmlText,string value)
         {
-            _storage.Setup(s => s.LoadRecords<RssChannel>("RssChannel"))
-                .Returns(new List<RssChannel>
-                {new RssChannel()
-                    {
-                        Articles = new List<Article>()
-                        {
-                            new Article()
-                            {
-                                Text = htmlText
-                            }
-                        },
+            var result = ArticlesHelper.HtmlToArticlesText(htmlText);
 
-                    }
-                });
-
-            var articlesHelper = new ArticlesHelper("databaseName", _storage.Object);
-
-            var result = articlesHelper.GetChannels();
-
-            Assert.That(result.First().Articles.First().Text, Is.EqualTo(value));
+            Assert.That(result, Does.Contain(value).IgnoreCase);
         }
     }
 }
