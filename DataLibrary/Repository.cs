@@ -42,6 +42,7 @@ namespace DataLibrary
 
         private void OnTimedEvent(Object source, ElapsedEventArgs e)
         {
+            jSONDataAccess = new JSONDataAccess();
             var channelsfromdatabase = _db.LoadRecords<RssChannel>("RssChannel").GetAwaiter().GetResult();
 
             AddNewRssChannels(channelsfromdatabase);
