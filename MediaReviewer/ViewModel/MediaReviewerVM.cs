@@ -107,7 +107,7 @@ namespace MediaReviewer.ViewModel
             List<RssChannel> rssChannelsList = new List<RssChannel>();
             RssChannels.Clear();
             
-            var articlesHelper = new ArticlesHelper("NowaBaza");
+            var articlesHelper = new ArticlesHelper("ChannelsFromMedia2");
 
             rssChannelsList = articlesHelper.GetChannels();
             foreach (var item in rssChannelsList)
