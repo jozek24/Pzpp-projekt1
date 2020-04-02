@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 using HtmlAgilityPack;
 
 namespace MediaReviewer.Model
@@ -26,7 +27,8 @@ namespace MediaReviewer.Model
 
         private void HtmlToArticlesText(List<RssChannel> rssChannel)
         {
-            foreach (var channel in rssChannel)
+
+            Parallel.ForEach(rssChannel, (channel) =>
             {
                 foreach (var article in channel.Articles)
                 {
@@ -49,7 +51,8 @@ namespace MediaReviewer.Model
                         if (!String.IsNullOrEmpty(resultText))
                             resultText += Environment.NewLine;
 
-                        resultText += htmlDoc.DocumentNode.SelectSingleNode("//*[@class='news-body bbtext']/text()").InnerText.Trim();
+                        resultText += htmlDoc.DocumentNode.SelectSingleNode("//*[@class='news-body bbtext']/text()")
+                            .InnerText.Trim();
                     }
 
                     if (String.IsNullOrEmpty(resultText))
@@ -57,7 +60,7 @@ namespace MediaReviewer.Model
 
                     article.Text = resultText;
                 }
-            }
+            });
         }
     }
 }
