@@ -83,6 +83,6 @@
         </ScrollViewer>
 
         <TextBlock Grid.Row="2"  Background="#0BC6E9"  Grid.Column ="1" x:Name="Stopka2" Text="{Binding PublicationDate}"/>
-        <TextBlock Grid.Row="2"  Background="#0BC6E9"  Grid.Column ="0" x:Name="Stopka1" Text="{Binding CountOfArticle}"/>
+        <TextBlock Grid.Row="2"  Background="#0BC6E9"  Grid.Column ="0" x:Name="Stopka1" Text="{Binding CountOfCannals}"/>
     </Grid>
 </Controls:MetroWindow>

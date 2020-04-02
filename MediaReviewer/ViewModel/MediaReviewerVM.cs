@@ -73,11 +73,11 @@ namespace MediaReviewer.ViewModel
 
             set => SetProperty(ref _publicationDate, value);
         }
-        private string _countOfArticle;
-        public string CountOfArticle
+        private string _countOfCannals;
+        public string CountOfCannals
         {
-            get => _countOfArticle;
-            set => SetProperty(ref _countOfArticle, value);
+            get => _countOfCannals;
+            set => SetProperty(ref _countOfCannals, value);
         }
 
         public ICommand RefreschCommand
@@ -124,8 +124,9 @@ namespace MediaReviewer.ViewModel
         {
             try
             {
-                HtmlText = SelectedArticle.Text;
-                PublicationDate ="Publication date: " + SelectedArticle.PubDate;
+
+                HtmlText = ArticlesHelper.HtmlToArticlesText(SelectedArticle.Text);
+                PublicationDate = "Publication date: " + SelectedArticle.PubDate;
             }
             catch (Exception e)
             {
@@ -142,7 +143,7 @@ namespace MediaReviewer.ViewModel
                 Articles.Add(item);
             }
             DefaultArticle = 0;
-            CountOfArticle= "Number of Articles: " + Articles.Count.ToString();
+            
 
 
         }
@@ -159,7 +160,7 @@ namespace MediaReviewer.ViewModel
             {
                 RssChannels.Add(item);
             }
-
+            CountOfCannals = "Number of Cannals: " + RssChannels.Count.ToString();
         }
 
 
