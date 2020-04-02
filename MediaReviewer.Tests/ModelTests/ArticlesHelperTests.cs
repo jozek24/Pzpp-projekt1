@@ -69,26 +69,9 @@ namespace MediaReviewer.Tests.ModelTests
         [TestCase(HtmlString.HtmlNoLeadAndBody, "Could not find any text.")]
         public void GetChannels_WhenCalled_ChangesHtmlToProperString(string htmlText,string value)
         {
-            _storage.Setup(s => s.LoadRecords<RssChannel>("RssChannel"))
-                .Returns(new List<RssChannel>
-                {new RssChannel()
-                    {
-                        Articles = new List<Article>()
-                        {
-                            new Article()
-                            {
-                                Text = htmlText
-                            }
-                        },
+            var result = ArticlesHelper.HtmlToArticlesText(htmlText);
 
-                    }
-                });
-
-            var articlesHelper = new ArticlesHelper("databaseName", _storage.Object);
-
-            var result = articlesHelper.GetChannels();
-
-            Assert.That(result.First().Articles.First().Text, Is.EqualTo(value));
+            Assert.That(result, Is.EqualTo(value));
         }
     }
 }

@@ -20,47 +20,39 @@ namespace MediaReviewer.Model
         public List<RssChannel> GetChannels()
         {
             var rssChannel = _articlesStorage.LoadRecords<RssChannel>("RssChannel");
-            HtmlToArticlesText(rssChannel);
 
             return rssChannel;
         }
 
-        private void HtmlToArticlesText(List<RssChannel> rssChannel)
+        public static string HtmlToArticlesText(string articlesHtml)
         {
+            if (string.IsNullOrEmpty(articlesHtml))
+                return "";
 
-            Parallel.ForEach(rssChannel, (channel) =>
+            var htmlDoc = new HtmlDocument();
+            htmlDoc.LoadHtml(articlesHtml);
+
+            var resultText = "";
+            if (htmlDoc.DocumentNode.SelectSingleNode("//*[@class='news-lead']/text()") != null)
             {
-                foreach (var article in channel.Articles)
-                {
-                    if (string.IsNullOrEmpty(article.Text))
-                        continue;
+                resultText += htmlDoc.DocumentNode.SelectSingleNode("//*[@class='news-lead']/text()").InnerText
+                    .Trim();
+            }
 
-                    var html = article.Text;
-                    var htmlDoc = new HtmlDocument();
-                    htmlDoc.LoadHtml(html);
+            if (htmlDoc.DocumentNode.SelectSingleNode("//*[@class='news-body bbtext']/text()") != null)
+            {
+                if (!String.IsNullOrEmpty(resultText))
+                    resultText += Environment.NewLine;
 
-                    var resultText = "";
-                    if (htmlDoc.DocumentNode.SelectSingleNode("//*[@class='news-lead']/text()") != null)
-                    {
-                        resultText += htmlDoc.DocumentNode.SelectSingleNode("//*[@class='news-lead']/text()").InnerText
-                            .Trim();
-                    }
+                resultText += htmlDoc.DocumentNode.SelectSingleNode("//*[@class='news-body bbtext']/text()")
+                    .InnerText.Trim();
+            }
 
-                    if (htmlDoc.DocumentNode.SelectSingleNode("//*[@class='news-body bbtext']/text()") != null)
-                    {
-                        if (!String.IsNullOrEmpty(resultText))
-                            resultText += Environment.NewLine;
+            if (String.IsNullOrEmpty(resultText))
+                resultText = "Could not find any text.";
 
-                        resultText += htmlDoc.DocumentNode.SelectSingleNode("//*[@class='news-body bbtext']/text()")
-                            .InnerText.Trim();
-                    }
+            return resultText;
 
-                    if (String.IsNullOrEmpty(resultText))
-                        resultText = "Could not find any text.";
-
-                    article.Text = resultText;
-                }
-            });
         }
     }
 }

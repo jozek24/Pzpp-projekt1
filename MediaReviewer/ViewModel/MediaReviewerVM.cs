@@ -13,7 +13,7 @@ namespace MediaReviewer.ViewModel
 {
     class MediaReviewerVM : BindableBase
     {
-     
+
         private ObservableCollection<RssChannel> _rssChannels = new ObservableCollection<RssChannel>();
         public int count;
 
@@ -28,8 +28,8 @@ namespace MediaReviewer.ViewModel
 
             }
         }
-     
-      private ObservableCollection<Article> _article = new ObservableCollection<Article>();
+
+        private ObservableCollection<Article> _article = new ObservableCollection<Article>();
         public ObservableCollection<Article> Articles
         {
             get => _article;
@@ -52,14 +52,14 @@ namespace MediaReviewer.ViewModel
         public Article SelectedArticle
         {
             get => _selectedArticle;
-            set 
+            set
             {
                 SetProperty(ref _selectedArticle, value);
                 DisplayArticleText();
-                
+
             }
         }
-        
+
 
 
         public ICommand RefreschCommand
@@ -70,30 +70,30 @@ namespace MediaReviewer.ViewModel
         {
             get;
         }
-       
-      
+
+
 
         public MediaReviewerVM()
         {
             RefreschCommand = new DelegateCommand(RefreschListOfChannels);
             AddArticleCommand = new DelegateCommand<RssChannel>(AddArticleButton);
             ShowTextCommand = new DelegateCommand(DisplayArticleText);
-           
+
         }
 
         private void DisplayArticleText()
         {
             try
             {
-                HtmlText = SelectedArticle.Text;
+                HtmlText = ArticlesHelper.HtmlToArticlesText(SelectedArticle.Text);
             }
-            catch(Exception e)
+            catch (Exception e)
             {
                 HtmlText = "";
             }
         }
 
-        private void AddArticleButton(RssChannel rssChannel )
+        private void AddArticleButton(RssChannel rssChannel)
         {
             Articles.Clear();
             foreach (var item in rssChannel.Articles)
@@ -106,7 +106,7 @@ namespace MediaReviewer.ViewModel
         {
             List<RssChannel> rssChannelsList = new List<RssChannel>();
             RssChannels.Clear();
-            
+
             var articlesHelper = new ArticlesHelper("ChannelsFromMedia2");
 
             rssChannelsList = articlesHelper.GetChannels();
@@ -114,7 +114,7 @@ namespace MediaReviewer.ViewModel
             {
                 RssChannels.Add(item);
             }
-          
+
         }
 
 
@@ -123,6 +123,6 @@ namespace MediaReviewer.ViewModel
             get;
             private set;
         }
-       
+
     }
 }
