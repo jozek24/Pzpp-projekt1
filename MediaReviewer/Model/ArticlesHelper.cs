@@ -39,13 +39,16 @@ namespace MediaReviewer.Model
                     .Trim();
             }
 
+            if (htmlDoc.DocumentNode.SelectSingleNode("//*[@class='news-lead no-img']/text()") != null)
+            {
+                resultText += htmlDoc.DocumentNode.SelectSingleNode("//*[@class='news-lead no-img']/text()").InnerText
+                    .Trim();
+            }
+
             if (htmlDoc.DocumentNode.SelectSingleNode("//*[@class='news-body bbtext']/text()") != null)
             {
-                if (!String.IsNullOrEmpty(resultText))
-                    resultText += Environment.NewLine;
-
                 resultText += htmlDoc.DocumentNode.SelectSingleNode("//*[@class='news-body bbtext']/text()")
-                    .InnerText.Trim();
+                 .InnerText.Trim();
             }
 
             if (String.IsNullOrEmpty(resultText))
